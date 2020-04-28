@@ -1,0 +1,69 @@
+---
+## Main icon
+icon: "/assets/images/logo-repubblica-digitale.svg"
+
+## Social Card [1200x630]
+social-card: /assets/images/favicons/social-card.png
+
+## Site name
+name:
+  en: "Repubblica Digitale"
+  it: "Repubblica Digitale"
+
+## Site description
+description:
+  en: "Repubblica Digitale test website"
+  it: "Sito di esempio per Repubblica Digitale"
+
+## Site author
+author:
+  en: "Ministro per l’Innovazione tecnologica e la digitalizzazione"
+  it: "Ministro per l’Innovazione tecnologica e la digitalizzazione"
+
+## Social
+social-links:
+  en:
+    twitter:
+      name: "twitter"
+      url: "https://twitter.com/InnovazioneGov"
+    facebook:
+      name: "facebook"
+      url: "https://www.facebook.com/MinisteroInnovazione"
+  it:
+    twitter:
+      name: "twitter"
+      url: "https://twitter.com/InnovazioneGov"
+    facebook:
+      name: "facebook"
+      url: "https://www.facebook.com/MinisteroInnovazione"
+
+## Labels
+italian-version:
+  en: "Italian version"
+  it: "Versione italiana"
+english-version:
+  en: "English version"
+  it: "Versione inglese"
+cookie-policy-info:
+  en: "This site uses technical, analytics and third-party cookies <br>By continuing to browse, you accept the use of cookies."
+  it: "Questo sito utilizza cookie tecnici, analytics e di terze parti.<br>Proseguendo nella navigazione accetti l’utilizzo dei cookie."
+cookie-policy-accept-btn:
+  en: "Ok"
+  it: "Accetto"
+footer-links:
+  en:
+    privacy-policy:
+      name: "Privacy policy"
+      url: "/en/privacy-policy"
+    cookie-policy:
+      name: "Cookie Policy"
+      url: "/en/cookie-policy"
+  it:
+    privacy-policy:
+      name: "Privacy policy"
+      url: "/it/privacy-policy"
+    cookie-policy:
+      name: "Cookie Policy"
+      url: "/it/cookie-policy"
+
+
