@@ -1,6 +1,8 @@
 ---
 ## Main icon
 icon: "/assets/images/logo-repubblica-digitale.svg"
+logo: "/assets/images/logo-repubblica-digitale-mini.svg"
+claim: "/assets/images/logo-repubblica-digitale-claim.svg"
 
 ## Social Card [1200x630]
 social-card: /assets/images/favicons/social-card.png
@@ -12,8 +14,8 @@ name:
 
 ## Site description
 description:
-  en: "Repubblica Digitale test website"
-  it: "Sito di esempio per Repubblica Digitale"
+  en: "Repubblica Digitale website"
+  it: "Sito per Repubblica Digitale"
 
 ## Site author
 author:

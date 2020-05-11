@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Chi siamo
+title: Chi Siamo
 lang: it
-ref: about-us
+ref: chi-siamo
 permalink: /it/chi-siamo
 order: 2
 ---
 
-Pagina "chi siamo"
+Pagina "Chi siamo"

@@ -13,11 +13,12 @@ tutte le pagine del sito che:
         <div class="col-12">
           <div class="it-header-center-content-wrapper">
             <div class="it-brand-wrapper">
-              <a href="#">
-                <img class="icon" src="{{ site.baseurl }}{{ site.data.t.icon }}" alt="{{ site.name }} logo">
-                <div class="it-brand-text">
+              <a href="{{ site.baseurl }}/">
+                <img class="icon" src="{{ site.baseurl }}{{ site.data.t.logo }}" alt="{{ site.name }} logo">
+                <img class="claim" src="{{ site.baseurl }}{{ site.data.t.claim }}" alt="{{ site.name }}">
+                <div class="it-brand-text d-none">
                   <h2 class="no_toc">{{ site.data.t.name[page.lang] }}</h2>
-                  <h3 class="no_toc d-none d-md-block">{{ site.data.t.description[page.lang] }}</h3>
+                  <h3 class="no_toc">{{ site.data.t.description[page.lang] }}</h3>
                 </div>
               </a>
             </div>
@@ -37,24 +38,13 @@ tutte le pagine del sito che:
                   {% endfor %}
                 </ul>
               </div>
-              {% comment %}
-              <!-- Search button -->
-              <div class="it-search-wrapper">
-                <span class="d-none d-md-block">Cerca</span>
-                <a class="search-link rounded-icon" href="#" aria-label="Cerca">
-                  <svg class="icon">
-                    <use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-search"></use>
-                  </svg>
-                </a>
-              </div>
-              {% endcomment %}
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="it-header-navbar-wrapper theme-light-desk">
+  <div class="it-header-navbar-wrapper">
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -70,6 +60,7 @@ tutte le pagine del sito che:
                 <button class="btn close-menu" type="button"><span class="it-close"></span>close</button>
               </div>
               <div class="menu-wrapper">
+
                 <ul class="navbar-nav">
                   {% for menu_page in current_lang_menu_pages %}
                   <li class="nav-item">

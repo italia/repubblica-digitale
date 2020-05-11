@@ -50,6 +50,7 @@ plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
 
+
 # Exclude these files from your production _site
 exclude:
   - Gemfile
@@ -58,3 +59,11 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+
+page_gen-dirs: true # uncomment, if you prefer to generate named folders
+
+page_gen:
+  - data: 'iniziative'
+    template: 'iniziativa'
+    name: "Titolo dell'iniziativa"
+    dir: 'iniziativa'
