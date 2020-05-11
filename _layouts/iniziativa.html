@@ -2,11 +2,46 @@
 layout: default
 lang: it
 ---
+{% assign iniziativa = page  %}
+
+
+<div class="container my-2">
+    <div class="row">
+        <div class="col-12">
+            <div class="mx-md-3">
+                {%- include breadcrumbs.html -%}
+            </div>
+        </div>
+    </div>
+</div>
+
 <article class="container my-4">
 
-    <h1>{{ page["Titolo dell'iniziativa"] }}</h1>
+        <div class="row">
+            <div class="col{% if page.no_site_toc == nil %} col-lg-8{% endif %}">
+                <div class="mx-md-3">
+                    <h1>{{ page["Titolo dell'iniziativa"] }}</h1>
+                    <h2 class="mt-4">Descrizione</h2>
+                    {{ iniziativa["Descrizione dell'iniziativa"] | markdownify }}
+                    <h2 class="mt-4">Destinatari</h2>
+                    {{ iniziativa["Destinatari, fruitori dell'iniziativa"] | markdownify }}
+                    <h2 class="mt-4">Tempistiche</h2>
+                    {{ iniziativa["Tempistiche dell'iniziativa"] | markdownify }}
+                    <h2 class="mt-4">Metriche</h2>
+                    {{ iniziativa["Metriche di valutazione dell'impatto"] | markdownify }}
+                    {% assign partner = iniziativa["Eventuali partner coinvolti nell'iniziativa"] | strip %}
+                    {% if partner != '' %}
+                    <h2 class="mt-4">Partner</h2>
+                    {{ partner | markdownify }}
+                    {% endif%}
 
-    <div class="entry">
-        {{ page["Descrizione dell'iniziativa"]  }}
-    </div>
+
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+
+            </div>
+        </div>
+
+
 </article>

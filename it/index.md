@@ -9,17 +9,8 @@ permalink: /
 
 {% include hero.html %}
 
-<main class="container my-4" markdown="1">
+{% include iniziative.html %}
 
 {% include posts.html %}
 
-
-
-<ul>
-{% for iniziative in site.data.iniziative %}
-    <li><a href="{{  iniziative["Titolo dell'iniziativa"] | datapage_url: 'iniziativa' }}">{{iniziative["Titolo dell'iniziativa"]}}</a></li>
-{% endfor %}
-</ul>
-
-</main>
-
+{% include newsletter.html %}

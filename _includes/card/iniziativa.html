@@ -1,0 +1,31 @@
+{% assign ente = iniziativa.Ente | strip %}
+<div class="col-12 col-md-6 col-lg-4">
+    <div class="card-wrapper card-space">
+        <div class="card card-iniziative my-2 no-after shadow rounded">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-8 d-flex">
+                        <p class="text-serif align-self-center mb-0">{{ ente }}</p>
+                    </div>
+                    <div class="col-4 text-right">
+                        {% assign aderente = aderenti | where: "name", ente %}
+                        {%- if aderente[0].logo != nil -%}
+                        <img src="{{ site.baseurl }}/assets/images/aderenti-manifesto-rd/{{ aderente[0].logo }}" alt="Logo {{ ente }}" class="mw-100 mb-2"/>
+                        {%- else -%}
+                        <img src="{{ site.baseurl }}/assets/images/1x1.png" alt="spacer" class="mb-2 img-logo"/>
+                        {%- endif -%}
+                    </div>
+                </div>
+                <div>
+                    <h6 class="card-title my-3" style="font-size: 16px;">{{ iniziativa["Titolo dell'iniziativa"] }}</h6>
+                    <a class="read-more" href="{{  iniziativa["Titolo dell'iniziativa"] | datapage_url: 'iniziativa' }}" >
+                    <span class="text">Leggi di più</span>
+                    <svg class="icon">
+                        <use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right"></use>
+                    </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
