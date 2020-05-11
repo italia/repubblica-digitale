@@ -11,13 +11,15 @@ permalink: /
 
 <main class="container my-4" markdown="1">
 
+{% include posts.html %}
+
+
+
 <ul>
 {% for iniziative in site.data.iniziative %}
     <li><a href="{{  iniziative["Titolo dell'iniziativa"] | datapage_url: 'iniziativa' }}">{{iniziative["Titolo dell'iniziativa"]}}</a></li>
 {% endfor %}
 </ul>
-
-{% include posts.html %}
 
 </main>
 
