@@ -8,5 +8,5 @@ permalink: /en/
 order: 1
 ---
 
-{% include hero.html %}
-{% include posts.html %}
+{% include section/hero.html %}
+{% include section/posts.html %}

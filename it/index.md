@@ -7,10 +7,10 @@ ref: homepage
 permalink: /
 ---
 
-{% include hero.html %}
+{% include section/hero.html %}
 
-{% include iniziative.html %}
+{% include section/iniziative.html %}
 
-{% include posts.html %}
+{% include section/posts.html %}
 
-{% include newsletter.html %}
+{% include section/newsletter.html %}
