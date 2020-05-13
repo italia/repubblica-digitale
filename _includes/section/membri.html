@@ -1,1 +1,18 @@
-membri
+{% assign membri = site.data.membri.membri_manifesto | sort:"name" %}
+
+<div class="container">
+    <div class="row">
+        <div class="col col-lg-10 small">
+            <h3 class="mb-5">Membri</h3>
+        </div>
+        <div class="col-12">
+            <div class="row">
+                {%- for membro in membri -%}
+                <div class="col-4 col-md-2">
+                    <a title="{{ membro.name }}" href="{{ membro.link }}" target="_blank" rel="noopener noreferrer"><img class="mw-100" src="{{ site.baseurl }}/assets/images/loghi/{{ membro.logo }}" alt="{{ membro.name }}"></a>
+                </div>
+                {%- endfor -%}
+            </div>
+        </div>
+    </div>
+</div>

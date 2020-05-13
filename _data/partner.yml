@@ -1,0 +1,56 @@
+---
+partner_manifesto:
+  - name: Altroconsumo
+    logo: "altroconsumo-ta-google-logo.png"
+    link: "https://www.altroconsumo.it/"
+  - name: ACI Informatica S.p.A.
+    logo: "aci-logo.png"
+    link: "http://www.aci.it/"
+  - name: Anitec-Assinform
+    logo: "anitec-assinform-logo.png"
+    link: "http://www.anitec-assinform.it/"
+  - name: Facebook
+    logo: "facebook-fmd-logo.png"
+    link: "https://www.facebook.com/"
+  - name: Fondazione IBM Italia
+    logo: "ibm-logo.png"
+    link: "https://www.ibm.com/it-it"
+  - name: Google Italia
+    logo: "google-logo.png"
+    link: "https://www.google.it/"
+  - name: Microsoft Italia
+    logo: "microsoft-logo.png"
+    link: "https://www.microsoft.com/it-it"
+  - name: PayPal Italia
+    logo: "paypal-logo.png"
+    link: "https://www.paypal.com/it/webapps/mpp/home"
+  - name: Telefono Azzurro
+    logo: "telefono-azzurro-logo.png"
+    link: "https://www.azzurro.it/"
+  - name: Unione Nazionale Consumatori
+    logo: "unc-logo.png"
+    link: "https://www.consumatori.it/"
+  - name: Time4Child
+    logo: "time-4-child-logo.png"
+    link: "http://www.time4child.com/"
+  - name: Fondazione Scholas occurrentes
+    logo: "scholas-logo.png"
+    link: "https://www.scholasoccurrentes.org/"
+  - name: Accademia Italiana Videogiochi
+    logo: "aiv-logo.png"
+    link: "https://www.aiv01.it/"
+  - name: Forum PA
+    logo: "forum-pa-logo.png"
+    link: "https://www.forumpa.it/"
+  - name: Grey Panthers
+    logo: "grey-panthers-logo.jpg"
+    link: "https://www.grey-panthers.it/"
+  - name: Innova Camera Azienda Speciale Camera di Commercio di Roma
+    logo: "camera-commercio-roma-logo.png"
+    link: "https://www.rm.camcom.it/"
+  - name: Maker Faire Rome The European edition
+    logo: "maker-fair-logo.png"
+    link: "https://2019.makerfairerome.eu/it/"
+  - name: Olivetti
+    logo: "olivetti-logo.png"
+    link: "https://www.olivetti.com/"

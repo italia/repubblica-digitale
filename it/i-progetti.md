@@ -8,7 +8,7 @@ order: 6
 ---
 
 {% assign iniziative = site.data.iniziative | sort: "Data Approvazione" | reverse %}
-{% assign aderenti = site.data.aderenti_manifesto_rd.aderenti_manifesto %}
+{% assign aderenti = site.data.aderenti.aderenti_manifesto %}
 
 <div class="iniziative-aderenti container mt-4 mb-4">
   <div class="row">

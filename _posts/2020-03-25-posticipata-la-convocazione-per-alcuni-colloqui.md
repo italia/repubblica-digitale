@@ -7,7 +7,7 @@ excerpt_separator: <!-- MORE -->
 asset: <img class="w-100" src="assets/images/posts/eric-rothermel-FoKO4DpXamQ-unsplash.jpg" alt="La convocazione per i colloqui di alcune posizoni entro il 30 aprile"/>
 pinned: 
 categories:
-  - highlights
+  - documento
 ---
 
 _Per alcune posizioni, è posticipata la data ultima di convocazione per la seconda fase delle selezioni._

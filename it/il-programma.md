@@ -7,7 +7,7 @@ permalink: /it/il-programma
 order: 1
 ---
 
-## L’obiettivo di Repubblica Digitale
+### L’obiettivo di Repubblica Digitale
 
 I servizi pubblici digitali devono essere inclusivi e accessibili per tutti, nessuno escluso. Il rischio, in caso contrario, è che la trasformazione digitale finisca con l’avvantaggiare solamente i cittadini già digitalmente più educati e consapevoli – e con lo svantaggiare gli altri che, in Italia, sono ancora milioni.
 
@@ -26,7 +26,7 @@ L’iniziativa si articola in una serie di attività svolte in collaborazione co
 <img class="img-fluid" alt="Repubblica Digitale Logo" height="300" width="300" src="{{ site.baseurl }}/assets/images/repubblica-digitale-logo-squared-2x.png">
 <img class="img-fluid" alt="Digital Skills and Jobs Coalition Logo" height="400" width="400" src="{{ site.baseurl }}/assets/images/digital-skills-and-jobs-coalition.png">
 
-## Perché
+### Perché
 
 I principali indicatori nazionali e internazionali relativi all’area dell’economia e della società digitale (ad esempio il DESI della Commissione UE, gli indicatori sull’eGovernment e sull’education dell’OCSE) mostrano che l’Italia è penalizzata in modo significativo nella crescita digitale da una carenza di competenze digitali nella popolazione, che influenza negativamente:
 
@@ -44,7 +44,7 @@ Tra tutti, il dato più allarmante è quello che riguarda i lavoratori ad alto r
 
 Repubblica Digitale offre una risposta strategica nazionale a questo problema, con la convinzione che il successo può essere raggiunto soltanto **mettendo in rete le esperienze**, le competenze e il contributo di tutti i settori e tutte le componenti del nostro Paese.
 
-## Gli assi d'intervento
+### Gli assi d'intervento
 
 Repubblica Digitale privilegia l’approccio multistakeholder (settore pubblico, imprese, società civile). L’obiettivo è creare un’”alleanza” di soggetti pubblici e privati, che abbia come punto di riferimento il Manifesto di Repubblica Digitale e che operi come una comunità di co-progettazione, condivisione e collaborazione. In questo quadro, il Ministro per l’innovazione tecnologica e la trasformazione digitale (MiD) ha un ruolo di coordinamento e promozione di azioni specifiche, in sinergia con altri ministeri e amministrazioni.
 

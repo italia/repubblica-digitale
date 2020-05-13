@@ -1,1 +1,18 @@
-partner
+{% assign partners = site.data.partner.partner_manifesto | sort:"name" %}
+
+<div class="container">
+    <div class="row">
+        <div class="col col-lg-10 small">
+            <h3 class="mt-5 mb-5">Partner aderenti al manifesto</h3>
+        </div>
+        <div class="col-12">
+            <div class="row">
+                {%- for partner in partners -%}
+                <div class="col-4 col-md-2">
+                    <a title="{{ partner.name }}" href="{{ partner.link }}" target="_blank" rel="noopener noreferrer"><img class="mw-100" src="{{ site.baseurl }}/assets/images/loghi/{{ partner.logo }}" alt="{{ partner.name }}"></a>
+                </div>
+                {%- endfor -%}
+            </div>
+        </div>
+    </div>
+</div>
