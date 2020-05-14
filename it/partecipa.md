@@ -31,10 +31,11 @@ Le iniziative devono essere inviate attraverso il modulo attivabile su questa pa
 - allo sviluppo di competenze digitali per il lavoro (nei cosiddetti percorsi di skilling, upskilling e reskilling);
 - all’educazione alle tecnologie emergenti e in generale alla diffusione della cultura digitale.
 
-Possono essere proposte per l’adesione anche più iniziative, con invii separati.n
+Possono essere proposte per l’adesione anche più iniziative, con invii separati.
 
-<a href="#" class="btn btn-primary btn-lg btn-block">Aderisci al manifesto</a>
-
+<p style="text-align: center">
+<a href="#" class="btn btn-lg btn-primary">Aderisci al manifesto</a>
+</p>
 
 
 

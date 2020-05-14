@@ -3,18 +3,32 @@
     <div class="container">
       <section>
         <div class="row clearfix">
-          <div class="col-sm-12">
+          <div class="col-12 col-md-6">
             <div class="it-brand-wrapper">
-              <a href="{{ site.baseurl }}/">
-                <img class="icon" src="{{ site.baseurl }}{{ site.data.t.logo }}" alt="{{ site.name }} logo">
-                <img class="claim" src="{{ site.baseurl }}{{ site.data.t.claim }}" alt="{{ site.name }}">
-                <div class="it-brand-text d-none">
-                  <h2 class="no_toc">{{ site.data.t.name[page.lang] }}</h2>
-                  <h3 class="no_toc d-none d-md-block">{{ site.data.t.description[page.lang] }}</h3>
+              <a href="#">
+                <img class="icon" src="{{ site.baseurl }}{{ site.data.t.icon-repubblica }}" alt="{{ site.data.t.icon-repubblica-alt[page.lang] }}">
+                <img class="icon" src="{{ site.baseurl }}{{ site.data.t.icon-mid }}"alt="{{ site.icon-main-alt }}" style="width:120px">
+                <div class="it-brand-text">
+                  <h2>Ministro per l’innovazione tecnologica e la digitalizzazione</h2>
+                  <h3 class="d-none d-md-block">Presidenza del Consiglio dei Ministri</h3>
                 </div>
               </a>
             </div>
           </div>
+
+          <div class="col-12 col-md-6">
+            <div class="it-brand-wrapper">
+              <a href="#">
+                <img  src="{{ site.baseurl }}/assets/images/european-commission.png"alt="{{ site.icon-main-alt }}" style="width:120px">
+                <div class="it-brand-text">
+                  <h2>Digital Skill and Job Coalitions</h2>
+                  <h3 class="d-none d-md-block">European Commission</h3>
+
+                </div>
+              </a>
+            </div>
+          </div>
+
         </div>
       </section>
       <section class="py-4 border-white border-top">
