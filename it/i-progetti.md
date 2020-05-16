@@ -24,3 +24,9 @@ order: 6
     </div>
   </div>
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    window.iniziative = new Iniziative(document.getElementById('grid'));
+});
+</script>

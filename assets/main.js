@@ -198,7 +198,3 @@ class Iniziative {
         });
     }
 }
-
-document.addEventListener('DOMContentLoaded', () => {
-    window.iniziative = new Iniziative(document.getElementById('grid'));
-});
