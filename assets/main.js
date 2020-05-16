@@ -55,7 +55,7 @@ $(function () {
 
 var Shuffle = window.Shuffle;
 
-class Demo {
+class Iniziative {
     constructor(element) {
         this.element = element;
         this.shuffle = new Shuffle(element, {
@@ -200,5 +200,5 @@ class Demo {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    window.demo = new Demo(document.getElementById('grid'));
+    window.iniziative = new Iniziative(document.getElementById('grid'));
 });
