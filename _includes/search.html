@@ -1,0 +1,61 @@
+{% assign proponenti =  site.data.iniziative | map: 'Proponente' | join: ',' | join: ',' | split: ',' | uniq | sort %}
+{% assign destinatari =  site.data.iniziative | map: 'Destinatari' | join: ',' | join: ',' | split: ',' | uniq | sort %}
+{% assign attivita =  site.data.iniziative | map: 'Attività' | join: ',' | join: ',' | split: ',' | uniq | sort %}
+{% assign scale =  site.data.iniziative | map: 'Scala' | join: ',' | join: ',' | split: ',' | uniq | sort %}
+
+
+<div class="row">
+    <div class="col-12">
+
+
+
+        <div id="collapseDiv1-lft" class="collapse-div collapse-left-icon" role="tablist">
+            <div class="collapse-header" id="heading1-lft">
+                <button data-toggle="collapse" data-target="#collapse1-lft" aria-expanded="false" aria-controls="collapse1-lft">
+                    Filtra i progetti
+                </button>
+            </div>
+            <div id="collapse1-lft" class="collapse" role="tabpanel" aria-labelledby="heading1-lft">
+                <div class="collapse-body">
+
+                    <div class="filters-group">
+                        <p class="filter-label">Proponente</p>
+                        <div class="filter-options">
+                            {% for proponente in proponenti %}
+                            {% if proponente != null and proponente != "" %}
+                            <button class="btn btn-sm btn-primary mr-2 mb-2" data-group="{{ proponente }}">{{ proponente }}</button>
+                            {% endif %}
+                            {% endfor %}
+
+                            <p class="filter-label">Destinatari</p>
+                            {% for destinatario in destinatari %}
+                            {% if destinatario != null and destinatario != "" %}
+                            <button class="btn btn-sm btn-primary mr-2 mb-2" data-group="{{ destinatario }}">{{ destinatario }}</button>
+                            {% endif %}
+                            {% endfor %}
+
+                            <p class="filter-label">Attività</p>
+                            {% for activity in attivita %}
+                            {% if activity != null and activity != "" %}
+                            <button class="btn btn-sm btn-primary mr-2 mb-2" data-group="{{ activity }}">{{ activity }}</button>
+                            {% endif %}
+                            {% endfor %}
+
+                            <p class="filter-label">Scala</p>
+                            {% for scala in scale %}
+                            {% if scala != null and scala != "" %}
+                            <button class="btn btn-sm btn-primary mr-2 mb-2" data-group="{{ scala }}">{{ scala }}</button>
+                            {% endif %}
+                            {% endfor %}
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>

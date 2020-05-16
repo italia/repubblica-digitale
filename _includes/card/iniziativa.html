@@ -1,5 +1,9 @@
 {% assign ente = iniziativa.Ente | strip %}
-<div class="col-12 col-md-6 col-lg-4">
+{% assign proponente = iniziativa["Proponente"] | strip %}
+{% assign destinatari = iniziativa["Destinatari"] | strip %}
+{% assign attivita = iniziativa["Attività"] | strip %}
+{% assign scala = iniziativa["Scala"] | strip %}
+<div class="col-12 col-md-6 col-lg-4 card-iniziativa" data-groups='["{{ proponente }}","{{ destinatari }}","{{ attivita }}","{{ scala }}"]' >
     <div class="card-wrapper card-space">
         <div class="card card-iniziative my-2 no-after shadow rounded">
             <div class="card-body">
