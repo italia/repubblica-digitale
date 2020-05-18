@@ -23,6 +23,13 @@ layout: default
         {{ content }}
       </div>
     </div>
+
+    {% if page.sidebar  %}
+    <div class="col-12 col-lg-4">
+      {% include sidebar.html %}
+    </div>
+    {% endif %}
+
   </div>
 
 </article>

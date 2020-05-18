@@ -4,6 +4,7 @@ title: Chi Siamo
 lang: it
 ref: chi-siamo
 permalink: /it/chi-siamo
+sidebar: <a class="nav-link"  href="#il-comitato-guida"><span>Il comitato guida</span></a> <a class="nav-link"  href="#partner-aderenti"><span>Partner aderenti al manifesto</span></a><a class="nav-link"  href="#membri"><span>Membri</span></a>
 order: 2
 ---
 
