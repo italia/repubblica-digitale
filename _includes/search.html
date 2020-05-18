@@ -19,7 +19,7 @@
                 <div class="collapse-body">
 
                     <div class="filters-group">
-                        <p class="filter-label">Proponente</p>
+                        <p class="filter-label"><strong>Proponente</strong></p>
                         <div class="filter-options">
                             {% for proponente in proponenti %}
                             {% if proponente != null and proponente != "" %}
@@ -27,21 +27,21 @@
                             {% endif %}
                             {% endfor %}
 
-                            <p class="filter-label">Destinatari</p>
+                            <p class="filter-label"><strong>Destinatari</strong></p>
                             {% for destinatario in destinatari %}
                             {% if destinatario != null and destinatario != "" %}
                             <button class="btn btn-sm btn-primary mr-2 mb-2" data-group="{{ destinatario }}">{{ destinatario }}</button>
                             {% endif %}
                             {% endfor %}
 
-                            <p class="filter-label">Attività</p>
+                            <p class="filter-label"><strong>Attività</strong></p>
                             {% for activity in attivita %}
                             {% if activity != null and activity != "" %}
                             <button class="btn btn-sm btn-primary mr-2 mb-2" data-group="{{ activity }}">{{ activity }}</button>
                             {% endif %}
                             {% endfor %}
 
-                            <p class="filter-label">Scala</p>
+                            <p class="filter-label"><strong>Scala</strong></p>
                             {% for scala in scale %}
                             {% if scala != null and scala != "" %}
                             <button class="btn btn-sm btn-primary mr-2 mb-2" data-group="{{ scala }}">{{ scala }}</button>

@@ -113,6 +113,12 @@ class Iniziative {
         }
 
         this.shuffle.filter(filterGroup);
+
+        var elmnt = document.getElementById("grid");
+        elmnt.scrollIntoView({
+            behavior: 'smooth'
+        });
+
     }
 
     _removeActiveClassFromChildren(parent) {
