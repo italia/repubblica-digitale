@@ -1,0 +1,24 @@
+---
+timeline:
+  - date: "MAGGIO 2020"
+    title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit…"
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    link: "#"
+    evidence: true
+  - date: "GIUGNO - LUGLIO 2020"
+    title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit…"
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    link: "#"
+    evidence: true
+  - date: "OTTOBRE 2020"
+    title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit…"
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    link: "#"
+  - date: "NOVEMBRE 2020"
+    title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit…"
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    link: "#"
+  - date: "INIZIO 2021"
+    title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit…"
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    link: "#"
