@@ -186,3 +186,32 @@
 .filter-label{
   margin:10px 0px 0px 0px;
 }
+
+.filter-options {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  text-align: left;
+  width: 100%;
+  li {
+    list-style-type: none;
+    flex-grow: 1;
+    width: 25%;
+    .collapse-header [data-toggle=collapse] {
+      padding: 7px 12px;
+    }
+    .filterButtonContainer {
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+      .btn {
+        order: 2;
+      }
+    }
+  }
+}
+
+.filter-options li:focus,
+.filter-options li button:focus {
+  outline: none;
+}

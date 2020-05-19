@@ -16,42 +16,73 @@
                 </button>
             </div>
             <div id="collapse1-lft" class="collapse" role="tabpanel" aria-labelledby="heading1-lft">
-                <div class="collapse-body">
-
-                    <div class="filters-group">
-                        <p class="filter-label"><strong>Proponente</strong></p>
-                        <div class="filter-options">
-                            {% for proponente in proponenti %}
-                            {% if proponente != null and proponente != "" %}
-                            <button class="btn btn-sm btn-primary mr-2 mb-2" data-group="{{ proponente }}">{{ proponente }}</button>
-                            {% endif %}
-                            {% endfor %}
-
-                            <p class="filter-label"><strong>Destinatari</strong></p>
-                            {% for destinatario in destinatari %}
-                            {% if destinatario != null and destinatario != "" %}
-                            <button class="btn btn-sm btn-primary mr-2 mb-2" data-group="{{ destinatario }}">{{ destinatario }}</button>
-                            {% endif %}
-                            {% endfor %}
-
-                            <p class="filter-label"><strong>Attività</strong></p>
-                            {% for activity in attivita %}
-                            {% if activity != null and activity != "" %}
-                            <button class="btn btn-sm btn-primary mr-2 mb-2" data-group="{{ activity }}">{{ activity }}</button>
-                            {% endif %}
-                            {% endfor %}
-
-                            <p class="filter-label"><strong>Scala</strong></p>
-                            {% for scala in scale %}
-                            {% if scala != null and scala != "" %}
-                            <button class="btn btn-sm btn-primary mr-2 mb-2" data-group="{{ scala }}">{{ scala }}</button>
-                            {% endif %}
-                            {% endfor %}
-
-                        </div>
-                    </div>
-
-
+                <div class="filters-group">
+                    <ul class="filter-options">
+                        <li>
+                            <div class="collapse-header" id="heading-proponente">
+                                <button data-toggle="collapse" data-target="#collapse-proponente" aria-expanded="false" aria-controls="collapse-proponente">
+                                    Proponente
+                                </button>
+                            </div>
+                            <div id="collapse-proponente" class="collapse" role="tabpanel" aria-labelledby="heading-proponente">
+                                <div class="collapse-body filterButtonContainer">
+                                    {% for proponente in proponenti %}
+                                    {% if proponente != null and proponente != "" %}
+                                    <button class="btn btn-sm btn-primary mr-2 mb-2" data-group="{{ proponente }}">{{ proponente }}</button>
+                                    {% endif %}
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapse-header" id="heading-destinatario">
+                                <button data-toggle="collapse" data-target="#collapse-destinatario" aria-expanded="false"  aria-controls="collapse-destinatario">
+                                    Destinatari
+                                </button>
+                            </div>
+                            <div id="collapse-destinatario" class="collapse" role="tabpanel" aria-labelledby="heading-destinatario">
+                                <div class="collapse-body filterButtonContainer">
+                                    {% for destinatario in destinatari %}
+                                    {% if destinatario != null and destinatario != "" %}
+                                    <button class="btn btn-sm btn-primary mr-2 mb-2" data-group="{{ destinatario }}">{{ destinatario }}</button>
+                                    {% endif %}
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapse-header" id="heading-activity">
+                                <button data-toggle="collapse" data-target="#collapse-activity" aria-expanded="false" aria-controls="collapse-activity">
+                                    Attività
+                                </button>
+                            </div>
+                            <div id="collapse-activity" class="collapse" role="tabpanel" aria-labelledby="heading-activity">
+                                <div class="collapse-body filterButtonContainer">
+                                    {% for activity in attivita %}
+                                    {% if activity != null and activity != "" %}
+                                    <button class="btn btn-sm btn-primary mr-2 mb-2" data-group="{{ activity }}">{{ activity }}</button>
+                                    {% endif %}
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapse-header" id="heading-scala">
+                                <button data-toggle="collapse" data-target="#collapse-scala" aria-expanded="false" aria-controls="collapse-scala">
+                                    Scala
+                                </button>
+                            </div>
+                            <div id="collapse-scala" class="collapse" role="tabpanel" aria-labelledby="heading-scala">
+                                <div class="collapse-body filterButtonContainer">
+                                    {% for scala in scale %}
+                                    {% if scala != null and scala != "" %}
+                                    <button class="btn btn-sm btn-primary mr-2 mb-2" data-group="{{ scala }}">{{ scala }}</button>
+                                    {% endif %}
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>

@@ -84,14 +84,12 @@ class Iniziative {
     }
 
     addFilterButtons() {
-        const options = document.querySelector('.filter-options');
+        const options = document.querySelectorAll('.filter-options .btn');
         if (!options) {
             return;
         }
-
-        const filterButtons = Array.from(options.children);
         const onClick = this._handleFilterClick.bind(this);
-        filterButtons.forEach((button) => {
+        options.forEach((button) => {
             button.addEventListener('click', onClick, false);
         });
     }
@@ -118,7 +116,6 @@ class Iniziative {
         elmnt.scrollIntoView({
             behavior: 'smooth'
         });
-
     }
 
     _removeActiveClassFromChildren(parent) {
