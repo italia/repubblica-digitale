@@ -94,14 +94,25 @@ class Iniziative {
         });
     }
 
+    removeLabels(){
+        const options = document.querySelectorAll('.filter-options .btn');
+        this._removeActiveClassFromChildren(options);
+        document.querySelector('#selected-filter').innerHTML = "";
+        this.shuffle.filter(Shuffle.ALL_ITEMS);
+
+    }
+
     _handleFilterClick(evt) {
         const btn = evt.currentTarget;
         const isActive = btn.classList.contains('active');
         const btnGroup = btn.getAttribute('data-group');
         const options = document.querySelectorAll('.filter-options .btn');
+        const origin = btn.getAttribute('data-origin');
 
         // this._removeActiveClassFromChildren(btn.parentNode);
         this._removeActiveClassFromChildren(options);
+//        document.querySelector("#collapse-" + origin).collapse("hide");
+         $("#collapse-" + origin).collapse("hide");
 
         let filterGroup;
         if (isActive) {
@@ -109,15 +120,27 @@ class Iniziative {
             filterGroup = Shuffle.ALL_ITEMS;
         } else {
             btn.classList.add('active');
+            document.querySelector('#selected-filter').innerHTML = "";
+            document.querySelector('#selected-filter').insertAdjacentHTML(
+                'afterbegin',
+                '<div class="chip chip-lg chip-primary">\n' +
+                '      <span class="chip-label">' + btnGroup + '</span>\n' +
+                '      <button  onclick="window.iniziative.removeLabels()">\n' +
+                '        <svg class="icon"><use xlink:href="/assets/bootstrap-italia//dist/svg/sprite.svg#it-close"></use></svg>\n' +
+                '        <span class="sr-only">Elimina ' + btnGroup + '</span>\n' +
+                '      </button>\n' +
+                '    </div>'
+            )
+
             filterGroup = btnGroup;
         }
 
         this.shuffle.filter(filterGroup);
 
-        var elmnt = document.getElementById("grid");
-        elmnt.scrollIntoView({
-            behavior: 'smooth'
-        });
+        //var elmnt = document.getElementById("grid");
+        //elmnt.scrollIntoView({
+        //    behavior: 'smooth'
+        //});
     }
 
     _removeActiveClassFromChildren(parent) {

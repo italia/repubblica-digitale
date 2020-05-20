@@ -20,7 +20,7 @@
                             <div class="collapse-body filterButtonContainer">
                                 {% for proponente in proponenti %}
                                 {% if proponente != null and proponente != "" %}
-                                <button class="btn btn-sm btn-primary mr-2 mb-2" data-group="{{ proponente }}">{{ proponente }}</button>
+                                <button class="btn btn-sm btn-primary mr-2 mb-2" data-origin="proponente" data-group="{{ proponente }}">{{ proponente }}</button>
                                 {% endif %}
                                 {% endfor %}
                             </div>
@@ -36,7 +36,7 @@
                             <div class="collapse-body filterButtonContainer">
                                 {% for destinatario in destinatari %}
                                 {% if destinatario != null and destinatario != "" %}
-                                <button class="btn btn-sm btn-primary mr-2 mb-2" data-group="{{ destinatario }}">{{ destinatario }}</button>
+                                <button class="btn btn-sm btn-primary mr-2 mb-2" data-origin="destinatario" data-group="{{ destinatario }}">{{ destinatario }}</button>
                                 {% endif %}
                                 {% endfor %}
                             </div>
@@ -52,7 +52,7 @@
                             <div class="collapse-body filterButtonContainer">
                                 {% for activity in attivita %}
                                 {% if activity != null and activity != "" %}
-                                <button class="btn btn-sm btn-primary mr-2 mb-2" data-group="{{ activity }}">{{ activity }}</button>
+                                <button class="btn btn-sm btn-primary mr-2 mb-2" data-origin="activity" data-group="{{ activity }}">{{ activity }}</button>
                                 {% endif %}
                                 {% endfor %}
                             </div>
@@ -68,13 +68,15 @@
                             <div class="collapse-body filterButtonContainer">
                                 {% for scala in scale %}
                                 {% if scala != null and scala != "" %}
-                                <button class="btn btn-sm btn-primary mr-2 mb-2" data-group="{{ scala }}">{{ scala }}</button>
+                                <button class="btn btn-sm btn-primary mr-2 mb-2" data-origin="scala" data-group="{{ scala }}">{{ scala }}</button>
                                 {% endif %}
                                 {% endfor %}
                             </div>
                         </div>
                     </li>
                 </ul>
+            </div>
+            <div id="selected-filter">
             </div>
         </div>
     </div>
