@@ -6,56 +6,78 @@
 
 <div class="row">
     <div class="col-12">
-
-
-
-        <div id="collapseDiv1-lft" class="collapse-div collapse-left-icon" role="tablist">
-            <div class="collapse-header" id="heading1-lft">
-                <button data-toggle="collapse" data-target="#collapse1-lft" aria-expanded="false" aria-controls="collapse1-lft">
-                    Filtra i progetti
-                </button>
-            </div>
-            <div id="collapse1-lft" class="collapse" role="tabpanel" aria-labelledby="heading1-lft">
-                <div class="collapse-body">
-
-                    <div class="filters-group">
-                        <p class="filter-label"><strong>Proponente</strong></p>
-                        <div class="filter-options">
-                            {% for proponente in proponenti %}
-                            {% if proponente != null and proponente != "" %}
-                            <button class="btn btn-sm btn-primary mr-2 mb-2" data-group="{{ proponente }}">{{ proponente }}</button>
-                            {% endif %}
-                            {% endfor %}
-
-                            <p class="filter-label"><strong>Destinatari</strong></p>
-                            {% for destinatario in destinatari %}
-                            {% if destinatario != null and destinatario != "" %}
-                            <button class="btn btn-sm btn-primary mr-2 mb-2" data-group="{{ destinatario }}">{{ destinatario }}</button>
-                            {% endif %}
-                            {% endfor %}
-
-                            <p class="filter-label"><strong>Attività</strong></p>
-                            {% for activity in attivita %}
-                            {% if activity != null and activity != "" %}
-                            <button class="btn btn-sm btn-primary mr-2 mb-2" data-group="{{ activity }}">{{ activity }}</button>
-                            {% endif %}
-                            {% endfor %}
-
-                            <p class="filter-label"><strong>Scala</strong></p>
-                            {% for scala in scale %}
-                            {% if scala != null and scala != "" %}
-                            <button class="btn btn-sm btn-primary mr-2 mb-2" data-group="{{ scala }}">{{ scala }}</button>
-                            {% endif %}
-                            {% endfor %}
-
+        <p>Lorem Ipsum...</p>
+        <div class="collapse show col-12" role="tabpanel">
+            <div class="filters-group" id="filters">
+                <ul class="filter-options row">
+                    <li class="col-12 col-md-3">
+                        <div class="collapse-header border-right border-100" id="heading-proponente">
+                            <button data-toggle="collapse" data-target="#collapse-proponente" aria-expanded="false" aria-controls="collapse-proponente">
+                                Proponente
+                            </button>
                         </div>
-                    </div>
-
-
-                </div>
+                        <div id="collapse-proponente" class="collapse filter-options-list py-2 border-bottom border-100 " role="tabpanel" aria-labelledby="heading-proponente" data-parent="#filters">
+                            <div class="collapse-body filterButtonContainer">
+                                {% for proponente in proponenti %}
+                                {% if proponente != null and proponente != "" %}
+                                <button class="btn btn-sm btn-primary mr-2 mb-2" data-origin="proponente" data-group="{{ proponente }}">{{ proponente }}</button>
+                                {% endif %}
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </li>
+                    <li class="col-12 col-md-3">
+                        <div class="collapse-header border-right border-100" id="heading-destinatario">
+                            <button data-toggle="collapse" data-target="#collapse-destinatario" aria-expanded="false"  aria-controls="collapse-destinatario" >
+                                Destinatari
+                            </button>
+                        </div>
+                        <div id="collapse-destinatario" class="collapse filter-options-list py-2 border-bottom border-100" role="tabpanel" aria-labelledby="heading-destinatario" data-parent="#filters">
+                            <div class="collapse-body filterButtonContainer">
+                                {% for destinatario in destinatari %}
+                                {% if destinatario != null and destinatario != "" %}
+                                <button class="btn btn-sm btn-primary mr-2 mb-2" data-origin="destinatario" data-group="{{ destinatario }}">{{ destinatario }}</button>
+                                {% endif %}
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </li>
+                    <li class="col-12 col-md-3">
+                        <div class="collapse-header  border-right border-100" id="heading-activity">
+                            <button data-toggle="collapse" data-target="#collapse-activity" aria-expanded="false" aria-controls="collapse-activity" >
+                                Attività
+                            </button>
+                        </div>
+                        <div id="collapse-activity" class="collapse filter-options-list py-2 border-bottom border-100" role="tabpanel" aria-labelledby="heading-activity" data-parent="#filters">
+                            <div class="collapse-body filterButtonContainer">
+                                {% for activity in attivita %}
+                                {% if activity != null and activity != "" %}
+                                <button class="btn btn-sm btn-primary mr-2 mb-2" data-origin="activity" data-group="{{ activity }}">{{ activity }}</button>
+                                {% endif %}
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </li>
+                    <li class="col-12 col-md-3">
+                        <div class="collapse-header border-right border-100" id="heading-scala">
+                            <button data-toggle="collapse" data-target="#collapse-scala" aria-expanded="false" aria-controls="collapse-scala">
+                                Scala
+                            </button>
+                        </div>
+                        <div id="collapse-scala" class="collapse filter-options-list  py-2 border-bottom border-100" role="tabpanel" aria-labelledby="heading-scala" data-parent="#filters">
+                            <div class="collapse-body filterButtonContainer">
+                                {% for scala in scale %}
+                                {% if scala != null and scala != "" %}
+                                <button class="btn btn-sm btn-primary mr-2 mb-2" data-origin="scala" data-group="{{ scala }}">{{ scala }}</button>
+                                {% endif %}
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div id="selected-filter">
             </div>
         </div>
-
-
     </div>
 </div>
