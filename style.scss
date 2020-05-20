@@ -193,6 +193,7 @@
   align-content: space-between;
   text-align: left;
   width: 100%;
+  padding: 0;
   li {
     list-style-type: none;
     flex-grow: 1;
@@ -207,6 +208,13 @@
       .btn {
         order: 2;
       }
+    }
+    .filter-options-list {
+      position: absolute;
+      background: #fff;
+      z-index: 10;
+      width: 22%;
+      padding: 0 10px;
     }
   }
 }

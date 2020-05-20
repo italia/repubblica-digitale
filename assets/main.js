@@ -98,8 +98,10 @@ class Iniziative {
         const btn = evt.currentTarget;
         const isActive = btn.classList.contains('active');
         const btnGroup = btn.getAttribute('data-group');
+        const options = document.querySelectorAll('.filter-options .btn');
 
-        this._removeActiveClassFromChildren(btn.parentNode);
+        // this._removeActiveClassFromChildren(btn.parentNode);
+        this._removeActiveClassFromChildren(options);
 
         let filterGroup;
         if (isActive) {
@@ -119,9 +121,12 @@ class Iniziative {
     }
 
     _removeActiveClassFromChildren(parent) {
-        const { children } = parent;
-        for (let i = children.length - 1; i >= 0; i--) {
-            children[i].classList.remove('active');
+        // const { children } = parent;
+        // for (let i = children.length - 1; i >= 0; i--) {
+        //     children[i].classList.remove('active');
+        // }
+        for (let i = parent.length - 1; i >= 0; i--) {
+            parent[i].classList.remove('active');
         }
     }
 
