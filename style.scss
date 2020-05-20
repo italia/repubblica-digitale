@@ -197,7 +197,6 @@
   li {
     list-style-type: none;
     flex-grow: 1;
-    width: 25%;
     .collapse-header [data-toggle=collapse] {
       padding: 7px 12px;
     }
@@ -210,12 +209,8 @@
       }
     }
     .filter-options-list {
-      position: absolute;
       background: #fff;
       z-index: 10;
-      width: 25%;
-      padding: 0 10px;
-
     }
   }
 }
