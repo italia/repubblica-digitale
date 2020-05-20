@@ -8,15 +8,15 @@
     <div class="col-12">
         <h3>Lorem Ipsum...</h3>
         <div class="collapse show col-12" role="tabpanel">
-            <div class="filters-group">
+            <div class="filters-group" id="filters">
                 <ul class="filter-options">
                     <li>
-                        <div class="collapse-header" id="heading-proponente">
+                        <div class="collapse-header border-right border-100" id="heading-proponente">
                             <button data-toggle="collapse" data-target="#collapse-proponente" aria-expanded="false" aria-controls="collapse-proponente">
                                 Proponente
                             </button>
                         </div>
-                        <div id="collapse-proponente" class="collapse filter-options-list" role="tabpanel" aria-labelledby="heading-proponente">
+                        <div id="collapse-proponente" class="collapse filter-options-list py-2 border-bottom border-100" role="tabpanel" aria-labelledby="heading-proponente" data-parent="#filters">
                             <div class="collapse-body filterButtonContainer">
                                 {% for proponente in proponenti %}
                                 {% if proponente != null and proponente != "" %}
@@ -27,12 +27,12 @@
                         </div>
                     </li>
                     <li>
-                        <div class="collapse-header" id="heading-destinatario">
-                            <button data-toggle="collapse" data-target="#collapse-destinatario" aria-expanded="false"  aria-controls="collapse-destinatario">
+                        <div class="collapse-header border-right border-100" id="heading-destinatario">
+                            <button data-toggle="collapse" data-target="#collapse-destinatario" aria-expanded="false"  aria-controls="collapse-destinatario" >
                                 Destinatari
                             </button>
                         </div>
-                        <div id="collapse-destinatario" class="collapse filter-options-list" role="tabpanel" aria-labelledby="heading-destinatario">
+                        <div id="collapse-destinatario" class="collapse filter-options-list py-2 border-bottom border-100" role="tabpanel" aria-labelledby="heading-destinatario" data-parent="#filters">
                             <div class="collapse-body filterButtonContainer">
                                 {% for destinatario in destinatari %}
                                 {% if destinatario != null and destinatario != "" %}
@@ -43,12 +43,12 @@
                         </div>
                     </li>
                     <li>
-                        <div class="collapse-header" id="heading-activity">
-                            <button data-toggle="collapse" data-target="#collapse-activity" aria-expanded="false" aria-controls="collapse-activity">
+                        <div class="collapse-header  border-right border-100" id="heading-activity">
+                            <button data-toggle="collapse" data-target="#collapse-activity" aria-expanded="false" aria-controls="collapse-activity" >
                                 Attività
                             </button>
                         </div>
-                        <div id="collapse-activity" class="collapse filter-options-list" role="tabpanel" aria-labelledby="heading-activity">
+                        <div id="collapse-activity" class="collapse filter-options-list py-2 border-bottom border-100" role="tabpanel" aria-labelledby="heading-activity" data-parent="#filters">
                             <div class="collapse-body filterButtonContainer">
                                 {% for activity in attivita %}
                                 {% if activity != null and activity != "" %}
@@ -64,7 +64,7 @@
                                 Scala
                             </button>
                         </div>
-                        <div id="collapse-scala" class="collapse filter-options-list" role="tabpanel" aria-labelledby="heading-scala">
+                        <div id="collapse-scala" class="collapse filter-options-list  py-2 border-bottom border-100" role="tabpanel" aria-labelledby="heading-scala" data-parent="#filters">
                             <div class="collapse-body filterButtonContainer">
                                 {% for scala in scale %}
                                 {% if scala != null and scala != "" %}
