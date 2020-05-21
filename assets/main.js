@@ -104,7 +104,7 @@ class Iniziative {
 
     _handleFilterClick(evt) {
         const btn = evt.currentTarget;
-        const isActive = btn.classList.contains('active');
+        const isActive = btn.classList.contains('disabled');
         const btnGroup = btn.getAttribute('data-group');
         const options = document.querySelectorAll('.filter-options .btn');
         const origin = btn.getAttribute('data-origin');
@@ -116,20 +116,23 @@ class Iniziative {
 
         let filterGroup;
         if (isActive) {
-            btn.classList.remove('active');
+            btn.classList.remove('disabled');
             filterGroup = Shuffle.ALL_ITEMS;
         } else {
-            btn.classList.add('active');
+            var filtro = origin;
+            if(origin == "activity") filtro = "attività";
+
+            btn.classList.add('disabled');
             document.querySelector('#selected-filter').innerHTML = "";
             document.querySelector('#selected-filter').insertAdjacentHTML(
                 'afterbegin',
-                '<div class="chip chip-lg chip-primary">\n' +
-                '      <span class="chip-label">' + btnGroup + '</span>\n' +
-                '      <button  onclick="window.iniziative.removeLabels()">\n' +
-                '        <svg class="icon"><use xlink:href="/assets/bootstrap-italia//dist/svg/sprite.svg#it-close"></use></svg>\n' +
-                '        <span class="sr-only">Elimina ' + btnGroup + '</span>\n' +
-                '      </button>\n' +
-                '    </div>'
+                'Stai visualizzando soltanto le iniziative che hanno come ' + filtro + ': <b class="text-primary">' + btnGroup + '</b>\n' +
+                '<a class="read-more" href="#"  onclick="window.iniziative.removeLabels()">\n' +
+                '   <span class="text">Rimuovi il filtro</span>\n' +
+                '   <svg class="icon">\n' +
+                '       <use xlink:href="/assets/bootstrap-italia/dist/svg/sprite.svg#it-close-circle"></use>\n' +
+                '   </svg>\n' +
+                '</a>'
             )
 
             filterGroup = btnGroup;
@@ -149,7 +152,7 @@ class Iniziative {
         //     children[i].classList.remove('active');
         // }
         for (let i = parent.length - 1; i >= 0; i--) {
-            parent[i].classList.remove('active');
+            parent[i].classList.remove('disabled');
         }
     }
 
@@ -166,9 +169,9 @@ class Iniziative {
         const buttons = Array.from(evt.currentTarget.children);
         buttons.forEach((button) => {
             if (button.querySelector('input').value === evt.target.value) {
-                button.classList.add('active');
+                button.classList.add('disabled');
             } else {
-                button.classList.remove('active');
+                button.classList.remove('disabled');
             }
         });
 

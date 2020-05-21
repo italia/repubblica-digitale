@@ -38,6 +38,13 @@
             <span class="separator">&gt;</span>
         </li>
         {% endfor %}
+
+        {%- if type == "iniziativa -%}
+        <li class="breadcrumb-item">
+            <a href="{{ site.baseurl }}/it/i-progetti/">Progetti</a>
+            <span class="separator">&gt;</span>
+        </li>
+        {%- endif -%}
         <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
     </ol>
 </nav>

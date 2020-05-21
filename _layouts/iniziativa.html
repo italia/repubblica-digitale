@@ -1,9 +1,15 @@
 ---
 layout: default
 lang: it
+type: iniziativa
 ---
 {% assign iniziativa = page  %}
-
+{% assign ente = iniziativa.Ente | strip %}
+{% assign proponente = iniziativa["Proponente"] | strip %}
+{% assign destinatari = iniziativa["Destinatari"] | strip %}
+{% assign attivita = iniziativa["Attività"] | strip %}
+{% assign scala = iniziativa["Scala"] | strip %}
+{% assign aderenti = site.data.aderenti.aderenti_manifesto %}
 
 <div class="container my-2">
     <div class="row">
@@ -20,18 +26,26 @@ lang: it
         <div class="row">
             <div class="col{% if page.no_site_toc == nil %} col-lg-8{% endif %}">
                 <div class="mx-md-3">
-                    <h1>{{ page["Titolo dell'iniziativa"] }}</h1>
-                    <h2 class="mt-4">Descrizione</h2>
+                    <h1 class="text-primary mb-5" id="descrizione">{{ page["Titolo dell'iniziativa"] }}</h1>
+                    {% assign aderente = aderenti | where: "name", ente %}
+                    {%- if aderente[0].logo != nil -%}
+                    <figure class="figure text-center w-100 figure-progetto">
+                        <img src="{{ site.baseurl }}/assets/images/loghi/{{ aderente[0].logo }}" alt="Logo {{ ente }}"  class="figure-img img-fluid rounded">
+                        <figcaption class="figure-caption x-small text-center">{{ ente }}</figcaption>
+                    </figure>
+
+                    {%- endif -%}
+
                     {{ iniziativa["Descrizione dell'iniziativa"] | markdownify }}
-                    <h2 class="mt-4">Destinatari</h2>
+                    <h3 class="mt-4" id="destinatari">Destinatari</h3>
                     {{ iniziativa["Destinatari, fruitori dell'iniziativa"] | markdownify }}
-                    <h2 class="mt-4">Tempistiche</h2>
+                    <h3 class="mt-4" id="tempistiche">Tempistiche</h3>
                     {{ iniziativa["Tempistiche dell'iniziativa"] | markdownify }}
-                    <h2 class="mt-4">Metriche</h2>
+                    <h3 class="mt-4" id="metriche">Metriche</h3>
                     {{ iniziativa["Metriche di valutazione dell'impatto"] | markdownify }}
                     {% assign partner = iniziativa["Eventuali partner coinvolti nell'iniziativa"] | strip %}
                     {% if partner != '' %}
-                    <h2 class="mt-4">Partner</h2>
+                    <h3 class="mt-4" id="partner">Partner</h3>
                     {{ partner | markdownify }}
                     {% endif%}
 
@@ -39,6 +53,35 @@ lang: it
                 </div>
             </div>
             <div class="col-12 col-lg-4">
+                <nav class="navbar it-navscroll-wrapper navbar-expand-lg it-bottom-navscroll it-left-side affix-top">
+                    <button class="custom-navbar-toggler" type="button" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation" data-target="#navbarNav"><span class="it-list"></span>Il Progetto
+                    </button>
+                    <div class="navbar-collapsable" id="navbarNav">
+                        <div class="overlay"></div>
+                        <div class="close-div sr-only">
+                            <button class="btn close-menu" type="button"><span class="it-close"></span>Chiudi</button>
+                        </div>
+                        <a class="it-back-button" href="#"><svg class="icon icon-sm icon-primary align-top">
+                            <use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-chevron-left"></use>
+                        </svg><span>Indietro</span></a>
+                        <div class="menu-wrapper">
+                            <div class="link-list-wrapper">
+                                <h3>Menu</h3>
+                                <ul class="link-list">
+                                    <li class="nav-item"><a href="#descrizione">Descrizione</a> </li>
+                                    <li class="nav-item"><a href="#destinatari">Destinatari</a> </li>
+                                    <li class="nav-item"><a href="#tempistiche">Tempistiche</a> </li>
+                                    <li class="nav-item"><a href="#metriche">Metriche</a> </li>
+                                    {% if partner != '' %}
+                                    <li class="nav-item"><a href="#partner">Partner</a> </li>
+                                    {% endif%}
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
 
             </div>
         </div>
