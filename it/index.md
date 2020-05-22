@@ -9,6 +9,8 @@ permalink: /
 
 {% include section/hero.html %}
 
+{% include section/dati.html %}
+
 {% include section/iniziative.html %}
 
 {% include section/posts.html %}

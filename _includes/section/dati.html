@@ -1,0 +1,158 @@
+{% assign progetti = site.data.iniziative   %}
+
+{% assign cittadini = site.data.iniziative | where: "Destinatari", "Cittadini"   %}
+{% assign privato = site.data.iniziative | where: "Destinatari", "Settore Privato"   %}
+{% assign pubblico = site.data.iniziative | where: "Destinatari", "Settore Pubblico"   %}
+
+{% assign locale = site.data.iniziative | where: "Scala", "Locale"   %}
+{% assign regionale = site.data.iniziative | where: "Scala", "Regionale"  %}
+{% assign nazionale = site.data.iniziative | where: "Scala", "Nazionale"  %}
+
+
+<section id="section-news" class="section bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-4">
+        <h3 class="text-center num-progetti text-primary my-5" >
+          <span class="count-progetti text-primary">{{ progetti.size }}</span><br>progetti
+        </h3>
+      </div>
+      <div class="col-12 col-md-4 mb-5">
+        <h5 class="text-center text-primary mb-3 font-weight-bold">Destinatari</h5>
+        <div class="chart-destinatari ct-chart ct-perfect-fifth"></div>
+      </div>
+      <div class="col-12 col-md-4">
+        <h5 class="text-center text-primary mb-3 font-weight-bold">Distribuzione geografica</h5>
+        <div class="chart-activity ct-chart ct-perfect-fifth"></div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 mt-3 text-center">
+        <a href="{{ site.baseurl }}/it/i-dati/" class="btn btn-primary"> Vedi tutti i dati</a>
+      </div>
+    </div>
+  </div>
+
+</section>
+<script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function(event) {
+
+    var chart_destinatari = new Chartist.Pie('.chart-destinatari', {
+      series: [{{ cittadini.size }}, {{ privato.size }}, {{ pubblico.size }}],
+      labels: ["Cittadini", "Settore Privato", "Settore Pubblico"]
+    }, {
+      donut: true,
+      showLabel: true
+    });
+
+    chart_destinatari.on('draw', function(data) {
+      if(data.type === 'slice') {
+        // Get the total path length in order to use for dash array animation
+        var pathLength = data.element._node.getTotalLength();
+
+        // Set a dasharray that matches the path length as prerequisite to animate dashoffset
+        data.element.attr({
+          'stroke-dasharray': pathLength + 'px ' + pathLength + 'px'
+        });
+
+        // Create animation definition while also assigning an ID to the animation for later sync usage
+        var animationDefinition = {
+          'stroke-dashoffset': {
+            id: 'anim' + data.index,
+            dur: 1000,
+            from: -pathLength + 'px',
+            to:  '0px',
+            easing: Chartist.Svg.Easing.easeOutQuint,
+            // We need to use `fill: 'freeze'` otherwise our animation will fall back to initial (not visible)
+            fill: 'freeze'
+          }
+        };
+
+        // If this was not the first slice, we need to time the animation so that it uses the end sync event of the previous animation
+        if(data.index !== 0) {
+          animationDefinition['stroke-dashoffset'].begin = 'anim' + (data.index - 1) + '.end';
+        }
+
+        // We need to set an initial value before the animation starts as we are not in guided mode which would do that for us
+        data.element.attr({
+          'stroke-dashoffset': -pathLength + 'px'
+        });
+
+        // We can't use guided mode as the animations need to rely on setting begin manually
+        // See http://gionkunz.github.io/chartist-js/api-documentation.html#chartistsvg-function-animate
+        data.element.animate(animationDefinition, false);
+      }
+    });
+
+    // For the sake of the example we update the chart every time it's created with a delay of 8 seconds
+    chart_destinatari.on('created', function() {
+      if(window.__animate_dest) {
+        clearTimeout(window.__animate_dest);
+        window.__animate_dest = null;
+      }
+      window.__animate_dest = setTimeout(chart_destinatari.update.bind(chart_destinatari), 10000);
+    });
+
+
+
+
+    var chart_activity = new Chartist.Pie('.chart-activity', {
+      series: [{{ locale.size }}, {{ regionale.size }}, {{ nazionale.size }}],
+      labels: ["Locale", "Regionale", "Nazionale" ]
+    }, {
+      donut: true,
+      showLabel: true
+    });
+
+    chart_activity.on('draw', function(data) {
+      if(data.type === 'slice') {
+        // Get the total path length in order to use for dash array animation
+        var pathLength = data.element._node.getTotalLength();
+
+        // Set a dasharray that matches the path length as prerequisite to animate dashoffset
+        data.element.attr({
+          'stroke-dasharray': pathLength + 'px ' + pathLength + 'px'
+        });
+
+        // Create animation definition while also assigning an ID to the animation for later sync usage
+        var animationDefinition = {
+          'stroke-dashoffset': {
+            id: 'anim' + data.index,
+            dur: 1000,
+            from: -pathLength + 'px',
+            to:  '0px',
+            easing: Chartist.Svg.Easing.easeOutQuint,
+            // We need to use `fill: 'freeze'` otherwise our animation will fall back to initial (not visible)
+            fill: 'freeze'
+          }
+        };
+
+        // If this was not the first slice, we need to time the animation so that it uses the end sync event of the previous animation
+        if(data.index !== 0) {
+          animationDefinition['stroke-dashoffset'].begin = 'anim' + (data.index - 1) + '.end';
+        }
+
+        // We need to set an initial value before the animation starts as we are not in guided mode which would do that for us
+        data.element.attr({
+          'stroke-dashoffset': -pathLength + 'px'
+        });
+
+        // We can't use guided mode as the animations need to rely on setting begin manually
+        // See http://gionkunz.github.io/chartist-js/api-documentation.html#chartistsvg-function-animate
+        data.element.animate(animationDefinition, false);
+      }
+    });
+
+    // For the sake of the example we update the chart every time it's created with a delay of 8 seconds
+    chart_activity.on('created', function() {
+      if(window.__animate_act) {
+        clearTimeout(window.__animate_act);
+        window.__animate_act = null;
+      }
+      window.__animate_act = setTimeout(chart_activity.update.bind(chart_activity), 10000);
+    });
+  });
+
+
+</script>

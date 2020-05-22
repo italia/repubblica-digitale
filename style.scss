@@ -228,3 +228,23 @@
 .filter-options .disabled{
   color:#0066cc;
 }
+
+.count-progetti{
+  font-size:150px;
+}
+
+.ct-series-a .ct-bar, .ct-series-a .ct-line, .ct-series-a .ct-point, .ct-series-a .ct-slice-donut {
+  stroke: #4e9ce1;
+}
+
+.ct-series-b .ct-bar, .ct-series-b .ct-line, .ct-series-b .ct-point, .ct-series-b .ct-slice-donut {
+  stroke: #98d9d9;
+}
+
+.ct-series-c .ct-bar, .ct-series-c .ct-line, .ct-series-c .ct-point, .ct-series-c .ct-slice-donut {
+  stroke: #c2c7cc;
+}
+.ct-label{
+  font-size:16px;
+  stroke:#565759;
+}

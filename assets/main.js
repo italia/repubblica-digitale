@@ -48,9 +48,9 @@ $(function () {
 
 
 
-
-
-
+/**
+ * Shufflejs per ricerca progetti
+ **/
 
 
 var Shuffle = window.Shuffle;
