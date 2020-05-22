@@ -40,7 +40,7 @@
 
     var chart_destinatari = new Chartist.Pie('.chart-destinatari', {
       series: [{{ cittadini.size }}, {{ privato.size }}, {{ pubblico.size }}],
-      labels: ["Cittadini", "Settore Privato", "Settore Pubblico"]
+      labels: ["Cittadini ({{ cittadini.size }})", "Settore Privato ({{ privato.size }})", "Settore Pubblico ({{ pubblico.size }})"]
     }, {
       donut: true,
       showLabel: true
@@ -85,21 +85,13 @@
       }
     });
 
-    // For the sake of the example we update the chart every time it's created with a delay of 8 seconds
-    chart_destinatari.on('created', function() {
-      if(window.__animate_dest) {
-        clearTimeout(window.__animate_dest);
-        window.__animate_dest = null;
-      }
-      window.__animate_dest = setTimeout(chart_destinatari.update.bind(chart_destinatari), 10000);
-    });
 
 
 
 
     var chart_activity = new Chartist.Pie('.chart-activity', {
       series: [{{ locale.size }}, {{ regionale.size }}, {{ nazionale.size }}],
-      labels: ["Locale", "Regionale", "Nazionale" ]
+      labels: ["Locale ({{ locale.size }})", "Regionale ({{ regionale.size }})", "Nazionale ({{ nazionale.size }})" ]
     }, {
       donut: true,
       showLabel: true
@@ -144,14 +136,7 @@
       }
     });
 
-    // For the sake of the example we update the chart every time it's created with a delay of 8 seconds
-    chart_activity.on('created', function() {
-      if(window.__animate_act) {
-        clearTimeout(window.__animate_act);
-        window.__animate_act = null;
-      }
-      window.__animate_act = setTimeout(chart_activity.update.bind(chart_activity), 10000);
-    });
+
   });
 
 
