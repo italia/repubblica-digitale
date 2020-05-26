@@ -306,6 +306,81 @@ aderenti_manifesto:
   - name: FuturMakers
     logo: "futurmakers-logo.png"
     link: "https://futurmakers.it/"
-  - name: "Osservatorio Agenda Digitale, Politecnico di Milano"
+  - name: Osservatorio Agenda Digitale, Politecnico di Milano
     logo: "oss-logo.png"
     link: "https://www.osservatori.net/it_it/"
+  - name: Digital Innovation Hub di Confcommercio Imprese per l'Italia
+    logo: "edi-logo.png"
+    link: "https://www.ediconfcommercio.it/"
+  - name: FPA
+    logo: "fpa-logo.png"
+    link: "https://www.forumpa.it/"
+  - name: Stati Generali dell'Innovazione
+    logo: "sgi-logo.png"
+    link: "https://www.statigeneralinnovazione.it/online/"
+  - name: IMIS - Istituto per il Management dell'Innovazione in Sanità
+    logo: "imis-logo.jpg"
+    link: "https://www.assoimis.it/"
+  - name: UPI - Unione Province d'Italia
+    logo: "upi-logo.jpg"
+    link: "https://www.provinceditalia.it/"
+  - name: WikiPoesia
+    logo: "wikipoesia-logo.png"
+    link: "https://www.wikipoesia.it/wiki/Pagina_principale"
+  - name: Comune di Narni
+    logo: "dig-narni-logo.jpg"
+    link: "https://digipass.regione.umbria.it/narni/"
+  - name: "Confcommercio Imprese per l’Italia"
+    logo: "confcommercio-logo.png"
+    link: "https://www.confcommercio.it/"
+  - name: ELIS
+    logo: "elis-logo.png"
+    link: "http://www.elis.org/"
+  - name: Comune di Palermo
+    logo: "comune-palermo-logo.png"
+    link: "https://www.comune.palermo.it/"
+  - name: onData
+    logo: "ondata-logo.png"
+    link: "https://ondata.it/"
+  - name: Prometeo-lab
+    logo: "prometeo-logo.png"
+    link: "https://www.prometeo-lab.com/"
+  - name: ALI-Legautonomie
+    logo: "ali-legautonomie-bes-logo.jpg"
+    link: "https://aliautonomie.it/"
+  - name: Università di Urbino
+    logo: "urbino-logo.jpg"
+    link: "https://www.uniurb.it/"
+  - name: Eutopian
+    logo: "eutopian-logo.png"
+    link: "https://eutopian.eu/it/"
+  - name: Alteredu
+    logo: "alteredu-logo.png"
+    link: "https://www.alteredu.it/"
+  - name: Assosinderesi
+    logo: "assosinderesi-logo.jpg"
+    link: "https://www.donatellarampado.com/assosinderesi/chi-siamo/"
+  - name: Assinter
+    logo: "assinteracademy-logo.jpg"
+    link: "https://www.assinteritalia.it/"
+  - name: HPE
+    logo: "hpe-logo.png"
+    link: "https://www.hpe.com/it/it/home.html"
+  - name: Comune di Assisi
+    logo: "digipass-assisi-logo.png"
+    link: "https://digipass.regione.umbria.it/assisi/"
+  - name: Comune di Marsciano
+    logo: "digipass-media-valle-del-tevere-logo.png"
+    link: "https://digipass.regione.umbria.it/media-valle-del-tevere/"
+  - name: MakeHub
+    logo: "makehubaccademy-logo.png"
+    link: "http://www.makehub.it/ecosistema/"
+  - name: Comune di Gubbio
+    logo: "gubbio-digipass-logo.png"
+    link: "https://www.comune.gubbio.pg.it/pagina/digipass-gubbio"
+  - name: Great Innova
+    logo: "great-innova-logo.png"
+    link: "http://www.greatinnova.com/"
+  - name: Azione
+    logo: "inedu-logo.png"
+    link: "https://www.azione.com/in-edu-inclusive-communities-through-media-literacy-critical-thinking-education/"
