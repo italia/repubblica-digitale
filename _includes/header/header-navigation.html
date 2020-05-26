@@ -47,7 +47,13 @@ tutte le pagine del sito che:
                 <ul class="navbar-nav">
                   {% for menu_page in current_lang_menu_pages %}
                   <li class="nav-item">
-                    <a class="nav-link" href="{{ site.baseurl }}{{menu_page.permalink}}"><span>{{menu_page.title}}</span></a>
+                    <a class="nav-link {% if menu_page.title == page.title %} active {% else %}
+                     {% if menu_page.title == "I Progetti" %}
+                        {% if page.type == "iniziativa" %}
+                    active
+                        {% endif %}
+                      {% endif %}
+                     {% endif %}" href="{{ site.baseurl }}{{menu_page.permalink}}"><span>{{menu_page.title}}</span></a>
                   </li>
                   {% endfor %}
                 </ul>
