@@ -15,4 +15,6 @@ permalink: /
 
 {% include section/posts.html %}
 
+{% comment %}
 {% include section/newsletter.html %}
+{% endcomment %}
