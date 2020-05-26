@@ -1,7 +1,18 @@
-{% assign proponenti =  site.data.iniziative | map: 'Proponente' | join: ',' | join: ',' | split: ',' | uniq | sort %}
-{% assign destinatari =  site.data.iniziative | map: 'Destinatari' | join: ',' | join: ',' | split: ',' | uniq | sort %}
-{% assign attivita =  site.data.iniziative | map: 'Attività' | join: ',' | join: ',' | split: ',' | uniq | sort %}
-{% assign scale =  site.data.iniziative | map: 'Scala' | join: ',' | join: ',' | split: ',' | uniq | sort %}
+{% assign proponenti =  site.data.iniziative | map: 'L_Proponenti' | join: ',' | join: ',' | split: ',' | uniq | sort %}
+{% assign destinatari =  site.data.iniziative | map: 'L_Destinatari' | join: ',' | join: ',' | split: ',' | uniq | sort %}
+{% assign attivita =  site.data.iniziative | map: 'L_Tipologia_Attivita_1' | join: ',' | join: ',' | split: ',' | uniq | sort %}
+{% assign scale =  site.data.iniziative | map: 'L_Tipologia_Scala' | join: ',' | join: ',' | split: ',' | uniq | sort %}
+
+{% assign attivita_1 =  site.data.iniziative | map: 'L_Tipologia_Attivita_1' | join: ',' | join: ',' | split: ',' | uniq | sort %}
+{% assign attivita_2 =  site.data.iniziative | map: 'L_Tipologia_Attivita_2' | join: ',' | join: ',' | split: ',' | uniq | sort %}
+{% assign attivita_3 =  site.data.iniziative | map: 'L_Tipologia_Attivita_3' | join: ',' | join: ',' | split: ',' | uniq | sort %}
+{% assign attivita_4 =  site.data.iniziative | map: 'L_Tipologia_Attivita_4' | join: ',' | join: ',' | split: ',' | uniq | sort %}
+{% assign attivita_5 =  site.data.iniziative | map: 'L_Tipologia_Attivita_5' | join: ',' | join: ',' | split: ',' | uniq | sort %}
+{% assign attivita_6 =  site.data.iniziative | map: 'L_Tipologia_Attivita_6' | join: ',' | join: ',' | split: ',' | uniq | sort %}
+
+{% assign attivita = attivita_1 | concat:  attivita_2 | concat:  attivita_3 | concat:  attivita_4 | concat:  attivita_5 | concat:  attivita_6 | uniq %}
+
+
 
 
 <div class="row">
@@ -35,7 +46,7 @@
                         <div id="collapse-destinatario" class="collapse filter-options-list py-2 border-bottom border-100" role="tabpanel" aria-labelledby="heading-destinatario" data-parent="#filters">
                             <div class="collapse-body filterButtonContainer">
                                 {% for destinatario in destinatari %}
-                                {% if destinatario != null and destinatario != "" %}
+                                {% if destinatario != null  and destinatario != "" and destinatario != "#N/A" %}
                                 <button class="btn btn-sm btn-primary mr-2 mb-2" data-origin="destinatario" data-group="{{ destinatario }}">{{ destinatario }}</button>
                                 {% endif %}
                                 {% endfor %}

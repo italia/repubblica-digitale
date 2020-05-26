@@ -1,12 +1,12 @@
 {% assign progetti = site.data.iniziative   %}
 
-{% assign cittadini = site.data.iniziative | where: "Destinatari", "Cittadini"   %}
-{% assign privato = site.data.iniziative | where: "Destinatari", "Settore Privato"   %}
-{% assign pubblico = site.data.iniziative | where: "Destinatari", "Settore Pubblico"   %}
+{% assign cittadini = site.data.iniziative | where: "L_Destinatari", "Cittadini"   %}
+{% assign privato = site.data.iniziative | where: "L_Destinatari", "Settore Privato"   %}
+{% assign pubblico = site.data.iniziative | where: "L_Destinatari", "Settore Pubblico"   %}
 
-{% assign locale = site.data.iniziative | where: "Scala", "Locale"   %}
-{% assign regionale = site.data.iniziative | where: "Scala", "Regionale"  %}
-{% assign nazionale = site.data.iniziative | where: "Scala", "Nazionale"  %}
+{% assign locale = site.data.iniziative | where: "L_Tipologia_Scala", "Locale"   %}
+{% assign regionale = site.data.iniziative | where: "L_Tipologia_Scala", "Regionale"  %}
+{% assign nazionale = site.data.iniziative | where: "L_Tipologia_Scala", "Nazionale"  %}
 
 
 <section id="section-news" class="section bg-light">

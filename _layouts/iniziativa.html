@@ -5,10 +5,9 @@ type: iniziativa
 ---
 {% assign iniziativa = page  %}
 {% assign ente = iniziativa.Ente | strip %}
-{% assign proponente = iniziativa["Proponente"] | strip %}
-{% assign destinatari = iniziativa["Destinatari"] | strip %}
-{% assign attivita = iniziativa["Attività"] | strip %}
-{% assign scala = iniziativa["Scala"] | strip %}
+{% assign proponente = iniziativa["L_Proponenti"] | strip %}
+{% assign destinatari = iniziativa["L_Destinatari"] | strip %}
+{% assign scala = iniziativa["L_Tipologia_Scala"] | strip %}
 {% assign aderenti = site.data.aderenti.aderenti_manifesto %}
 
 <div class="container my-2">
