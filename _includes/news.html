@@ -5,7 +5,9 @@
       {% for post in localized_posts %}
       {% if post.hidden != true %}
       <div class="col-12 col-lg-4">
+        <div class="card-wrapper card-space">
         {% include card/post.html %}
+        </div>
       </div>
       {% endif %}
       {% endfor %}

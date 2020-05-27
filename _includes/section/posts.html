@@ -10,7 +10,9 @@
     <div class="row">
       {% for post in posts limit:3 %}
       <div class="col-12 col-lg-4">
+        <div class="card-wrapper card-space">
         {% include card/post.html %}
+        </div>
       </div>
       {% endfor %}
     </div>

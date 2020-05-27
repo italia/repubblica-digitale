@@ -23,13 +23,14 @@ L’iniziativa si articola in una serie di attività svolte in collaborazione co
 
 *La Coalizione Nazionale costituita nell'ambito di Repubblica Digitale aderisce alla Digital Skills and Jobs Coalition della Commissione Europea*
 
+[https://ec.europa.eu/digital-single-market/en/national-local-coalitions](https://ec.europa.eu/digital-single-market/en/national-local-coalitions){:target="_blank"}
 
 <img class="img-fluid" alt="Repubblica Digitale Logo" height="300" width="300" src="{{ site.baseurl }}/assets/images/repubblica-digitale-logo-squared-2x.png">
 <img class="img-fluid" alt="Digital Skills and Jobs Coalition Logo" height="400" width="400" src="{{ site.baseurl }}/assets/images/digital-skills-and-jobs-coalition.png">
 
 ### Perchè
 
-I principali indicatori nazionali e internazionali relativi all’area dell’economia e della società digitale (ad esempio il DESI della Commissione UE, gli indicatori sull’eGovernment e sull’education dell’OCSE) mostrano che l’Italia è penalizzata in modo significativo nella crescita digitale da una carenza di competenze digitali nella popolazione, che influenza negativamente:
+I principali indicatori nazionali e internazionali relativi all’area dell’economia e della società digitale (ad esempio il [DESI](https://ec.europa.eu/digital-single-market/en/desi){:target="_blank"}) della Commissione UE, gli indicatori sull’[eGovernment](https://ec.europa.eu/digital-single-market/en/news/egovernment-benchmark-2019-trust-government-increasingly-important-people){:target="_blank"} e sull’education dell’[OCSE](http://www.oecd.org/skills/){:target="_blank"} mostrano che l’Italia è penalizzata in modo significativo nella crescita digitale da una carenza di competenze digitali nella popolazione, che influenza negativamente:
 
 - la possibilità di esercitare i diritti di cittadinanza e la partecipazione consapevole al dialogo democratico;
 - l’adeguatezza delle competenze richieste dal mondo del lavoro (ormai la quasi totalità dei lavori richiede l’uso di tecnologie digitali);
@@ -47,14 +48,26 @@ Repubblica Digitale offre una risposta strategica nazionale a questo problema, c
 
 ### Gli assi d'intervento
 
-Repubblica Digitale privilegia l’approccio multistakeholder (settore pubblico, imprese, società civile). L’obiettivo è creare un’”alleanza” di soggetti pubblici e privati, che abbia come punto di riferimento il Manifesto di Repubblica Digitale e che operi come una comunità di co-progettazione, condivisione e collaborazione. In questo quadro, il Ministro per l’innovazione tecnologica e la trasformazione digitale (MiD) ha un ruolo di coordinamento e promozione di azioni specifiche, in sinergia con altri ministeri e amministrazioni.
-
-Repubblica Digitale si sviluppa su cinque principali linee di azione:
-
-1. attivare, supportare, rafforzare, valorizzare iniziative locali e nazionali per lo sviluppo delle competenze per la cittadinanza digitale nei territori e nelle scuole, anche con azioni specifiche promosse dal MiD come l’azione “Un tablet e un sorriso per gli anziani”;
-2.  fornire ai cittadini gli strumenti di auto-sviluppo delle competenze digitali, con la realizzazione di una palestra digitale, per la condivisione di materiali realizzati nelle diverse iniziative in quanto strumenti di supporto allo sviluppo delle competenze digitali (kit di auto-valutazione, ebook, corsi online, agenda iniziative ed eventi...);
-3. attivare, supportare, rafforzare, valorizzare iniziative locali e nazionali per skilling, upskilling e reskilling, anche con azioni come “Il sabato del futuro”;
-4. comunicare l’importanza delle competenze digitali e della cultura digitale, anche con la realizzazione di azioni con la Rai; l’organizzazione giornata nazionale sulle competenze digitali con eventi, iniziative e manifestazioni in tutto il territorio; l’organizzazione di un contest/premio annuale sulle migliori iniziative di Repubblica Digitale;
-5. coordinare l’iniziativa, monitorare l’evoluzione del fenomeno e l’efficacia delle politiche di intervento, anche tramite la costituzione dell’osservatorio sulle competenze e il divario digitale.
 
 
+**Repubblica Digitale** vuole rappresentare una risposta organica e completa sul tema delle competenze digitali e in questo quadro sono stati avviati i lavori per l’elaborazione di **una strategia per le competenze digitali** e di **un piano di interventi** in grado di rafforzare, integrare, valorizzare i progetti già in corso e creare le condizioni adeguate per affrontare in modo strutturato questa grave carenza. L’attività coinvolge sullo stesso tavolo ministeri, Regioni, Province, Comuni, università, ricerca, imprese, professionisti, Rai, associazioni e le varie articolazioni del settore pubblico.
+
+Il primo passo per la costruzione della strategia è stato l'individuazione di **quattro assi di intervento**:
+
+1.  lo sviluppo delle competenze digitali necessarie all’interno del ciclo **dell’istruzione e della formazione superiore**, con il coordinamento di Ministero dell’Istruzione e Ministero dell’Università e Ricerca;    
+2.  il potenziamento e lo sviluppo delle **competenze digitali della forza lavoro**, sia nel settore privato che nel settore pubblico, incluse le competenze per l’e-leadership con il coordinamento di Ministero dello Sviluppo Economico e Ministero della Pubblica Amministrazione;
+3.  lo sviluppo di **competenze specialistiche ICT per nuovi mercati e nuovi posti di lavoro**, in gran parte legati alle tecnologie emergenti e al possesso delle competenze chiave per i lavori del futuro con il coordinamento di Ministero dell’Università e Ricerca e Ministero dello Sviluppo Economico;
+4.  il potenziamento delle **competenze digitali necessarie per esercitare i diritti di cittadinanza** (inclusa la piena fruizione dei servizi online, particolarmente necessaria in questo periodo) e la partecipazione consapevole al dialogo democratico con il coordinamento del Ministero per l’Innovazione Tecnologica e la Digitalizzazione.
+    
+Tutti gli interventi definiti nei quattro assi devono soddisfare alcuni requisiti generali, tra cui essere:
+
+-   **di sistema**, non estemporanei o basati su una dimensione di progetto;
+-   **trasversali**, ovvero tendenzialmente applicabili su aree e assi di intervento diversi (es. gli stessi moduli di formazione online nei CPIA, nella formazione interprofessionale, per i dipendenti PA);
+-   **organici**, massimizzando la sinergia tra iniziative anche in corso o in avvio che hanno gli stessi target e si muovono sulla stessa dimensione - territoriale o immateriale;
+-   **ad ampio impatto**, privilegiando interventi che possono essere facilmente scalabili su una popolazione ampia;
+-   **agili**, ovvero progettati prevedendo una breve fase di impostazione, delle ricadute rapide e un percorso graduale di affinamento ed estensione di contenuti e di impatto.
+    
+
+Inoltre, laddove siano presenti dei framework consolidati  (es. [DigComp](https://www.agid.gov.it/sites/default/files/repository_files/digcomp2-1_ita.pdf) per le competenze digitali di base, [e-CF](https://www.agid.gov.it/it/agenzia/competenze-digitali) per le competenze specialistiche ICT), si prevede il massimo riutilizzo di quanto già realizzato (kit di auto-assessment, guide, percorsi formativi, moduli formativi online e in presenza) da scuole, università e altri soggetti, anche in ambiti diversi (istruzione, sviluppo professionale, centri per gli adulti, formazione in azienda, nelle amministrazioni).
+
+Infine, per ciascun asse di intervento saranno individuati indicatori, obiettivi misurabili di risultato e di impatto correlati alle linee di intervento e alle azioni.

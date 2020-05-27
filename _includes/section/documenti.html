@@ -11,7 +11,9 @@
     <div class="row">
       {% for post in posts %}
       <div class="col-12 col-lg-6">
+        <div class="card-wrapper card-space">
         {% include card/post.html %}
+        </div>
       </div>
       {% endfor %}
     </div>
