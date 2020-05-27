@@ -34,7 +34,7 @@ Le iniziative devono essere inviate attraverso il modulo attivabile su questa pa
 Possono essere proposte per l’adesione anche più iniziative, con invii separati.
 
 <p style="text-align: center">
-<a href="#" class="btn btn-lg btn-primary">Aderisci al manifesto</a>
+<a href="{{ site.data.t.aderisci-manifesto }}" class="btn btn-lg btn-primary">Aderisci al manifesto</a>
 </p>
 
 
