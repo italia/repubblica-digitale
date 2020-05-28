@@ -21,9 +21,8 @@ Nel quadro della strategia “Italia 2025”, l’iniziativa mira a:
 
 L’iniziativa si articola in una serie di attività svolte in collaborazione con altri soggetti pubblici e privati.
 
-*La Coalizione Nazionale costituita nell'ambito di Repubblica Digitale aderisce alla Digital Skills and Jobs Coalition della Commissione Europea*
+*La Coalizione Nazionale costituita nell'ambito di Repubblica Digitale aderisce alla [Digital Skills and Jobs Coalition](https://ec.europa.eu/digital-single-market/en/national-local-coalitions){:target="_blank"} della Commissione Europea*
 
-[https://ec.europa.eu/digital-single-market/en/national-local-coalitions](https://ec.europa.eu/digital-single-market/en/national-local-coalitions){:target="_blank"}
 
 <img class="img-fluid" alt="Repubblica Digitale Logo" height="300" width="300" src="{{ site.baseurl }}/assets/images/repubblica-digitale-logo-squared-2x.png">
 <img class="img-fluid" alt="Digital Skills and Jobs Coalition Logo" height="400" width="400" src="{{ site.baseurl }}/assets/images/digital-skills-and-jobs-coalition.png">
@@ -46,9 +45,9 @@ Tra tutti, il dato più allarmante è quello che riguarda i lavoratori ad alto r
 
 Repubblica Digitale offre una risposta strategica nazionale a questo problema, con la convinzione che il successo può essere raggiunto soltanto **mettendo in rete le esperienze**, le competenze e il contributo di tutti i settori e tutte le componenti del nostro Paese.
 
+
+
 ### Gli assi d'intervento
-
-
 
 **Repubblica Digitale** vuole rappresentare una risposta organica e completa sul tema delle competenze digitali e in questo quadro sono stati avviati i lavori per l’elaborazione di **una strategia per le competenze digitali** e di **un piano di interventi** in grado di rafforzare, integrare, valorizzare i progetti già in corso e creare le condizioni adeguate per affrontare in modo strutturato questa grave carenza. L’attività coinvolge sullo stesso tavolo ministeri, Regioni, Province, Comuni, università, ricerca, imprese, professionisti, Rai, associazioni e le varie articolazioni del settore pubblico.
 
