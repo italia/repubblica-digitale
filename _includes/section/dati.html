@@ -26,7 +26,7 @@
           <span class="count-progetti text-primary">{{ progetti.size }}</span><br>progetti
         </h3>
 
-        <div class="row">
+        <div class="row d-none d-md-block">
           <div class="col-12 my-3 text-center">
             <a href="{{ site.baseurl }}/it/i-dati/" class="btn btn-primary"> Vedi tutti i dati</a>
           </div>
@@ -53,6 +53,13 @@
             <li class="privato"><strong>Regionale</strong>: {{ regionale.size }} progetti <span class="small ">({{ regionale_perc }}%)</span></li>
             <li class="pubblico"><strong>Nazionale</strong>: {{ nazionale.size }} progetti <span class="small ">({{ nazionale_perc }}%)</span></li>
           </ul>
+        </div>
+
+
+        <div class="row d-block d-md-none mt-5">
+          <div class="col-12 my-3 text-center">
+            <a href="{{ site.baseurl }}/it/i-dati/" class="btn btn-primary"> Vedi tutti i dati</a>
+          </div>
         </div>
 
       </div>
