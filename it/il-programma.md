@@ -17,11 +17,11 @@ Repubblica Digitale è l’iniziativa strategica nazionale promossa dal Dipartim
 Nel quadro della strategia “Italia 2025”, l’iniziativa mira a:
 
 - ridurre il fenomeno dell’analfabetismo digitale a dimensioni almeno simili a quelle presenti nei Paesi europei di riferimento, favorendo lo sviluppo delle competenze digitali necessarie dei lavoratori;
-- incrementare significativamente la percentuale di specialisti ICT esperti nelle tecnologie emergenti raggiungendo i livelli di molti altri paesi europei
+- incrementare significativamente la percentuale di specialisti ICT esperti nelle tecnologie emergenti raggiungendo i livelli di molti altri paesi europei.
 
 L’iniziativa si articola in una serie di attività svolte in collaborazione con altri soggetti pubblici e privati.
 
-*La Coalizione Nazionale costituita nell'ambito di Repubblica Digitale aderisce alla [Digital Skills and Jobs Coalition](https://ec.europa.eu/digital-single-market/en/national-local-coalitions){:target="_blank"} della Commissione Europea*
+*La Coalizione Nazionale costituita nell'ambito di Repubblica Digitale aderisce alla [Digital Skills and Jobs Coalition](https://ec.europa.eu/digital-single-market/en/national-local-coalitions){:target="_blank"} della Commissione Europea*.
 
 
 <img class="img-fluid" alt="Repubblica Digitale Logo" height="300" width="300" src="{{ site.baseurl }}/assets/images/repubblica-digitale-logo-squared-2x.png">
