@@ -4,7 +4,7 @@ title: Il Programma
 lang: it
 ref: il-piano
 permalink: /it/il-programma
-sidebar: <a class="nav-link"  href="#lobiettivo-di-repubblica-digitale"><span>L’obiettivo di Repubblica Digitale</span></a> <a class="nav-link"  href="#perchè"><span>Perché</span></a><a class="nav-link"  href="#gli-assi-dintervento"><span>Gli assi d’intervento</span></a>
+sidebar: <a class="nav-link"  href="#lobiettivo-di-repubblica-digitale"><span>L’obiettivo di Repubblica Digitale</span></a> <a class="nav-link"  href="#perche"><span>Perché</span></a><a class="nav-link"  href="#gli-assi-dintervento"><span>Gli assi d’intervento</span></a>
 order: 1
 ---
 
@@ -25,9 +25,11 @@ L’iniziativa si articola in una serie di attività svolte in collaborazione co
 
 
 <img class="img-fluid" alt="Repubblica Digitale Logo" height="300" width="300" src="{{ site.baseurl }}/assets/images/repubblica-digitale-logo-squared-2x.png">
-<img class="img-fluid" alt="Digital Skills and Jobs Coalition Logo" height="400" width="400" src="{{ site.baseurl }}/assets/images/digital-skills-and-jobs-coalition.png">
+<a href="https://ec.europa.eu/digital-single-market/en/national-local-coalitions" title="Digital Skills and Jobs Coalition"><img class="img-fluid" alt="Digital Skills and Jobs Coalition Logo" height="400" width="400" src="{{ site.baseurl }}/assets/images/digital-skills-and-jobs-coalition.png"></a>
 
-### Perchè
+<div id="perche">
+</div>
+### perché
 
 I principali indicatori nazionali e internazionali relativi all’area dell’economia e della società digitale (ad esempio il [DESI](https://ec.europa.eu/digital-single-market/en/desi){:target="_blank"}) della Commissione UE, gli indicatori sull’[eGovernment](https://ec.europa.eu/digital-single-market/en/news/egovernment-benchmark-2019-trust-government-increasingly-important-people){:target="_blank"} e sull’education dell’[OCSE](http://www.oecd.org/skills/){:target="_blank"} mostrano che l’Italia è penalizzata in modo significativo nella crescita digitale da una carenza di competenze digitali nella popolazione, che influenza negativamente:
 
