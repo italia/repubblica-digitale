@@ -29,7 +29,7 @@ L’iniziativa si articola in una serie di attività svolte in collaborazione co
 
 <div id="perche">
 </div>
-### perché
+### Perché
 
 I principali indicatori nazionali e internazionali relativi all’area dell’economia e della società digitale (ad esempio il [DESI](https://ec.europa.eu/digital-single-market/en/desi){:target="_blank"}) della Commissione UE, gli indicatori sull’[eGovernment](https://ec.europa.eu/digital-single-market/en/news/egovernment-benchmark-2019-trust-government-increasingly-important-people){:target="_blank"} e sull’education dell’[OCSE](http://www.oecd.org/skills/){:target="_blank"} mostrano che l’Italia è penalizzata in modo significativo nella crescita digitale da una carenza di competenze digitali nella popolazione, che influenza negativamente:
 
