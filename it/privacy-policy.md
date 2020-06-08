@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Privacy Policy
-description:
+description: la Privacy Policy di Repubblica Digitale
 lang: it
 ref: privacy-policy
 permalink: /it/privacy-policy

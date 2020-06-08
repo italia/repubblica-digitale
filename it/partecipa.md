@@ -3,6 +3,7 @@ layout: page-slim
 title: Partecipa
 lang: it
 ref: partecipa
+description: Invia la tua domanda di adesione
 permalink: /it/partecipa
 sidebar: <a class="nav-link"  href="#per-i-cittadini"><span>Per i cittadini</span></a><a class="nav-link"  href="#come-si-aderisce"><span>Come si aderisce</span></a>
 order: 7

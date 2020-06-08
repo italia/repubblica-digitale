@@ -3,6 +3,7 @@ layout: page
 title: I Progetti
 lang: it
 ref: i-progetti
+description: I progetti aderenti al manifesto
 permalink: /it/i-progetti
 order: 6
 ---

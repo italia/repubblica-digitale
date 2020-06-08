@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Cookie Policy
-description:
+description: Cookie Policy di Repubblica Digitale
 lang: it
 ref: cookie-policy
 permalink: /it/cookie-policy
