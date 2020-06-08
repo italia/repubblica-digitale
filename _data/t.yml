@@ -9,7 +9,7 @@ icon-mid: "/assets/images/logo-mid-white.svg"
 aderisci-manifesto: "https://docs.google.com/forms/d/e/1FAIpQLSerfb-oJkGwn1lB2GO8aqVODxxqEdlqZyjYg7udv9pgvGiVcQ/viewform"
 
 ## Social Card [1200x630]
-social-card: /assets/images/logo-repubblica-digitale.svg
+social-card: /assets/images/repubblica-digitale-logo-small-2x.png
 
 ## Site name
 name:
@@ -18,8 +18,8 @@ name:
 
 ## Site description
 description:
-  en: "Repubblica Digitale website"
-  it: "Sito per Repubblica Digitale"
+  en: "Repubblica Digitale"
+  it: "Repubblica Digitale"
 
 ## Site author
 author:
