@@ -1,4 +1,9 @@
 #
+# Default language
+#
+lang: it
+
+#
 # This file contains configuration flags to customize your site
 #
 environment: "production"

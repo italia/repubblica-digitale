@@ -292,3 +292,10 @@ li.pubblico::before {
 .it-navscroll-wrapper{
   z-index:100
 }
+
+.avatar-hover {
+  transition: transform .2s;
+  &:hover {
+    transform: scale(1.1);
+  }
+}

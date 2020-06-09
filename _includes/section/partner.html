@@ -1,19 +1,21 @@
 {% assign partners = site.data.partner.partner_manifesto | sort:"name" %}
 
-<div class="container">
+<div class="container mt-5">
     <div class="row">
         <div class="col col-lg-10 small mb-5 ">
             <h3 class="" id="partner-aderenti">I partner</h3>
             <h6>Tutte le organizzazioni che supportano i gruppi di lavoro del Comitato Guida</h6>
-
         </div>
         <div class="col-12">
             <div class="row">
+              <p>La lista completa dei partner è in corso di approvazione</p>
+              {% comment %}
                 {%- for partner in partners -%}
                 <div class="col-4 col-md-2">
                     <a title="{{ partner.name }}" href="{{ partner.link }}" target="_blank" rel="noopener noreferrer"><img class="mw-100" src="{{ site.baseurl }}/assets/images/loghi/{{ partner.logo }}" alt="{{ partner.name }}"></a>
                 </div>
                 {%- endfor -%}
+              {% endcomment %}
             </div>
         </div>
     </div>

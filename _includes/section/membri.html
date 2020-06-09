@@ -1,17 +1,20 @@
-{% assign membri = site.data.membri.membri_manifesto | sort:"name" %}
+{% assign membri = site.data.aderenti.aderenti_manifesto | sort:"name" %}
 
-<div class="container">
+<div class="container mt-5">
     <div class="row">
         <div class="col col-lg-10 small mb-5">
             <h3 class="" id="membri">I membri della Coalizione</h3>
             <h6>Tutte le organizzazioni, pubbliche e private che hanno aderito al Manifesto con almeno una iniziativa valutata coerente con i suoi principi.</h6>
-
         </div>
         <div class="col-12">
             <div class="row">
                 {%- for membro in membri -%}
                 <div class="col-4 col-md-2">
-                    <a title="{{ membro.name }}" href="{{ membro.link }}" target="_blank" rel="noopener noreferrer"><img class="mw-100" src="{{ site.baseurl }}/assets/images/loghi/{{ membro.logo }}" alt="{{ membro.name }}"></a>
+                  <div class="avatar avatar-hover size-xl bg-white border border-100 my-1">
+                    <a title="{{ membro.name }}" href="{{ membro.link }}" target="_blank" rel="noopener noreferrer">
+                      <img class="mw-100 rounded-0 p-2" src="{{ site.baseurl }}/assets/images/loghi/{{ membro.logo }}" alt="{{ membro.name }}">
+                    </a>
+                  </div>
                 </div>
                 {%- endfor -%}
             </div>
