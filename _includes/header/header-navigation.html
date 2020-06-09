@@ -13,54 +13,27 @@ tutte le pagine del sito che:
         <div class="col-12">
           <div class="it-header-center-content-wrapper">
             <div class="it-brand-wrapper">
-              <a href="#">
-                <img class="icon" src="{{ site.baseurl }}{{ site.data.t.icon }}" alt="{{ site.name }} logo">
-                <div class="it-brand-text">
+              <a href="{{ site.baseurl }}/">
+                <img class="icon" src="{{ site.baseurl }}{{ site.data.t.logo }}" alt="{{ site.data.t.name[page.lang] }} logo">
+                <img class="claim" src="{{ site.baseurl }}{{ site.data.t.claim }}" alt="{{ site.data.t.name[page.lang] }} logo testuale">
+                <div class="it-brand-text d-none">
                   <h2 class="no_toc">{{ site.data.t.name[page.lang] }}</h2>
-                  <h3 class="no_toc d-none d-md-block">{{ site.data.t.description[page.lang] }}</h3>
+                  <h3 class="no_toc">{{ site.data.t.description[page.lang] }}</h3>
                 </div>
               </a>
-            </div>
-            <div class="it-right-zone">
-              <div class="it-socials d-none d-md-flex">
-                <span>Seguici su</span>
-                <ul>
-                  {% for social-link in site.data.t.social-links[page.lang] %}
-                  <li class="list-inline-item">
-                    <a href="{{ social-link[1].url }}" title="{{ social-link[1].name }}" target="_blank">
-                      <svg class="icon">
-                        <use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-{{ social-link[1].name }}"></use>
-                      </svg>
-                      <span class="sr-only">{{ social-link[1].name }}</span>
-                    </a>
-                  </li>
-                  {% endfor %}
-                </ul>
-              </div>
-              {% comment %}
-              <!-- Search button -->
-              <div class="it-search-wrapper">
-                <span class="d-none d-md-block">Cerca</span>
-                <a class="search-link rounded-icon" href="#" aria-label="Cerca">
-                  <svg class="icon">
-                    <use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-search"></use>
-                  </svg>
-                </a>
-              </div>
-              {% endcomment %}
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="it-header-navbar-wrapper theme-light-desk">
+  <div class="it-header-navbar-wrapper">
     <div class="container">
       <div class="row">
         <div class="col-12">
           <nav class="navbar navbar-expand-lg has-megamenu">
             <button class="custom-navbar-toggler" type="button" aria-controls="nav10" aria-expanded="false" aria-label="Toggle navigation" data-target="#nav10">
-              <svg class="icon">
+              <svg class="icon icon-primary">
                 <use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-burger"></use>
               </svg>
             </button>
@@ -70,10 +43,17 @@ tutte le pagine del sito che:
                 <button class="btn close-menu" type="button"><span class="it-close"></span>close</button>
               </div>
               <div class="menu-wrapper">
+
                 <ul class="navbar-nav">
                   {% for menu_page in current_lang_menu_pages %}
                   <li class="nav-item">
-                    <a class="nav-link" href="{{ site.baseurl }}{{menu_page.permalink}}"><span>{{menu_page.title}}</span></a>
+                    <a class="nav-link {% if menu_page.title == page.title %} active {% else %}
+                     {% if menu_page.title == "I Progetti" %}
+                        {% if page.type == "iniziativa" %}
+                    active
+                        {% endif %}
+                      {% endif %}
+                     {% endif %}" href="{{ site.baseurl }}{{menu_page.url}}"><span>{{menu_page.title}}</span></a>
                   </li>
                   {% endfor %}
                 </ul>

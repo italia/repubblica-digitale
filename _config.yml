@@ -1,4 +1,9 @@
 #
+# Default language
+#
+lang: it
+
+#
 # This file contains configuration flags to customize your site
 #
 environment: "production"
@@ -22,15 +27,13 @@ google_analytics:
 
 # Your website URL (e.g. http://example.github.io or http://www.example.com)
 # Used for Sitemap.xml and your RSS feed
-# TODO popolare con l'URL definitivo
-url: "https://italia.github.io"
+url: ""
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-# TODO rimuovere in caso di spostamento su dominio
-baseurl: "/repubblica-digitale"
+baseurl: ""
 
 #
 # !! You don't need to change any of the configuration flags below !!
@@ -49,6 +52,7 @@ sass:
 plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - jekyll-redirect-from # Handles redirects
 
 # Exclude these files from your production _site
 exclude:
@@ -58,3 +62,11 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+
+page_gen-dirs: true # uncomment, if you prefer to generate named folders
+
+page_gen:
+  - data: 'iniziative'
+    template: 'iniziativa'
+    name: "Titolo dell'iniziativa"
+    dir: 'iniziativa'

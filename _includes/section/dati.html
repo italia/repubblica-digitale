@@ -1,0 +1,237 @@
+{% assign progetti = site.data.iniziative   %}
+
+
+{% assign societa = site.data.iniziative | where: "L_Proponenti", "Associazioni società civile"   %}
+{% assign pa = site.data.iniziative | where: "L_Proponenti", "Pubblica Amministrazione"   %}
+{% assign priv = site.data.iniziative | where: "L_Proponenti", "Settore privato"   %}
+{% assign totalprop =  societa.size  | plus: pa.size | plus: priv.size    %}
+
+{% assign societa_perc = societa.size | times: 100.0 | divided_by: totalprop  | round: 1   %}
+{% assign pa_perc = pa.size | times: 100.0 | divided_by: totalprop  | round: 1   %}
+{% assign priv_perc = priv.size | times: 100.0 | divided_by: totalprop  | round: 1   %}
+
+{% assign cittadini = site.data.iniziative | where: "L_Destinatari", "Cittadini"   %}
+{% assign privato = site.data.iniziative | where: "L_Destinatari", "Settore Privato"   %}
+{% assign pubblico = site.data.iniziative | where: "L_Destinatari", "Settore Pubblico"   %}
+{% assign totaldest =  cittadini.size  | plus: privato.size | plus: pubblico.size    %}
+
+{% assign cittadini_perc = cittadini.size | times: 100.0 | divided_by: totaldest  | round: 1   %}
+{% assign privato_perc = privato.size | times: 100.0 | divided_by: totaldest  | round: 1   %}
+{% assign pubblico_perc = pubblico.size | times: 100.0 | divided_by: totaldest  | round: 1   %}
+
+{% assign locale = site.data.iniziative | where: "L_Tipologia_Scala", "Locale"   %}
+{% assign regionale = site.data.iniziative | where: "L_Tipologia_Scala", "Regionale"  %}
+{% assign nazionale = site.data.iniziative | where: "L_Tipologia_Scala", "Nazionale"  %}
+{% assign totalgeo =  locale.size  | plus: regionale.size | plus: nazionale.size    %}
+
+{% assign locale_perc = locale.size | times: 100.0 | divided_by: totalgeo  | round: 1   %}
+{% assign nazionale_perc = nazionale.size | times: 100.0 | divided_by: totalgeo  | round: 1   %}
+{% assign regionale_perc = regionale.size | times: 100.0 | divided_by: totalgeo  | round: 1   %}
+
+<section id="section-news" class="section bg-light py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h3 class="text-center num-progetti text-primary mb-5" >
+          <span class="count-progetti text-primary">{{ progetti.size }}</span><br>iniziative
+        </h3>
+      </div>
+
+      <div class="col-12 col-md-4 mb-5">
+        <h5 class="text-center text-primary mb-3 font-weight-bold">Proponenti</h5>
+        <div class="chart-proponenti ct-chart ct-perfect-fifth"></div>
+        <div class="chart-data text-primary mt-3 pl-4">
+          <ul>
+            <li class="cittadini"><strong>Associazioni società civile</strong>: {{ societa.size }} progetti </li>
+            <li class="privato"><strong>Pubblica Amministrazione</strong>: {{ pa.size }} progetti </li>
+            <li class="pubblico"><strong>Settore privato</strong>: {{ priv.size }} progetti</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-4 mb-5">
+        <h5 class="text-center text-primary mb-3 font-weight-bold">Destinatari</h5>
+        <div class="chart-destinatari ct-chart ct-perfect-fifth"></div>
+        <div class="chart-data text-primary mt-3 pl-4">
+          <ul>
+            <li class="cittadini"><strong>Cittadini</strong>: {{ cittadini.size }} progetti</li>
+            <li class="privato"><strong>Settore Privato</strong>: {{ privato.size }} progetti </li>
+            <li class="pubblico"><strong>Settore Pubblico</strong>: {{ pubblico.size }} progetti</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-12 col-md-4">
+        <h5 class="text-center text-primary mb-3 font-weight-bold">Distribuzione geografica</h5>
+        <div class="chart-activity ct-chart ct-perfect-fifth"></div>
+        <div class="chart-data text-primary mt-3 pl-4">
+          <ul>
+            <li class="cittadini"><strong>Locale</strong>: {{ locale.size }} progetti</li>
+            <li class="privato"><strong>Regionale</strong>: {{ regionale.size }} progetti </li>
+            <li class="pubblico"><strong>Nazionale</strong>: {{ nazionale.size }} progetti </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 text-center">
+        <a href="{{ site.baseurl }}/it/i-dati/" class="btn btn-primary"> Vedi tutti i dati</a>
+      </div>
+    </div>
+
+
+  </div>
+
+</section>
+
+
+<script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function(event) {
+
+    var sum = function(a, b) { return a + b };
+    var data_prop = {
+      labels: ['{{ societa_perc }}%', '{{ pa_perc }}%', '{{ priv_perc }}%'],
+      series: [{{ societa.size }}, {{ pa.size }}, {{ priv.size }}]
+  };
+
+    var data_dest = {
+      labels: ['{{ cittadini_perc }}%', '{{ privato_perc }}%', '{{ pubblico_perc }}%'],
+      series: [{{ cittadini.size }}, {{ privato.size }}, {{ pubblico.size }}]
+    };
+    var data_geo = {
+      labels: ['{{ locale_perc }}%', '{{ regionale_perc }}%', '{{ nazionale_perc }}%'],
+      series: [{{ locale.size }}, {{ regionale.size }}, {{ nazionale.size }}]
+    };
+    var options = {
+      donut: true,
+      donutWidth: 80
+    };
+
+    var chart_proponenti = new Chartist.Pie('.chart-proponenti', data_prop ,options);
+
+    chart_proponenti.on('draw', function(data) {
+      if(data.type === 'slice') {
+        // Get the total path length in order to use for dash array animation
+        var pathLength = data.element._node.getTotalLength();
+
+        // Set a dasharray that matches the path length as prerequisite to animate dashoffset
+        data.element.attr({
+          'stroke-dasharray': pathLength + 'px ' + pathLength + 'px'
+        });
+
+        // Create animation definition while also assigning an ID to the animation for later sync usage
+        var animationDefinition = {
+          'stroke-dashoffset': {
+            id: 'anim' + data.index,
+            dur: 1000,
+            from: -pathLength + 'px',
+            to:  '0px',
+            easing: Chartist.Svg.Easing.easeOutQuint,
+            // We need to use `fill: 'freeze'` otherwise our animation will fall back to initial (not visible)
+            fill: 'freeze'
+          }
+        };
+
+        // If this was not the first slice, we need to time the animation so that it uses the end sync event of the previous animation
+        if(data.index !== 0) {
+          animationDefinition['stroke-dashoffset'].begin = 'anim' + (data.index - 1) + '.end';
+        }
+
+        // We need to set an initial value before the animation starts as we are not in guided mode which would do that for us
+        data.element.attr({
+          'stroke-dashoffset': -pathLength + 'px'
+        });
+
+        // We can't use guided mode as the animations need to rely on setting begin manually
+        // See http://gionkunz.github.io/chartist-js/api-documentation.html#chartistsvg-function-animate
+        data.element.animate(animationDefinition, false);
+      }
+    });
+
+    var chart_destinatari = new Chartist.Pie('.chart-destinatari', data_dest ,options);
+
+    chart_destinatari.on('draw', function(data) {
+      if(data.type === 'slice') {
+        // Get the total path length in order to use for dash array animation
+        var pathLength = data.element._node.getTotalLength();
+
+        // Set a dasharray that matches the path length as prerequisite to animate dashoffset
+        data.element.attr({
+          'stroke-dasharray': pathLength + 'px ' + pathLength + 'px'
+        });
+
+        // Create animation definition while also assigning an ID to the animation for later sync usage
+        var animationDefinition = {
+          'stroke-dashoffset': {
+            id: 'anim' + data.index,
+            dur: 1000,
+            from: -pathLength + 'px',
+            to:  '0px',
+            easing: Chartist.Svg.Easing.easeOutQuint,
+            // We need to use `fill: 'freeze'` otherwise our animation will fall back to initial (not visible)
+            fill: 'freeze'
+          }
+        };
+
+        // If this was not the first slice, we need to time the animation so that it uses the end sync event of the previous animation
+        if(data.index !== 0) {
+          animationDefinition['stroke-dashoffset'].begin = 'anim' + (data.index - 1) + '.end';
+        }
+
+        // We need to set an initial value before the animation starts as we are not in guided mode which would do that for us
+        data.element.attr({
+          'stroke-dashoffset': -pathLength + 'px'
+        });
+
+        // We can't use guided mode as the animations need to rely on setting begin manually
+        // See http://gionkunz.github.io/chartist-js/api-documentation.html#chartistsvg-function-animate
+        data.element.animate(animationDefinition, false);
+      }
+    });
+
+    var chart_activity = new Chartist.Pie('.chart-activity', data_geo, options);
+
+    chart_activity.on('draw', function(data) {
+      if(data.type === 'slice') {
+        // Get the total path length in order to use for dash array animation
+        var pathLength = data.element._node.getTotalLength();
+
+        // Set a dasharray that matches the path length as prerequisite to animate dashoffset
+        data.element.attr({
+          'stroke-dasharray': pathLength + 'px ' + pathLength + 'px'
+        });
+
+        // Create animation definition while also assigning an ID to the animation for later sync usage
+        var animationDefinition = {
+          'stroke-dashoffset': {
+            id: 'anim' + data.index,
+            dur: 1000,
+            from: -pathLength + 'px',
+            to:  '0px',
+            easing: Chartist.Svg.Easing.easeOutQuint,
+            // We need to use `fill: 'freeze'` otherwise our animation will fall back to initial (not visible)
+            fill: 'freeze'
+          }
+        };
+
+        // If this was not the first slice, we need to time the animation so that it uses the end sync event of the previous animation
+        if(data.index !== 0) {
+          animationDefinition['stroke-dashoffset'].begin = 'anim' + (data.index - 1) + '.end';
+        }
+
+        // We need to set an initial value before the animation starts as we are not in guided mode which would do that for us
+        data.element.attr({
+          'stroke-dashoffset': -pathLength + 'px'
+        });
+
+        // We can't use guided mode as the animations need to rely on setting begin manually
+        // See http://gionkunz.github.io/chartist-js/api-documentation.html#chartistsvg-function-animate
+        data.element.animate(animationDefinition, false);
+      }
+    });
+
+
+  });
+
+
+</script>

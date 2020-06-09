@@ -1,9 +1,28 @@
 ---
 ## Main icon
 icon: "/assets/images/logo-repubblica-digitale.svg"
+logo: "/assets/images/logo-repubblica-digitale-mini.svg"
+claim: "/assets/images/logo-repubblica-digitale-claim.svg"
+icon-repubblica: "/assets/images/logo-repubblica-italiana.svg"
+icon-mid: "/assets/images/logo-mid-white.svg"
+
+aderisci-manifesto: "https://docs.google.com/forms/d/e/1FAIpQLSerfb-oJkGwn1lB2GO8aqVODxxqEdlqZyjYg7udv9pgvGiVcQ/viewform"
 
 ## Social Card [1200x630]
-social-card: /assets/images/favicons/social-card.png
+social-card: /assets/images/favicons/social-card-repubblica-digitale.png
+
+## Logo Alt
+icon-mid-alt:
+  en: "Logo del Ministro per l’Innovazione tecnologica e la digitalizzazione"
+  it: "Logo del Ministro per l’Innovazione tecnologica e la digitalizzazione"
+
+icon-repubblica-alt:
+  en: "Stemma della Repubblica Italiana"
+  it: "Stemma della Repubblica Italiana"
+
+icon-dsjc-alt:
+  en: "Logo della Digital Skills and Jobs Coalition"
+  it: "Logo della Digital Skills and Jobs Coalition"
 
 ## Site name
 name:
@@ -12,8 +31,8 @@ name:
 
 ## Site description
 description:
-  en: "Repubblica Digitale test website"
-  it: "Sito di esempio per Repubblica Digitale"
+  en: "Repubblica Digitale"
+  it: "Repubblica Digitale"
 
 ## Site author
 author:

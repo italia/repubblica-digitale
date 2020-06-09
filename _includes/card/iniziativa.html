@@ -1,0 +1,43 @@
+{% assign ente = iniziativa.Ente | strip %}
+{% assign proponente = iniziativa["L_Proponenti"] | strip %}
+{% assign destinatari = iniziativa["L_Destinatari"] | strip %}
+{% assign scala = iniziativa["L_Tipologia_Scala"] | strip %}
+
+{% assign attivita_1 = iniziativa["L_Tipologia_Attivita_1"] | strip %}
+{% assign attivita_2 = iniziativa["L_Tipologia_Attivita_2"] | strip %}
+{% assign attivita_3 = iniziativa["L_Tipologia_Attivita_3"] | strip %}
+{% assign attivita_4 = iniziativa["L_Tipologia_Attivita_4"] | strip %}
+{% assign attivita_5 = iniziativa["L_Tipologia_Attivita_5"] | strip %}
+{% assign attivita_6 = iniziativa["L_Tipologia_Attivita_6"] | strip %}
+
+
+
+
+<div class="col-12 col-md-6 col-lg-4 card-iniziativa" data-groups='["{{ proponente }}","{{ destinatari }}","{{ attivita_1 }}","{{ attivita_2 }}","{{ attivita_3 }}","{{ attivita_4 }}","{{ attivita_5 }}","{{ attivita_6 }}","{{ scala }}"]' >
+    <div class="card-wrapper card-space">
+        <div class="card card-iniziative my-2 no-after shadow rounded">
+            <div class="card-body">
+                <div class="row" style="min-height: 100px;">
+                    <div class="col-8 d-flex">
+                        <p class="text-serif align-self-center mb-0"  style="font-size: 16px;">{{ ente }}</p>
+                    </div>
+                    <div class="col-4 text-right">
+                        {% assign aderente = aderenti | where: "name", ente %}
+                        {%- if aderente[0].logo != nil -%}
+                        <img src="{{ site.baseurl }}/assets/images/loghi/{{ aderente[0].logo }}" alt="Logo {{ ente }}" class="mw-100 mb-2"/>
+                        {%- endif -%}
+                    </div>
+                </div>
+                <div>
+                    <h5 class="card-title mt-2">{{ iniziativa["Titolo dell'iniziativa"] }}</h5>
+                    <a class="read-more" style="right: 10px;" href="{{ site.baseurl }}/{{  iniziativa["Titolo dell'iniziativa"] | datapage_url: 'iniziativa' }}" >
+                    <span class="text">Leggi di più</span>
+                    <svg class="icon">
+                        <use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right"></use>
+                    </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

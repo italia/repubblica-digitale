@@ -1,18 +1,22 @@
 ---
 layout: default
-title: Homepage di esempio
-description: Questo è un esempio di homepage con utilizzo del componente "hero"
+title: Homepage
+description: Repubblica Digitale è l’iniziativa strategica nazionale promossa dal Dipartimento per la trasformazione digitale della Presidenza del Consiglio dei ministri.
 lang: it
 ref: homepage
-permalink: /
-order: 1
+redirect_from:
+  - /
+  - /it
 ---
 
-{% include hero.html %}
+{% include section/hero.html %}
 
-<main class="container my-4" markdown="1">
+{% include section/dati.html %}
 
-{% include posts.html %}
+{% include section/iniziative.html %}
 
-</main>
+{% include section/posts.html %}
 
+{% comment %}
+{% include section/newsletter.html %}
+{% endcomment %}

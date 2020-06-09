@@ -3,31 +3,39 @@
     <div class="container">
       <section>
         <div class="row clearfix">
-          <div class="col-sm-12">
-            <div class="it-brand-wrapper">
+          <div class="col-12 col-md-6">
+            <div class="it-brand-wrapper mw-100">
               <a href="#">
-                <img class="icon" src="{{ site.baseurl }}{{ site.data.t.icon }}" alt="{{ site.name }} logo">
+                <div class="row clearfix">
+
+                <div class="col-12 col-md-5 text-md-right mb-2 mt-4">
+                <img class="icon" src="{{ site.baseurl }}{{ site.data.t.icon-repubblica }}" alt="{{ site.data.t.icon-repubblica-alt[page.lang] }}">
+                <img class="icon" src="{{ site.baseurl }}{{ site.data.t.icon-mid }}" alt="{{ site.data.t.icon-mid-alt[page.lang] }}" style="width:120px">
+                </div>
+                <div class="col-12 col-md-7 mt-3">
                 <div class="it-brand-text">
-                  <h2 class="no_toc">{{ site.data.t.name[page.lang] }}</h2>
-                  <h3 class="no_toc d-none d-md-block">{{ site.data.t.description[page.lang] }}</h3>
+                  <h2>Ministro per l’innovazione tecnologica e la digitalizzazione</h2>
+                  <h3 class="d-none d-md-block">Presidenza del Consiglio dei Ministri</h3>
+                </div>
+                </div>
                 </div>
               </a>
             </div>
           </div>
-        </div>
-      </section>
-      <section class="py-4 border-white border-top">
-        <div class="row">
-          <div class="col-md-6 pb-2">
-            {% include footer/footer-col-1.html %}
+
+          <div class="col-12 col-md-6">
+            <div class="it-brand-wrapper  mw-100">
+              <a href="https://ec.europa.eu/digital-single-market/en/national-local-coalitions" title="Digital Skills and Jobs Coalition">
+                <img  src="{{ site.baseurl }}/assets/images/digital-skill-jobs-and-coalition-hor.png" alt="{{ site.data.t.icon-dsjc-alt[page.lang] }}" class="mw-100 logo-footer-digitalskill">
+              </a>
+            </div>
           </div>
-          <div class="col-md-4 offset-md-2 pb-2">
-            {% include footer/footer-col-3.html %}
-          </div>
+
         </div>
       </section>
     </div>
   </div>
+  {% comment %}
   <div class="it-footer-small-prints clearfix">
     <div class="container">
       <h3 class="sr-only">Sezione Link Utili</h3>
@@ -38,4 +46,6 @@
       </ul>
     </div>
   </div>
+  {% endcomment %}
+
 </footer>

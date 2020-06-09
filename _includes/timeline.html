@@ -1,0 +1,42 @@
+{% assign timeline = site.data.timeline.timeline  %}
+
+
+<div class="it-timeline-wrapper mt-5">
+    <div class="row">
+        {%- for step in timeline -%}
+        <div class="col-12">
+            <div class="timeline-element">
+                {%- if step.evidence -%}
+                <div class="it-pin-wrapper it-evidence ">
+                    {%- else -%}
+                    <div class="it-pin-wrapper">
+                    {%- endif -%}
+
+                    <div class="pin-icon">
+                        <svg class="icon">
+                            <use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-code-circle"></use>
+                        </svg>
+                    </div>
+                    <div class="pin-text"><span>{{ step.date }}</span></div>
+                </div>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title big-heading">{{ step.title }}</h5>
+                            <p class="card-text">{{ step.description }}</p>
+                            {%- if step.link -%}
+                            <a class="read-more" href="{{ step.link }}">
+                                <span class="text">Leggi di più</span>
+                                <svg class="icon">
+                                    <use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right"></use>
+                                </svg>
+                            </a>
+                            {%- endif -%}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {%- endfor -%}
+    </div>
+</div>

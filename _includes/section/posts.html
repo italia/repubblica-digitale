@@ -1,0 +1,27 @@
+{% assign posts = site.posts | where: "lang", page.lang %}
+
+<section id="section-news" class="section bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="text-primary max-w-40 mb-3">News</h2>
+      </div>
+    </div>
+    <div class="row">
+      {% for post in posts limit:3 %}
+      <div class="col-12 col-lg-4">
+        <div class="card-wrapper card-space">
+        {% include card/post.html %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="row">
+      <div class="text-center w-100 mt-3 mx-2">
+        <a class="btn btn-primary" href="{{ site.baseurl }}/it/notizie/">
+          Vedi tutte le news
+        </a>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,11 @@
+    <div class="card card-bg">
+        <div class="card-body pb-0">
+            {%- if post.asset contains "youtube-nocookie.com" or post.asset contains "youtube.com" -%}
+            <div class="responsive-embed">{{ post.asset }}</div>
+            {%- else -%}
+            {{ post.asset }}
+            {%- endif -%}
+            <h5 class="card-title big-heading mt-3"><a class="text-decoration-none" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
+            <div class="card-text">{{ post.excerpt }}</div>
+        </div>
+    </div>
