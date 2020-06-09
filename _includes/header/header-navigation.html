@@ -14,8 +14,8 @@ tutte le pagine del sito che:
           <div class="it-header-center-content-wrapper">
             <div class="it-brand-wrapper">
               <a href="{{ site.baseurl }}/">
-                <img class="icon" src="{{ site.baseurl }}{{ site.data.t.logo }}" alt="{{ site.name }} logo">
-                <img class="claim" src="{{ site.baseurl }}{{ site.data.t.claim }}" alt="{{ site.name }}">
+                <img class="icon" src="{{ site.baseurl }}{{ site.data.t.logo }}" alt="{{ site.data.t.name[page.lang] }} logo">
+                <img class="claim" src="{{ site.baseurl }}{{ site.data.t.claim }}" alt="{{ site.data.t.name[page.lang] }} logo testuale">
                 <div class="it-brand-text d-none">
                   <h2 class="no_toc">{{ site.data.t.name[page.lang] }}</h2>
                   <h3 class="no_toc">{{ site.data.t.description[page.lang] }}</h3>
@@ -53,7 +53,7 @@ tutte le pagine del sito che:
                     active
                         {% endif %}
                       {% endif %}
-                     {% endif %}" href="{{ site.baseurl }}{{menu_page.permalink}}"><span>{{menu_page.title}}</span></a>
+                     {% endif %}" href="{{ site.baseurl }}{{menu_page.url}}"><span>{{menu_page.title}}</span></a>
                   </li>
                   {% endfor %}
                 </ul>

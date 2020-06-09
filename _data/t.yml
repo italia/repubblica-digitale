@@ -11,6 +11,19 @@ aderisci-manifesto: "https://docs.google.com/forms/d/e/1FAIpQLSerfb-oJkGwn1lB2GO
 ## Social Card [1200x630]
 social-card: /assets/images/favicons/social-card-repubblica-digitale.png
 
+## Logo Alt
+icon-mid-alt:
+  en: "Logo del Ministro per l’Innovazione tecnologica e la digitalizzazione"
+  it: "Logo del Ministro per l’Innovazione tecnologica e la digitalizzazione"
+
+icon-repubblica-alt:
+  en: "Stemma della Repubblica Italiana"
+  it: "Stemma della Repubblica Italiana"
+
+icon-dsjc-alt:
+  en: "Logo della Digital Skills and Jobs Coalition"
+  it: "Logo della Digital Skills and Jobs Coalition"
+
 ## Site name
 name:
   en: "Repubblica Digitale"

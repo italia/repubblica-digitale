@@ -3,10 +3,11 @@ layout: page-slim
 title: Chi Siamo
 lang: it
 ref: chi-siamo
-permalink: /it/chi-siamo
 description: Il comitato guida, i partner e i membri della coalizione
 sidebar: <a class="nav-link"  href="#il-comitato-guida"><span>Il comitato guida</span></a> <a class="nav-link"  href="#partner-aderenti"><span>I partner</span></a><a class="nav-link"  href="#membri"><span>I membri della Coalizione</span></a>
 order: 2
+redirect_from:
+  - /chi-siamo
 ---
 
 ### Il comitato guida

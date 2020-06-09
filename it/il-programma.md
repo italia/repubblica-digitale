@@ -4,9 +4,10 @@ title: Il Programma
 lang: it
 ref: il-piano
 description: Obiettivi e assi di intervento
-permalink: /it/il-programma
 sidebar: <a class="nav-link"  href="#lobiettivo-di-repubblica-digitale"><span>L’obiettivo di Repubblica Digitale</span></a> <a class="nav-link"  href="#perche"><span>Perché</span></a><a class="nav-link"  href="#gli-assi-dintervento"><span>Gli assi d’intervento</span></a>
 order: 1
+redirect_from:
+  - /il-programma
 ---
 
 

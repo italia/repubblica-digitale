@@ -4,8 +4,9 @@ title: I Progetti
 lang: it
 ref: i-progetti
 description: I progetti aderenti al manifesto
-permalink: /it/i-progetti
 order: 6
+redirect_from:
+  - /i-progetti
 ---
 
 {% assign iniziative = site.data.iniziative | sort: "Data Approvazione" | reverse %}

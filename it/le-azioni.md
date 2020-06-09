@@ -4,9 +4,10 @@ title: Le azioni
 lang: it
 ref: le-azioni
 description: Il piano, la roadmap e le iniziative
-permalink: /it/le-azioni
 sidebar: <a class="nav-link"  href="#il-piano"><span>Il piano</span></a> <a class="nav-link"  href="#la-roadmap"><span>La roadmap</span></a><a class="nav-link"  href="#iniziative-mid"><span>Le iniziative promosse dal MID</span></a>
 order: 4
+redirect_from:
+  - /le-azioni
 ---
 
 ### Il piano
