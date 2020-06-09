@@ -139,7 +139,8 @@ jobs:
       - <<: *install_dependencies
       - <<: *save_gem_cache
       - <<: *build
-      - <<: *test_html_proofer
+      # Live w/domain
+      # - <<: *test_html_proofer
       - <<: *save_to_workspace
       - <<: *store_build_artifacts
       # - <<: *notify_on_failure
