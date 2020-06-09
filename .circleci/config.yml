@@ -60,7 +60,9 @@ references:
       name: Build the website
       command: |
         JEKYLL_ENV=production \
-        bundle exec jekyll build
+        bundle exec jekyll build --config _config.yml,_config_gh_pages.yml
+      # Live w/domain
+      # bundle exec jekyll build
 
   test_html_proofer: &test_html_proofer
     run:
@@ -88,7 +90,7 @@ references:
   setup_gh_pages: &setup_gh_pages
     add_ssh_keys:
       fingerprints:
-        - "6b:79:94:b3:2b:d1:e5:57:5c:44:15:ed:7a:9d:c1:8f"
+        - "90:8c:dd:b9:5b:31:55:36:81:1a:3c:37:a3:e3:5b:18"
 
   # Deploys the building artifacts to GitHub pages,
   # in https://github.com/italia/repubblica-digitale
@@ -107,7 +109,8 @@ references:
         cp -a ~/circleci/repubblica-digitale/_site/. .
         mkdir -p .circleci
         cp -a ~/circleci/repubblica-digitale/.circleci/. .circleci/.
-        # echo "repubblicadigitale.innovazione.gov.it" > CNAME
+      # Live w/domain
+      # echo "repubblicadigitale.innovazione.gov.it" > CNAME
 
         git add -A
         git commit -m "Automated deployment to GitHub Pages: ${CIRCLE_SHA1}" --allow-empty
