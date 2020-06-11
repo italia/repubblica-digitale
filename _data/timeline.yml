@@ -3,6 +3,7 @@ timeline:
   - date: "maggio 2019"
     title: "Lancio dell’iniziativa"
     description: "Durante la manifestazione ForumPa19 viene lanciata una chiamata all'azione per stakeholder pubblici e privati per iniziative sulle competenze digitali, con un Manifesto aderendo al quale soggetti pubblici e privati partecipano all’Alleanza impegnandosi a realizzare iniziative di inclusione digitale concrete e misurabili, in maniera obiettiva, nei risultati;"
+    link-external: "ForumPA"
     link: "https://www.forumpa.it/pa-digitale/costruiamo-insieme-la-repubblica-digitale/"
     evidence: true
   - date: "dicembre 2019"

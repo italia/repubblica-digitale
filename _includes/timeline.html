@@ -25,8 +25,12 @@
                             <h5 class="card-title big-heading">{{ step.title }}</h5>
                             <p class="card-text">{{ step.description }}</p>
                             {%- if step.link -%}
-                            <a class="read-more" href="{{ step.link }}">
+                            <a class="read-more" href="{{ step.link }}" {% if step.link-external %}target="_blank" rel="noopener noreferrer"{% endif %}>
+                                {%- if step.link-external -%}
+                                <span class="text">Continua su {{ step.link-external }}</span>
+                                {%- else -%}
                                 <span class="text">Leggi di più</span>
+                                {%- endif -%}
                                 <svg class="icon">
                                     <use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right"></use>
                                 </svg>
