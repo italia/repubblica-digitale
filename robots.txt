@@ -1,1 +1,1 @@
-Sitemap: /sitemap.xml
+Sitemap: https://repubblicadigitale.innovazione.gov.it/sitemap.xml
