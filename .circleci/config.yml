@@ -60,9 +60,7 @@ references:
       name: Build the website
       command: |
         JEKYLL_ENV=production \
-        bundle exec jekyll build --config _config.yml,_config_gh_pages.yml
-        # Live w/domain
-        # bundle exec jekyll build
+        bundle exec jekyll build
 
   test_html_proofer: &test_html_proofer
     run:
@@ -109,8 +107,7 @@ references:
         cp -a ~/circleci/repubblica-digitale/_site/. .
         mkdir -p .circleci
         cp -a ~/circleci/repubblica-digitale/.circleci/. .circleci/.
-        # Live w/domain
-        # echo "repubblicadigitale.innovazione.gov.it" > CNAME
+        echo "repubblicadigitale.innovazione.gov.it" > CNAME
 
         git add -A
         git commit -m "Automated deployment to GitHub Pages: ${CIRCLE_SHA1}" --allow-empty
@@ -139,8 +136,7 @@ jobs:
       - <<: *install_dependencies
       - <<: *save_gem_cache
       - <<: *build
-      # Live w/domain
-      # - <<: *test_html_proofer
+      - <<: *test_html_proofer
       - <<: *save_to_workspace
       - <<: *store_build_artifacts
       # - <<: *notify_on_failure
