@@ -73,16 +73,10 @@ footer-links:
   en:
     privacy-policy:
       name: "Privacy policy"
-      url: "/en/privacy-policy"
-    cookie-policy:
-      name: "Cookie Policy"
-      url: "/en/cookie-policy"
+      url: ""
   it:
     privacy-policy:
-      name: "Privacy policy"
-      url: "/it/privacy-policy"
-    cookie-policy:
-      name: "Cookie Policy"
-      url: "/it/cookie-policy"
+      name: "Informativa privacy"
+      url: "/it/informativa-privacy"
 
 
