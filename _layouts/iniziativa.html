@@ -29,10 +29,15 @@ type: iniziativa
                     {% assign aderente = aderenti | where: "name", ente %}
                     {%- if aderente[0].logo != nil -%}
                     <figure class="figure text-center w-100 figure-progetto">
-                        <img src="{{ site.baseurl }}/assets/images/loghi/{{ aderente[0].logo }}" alt="Logo {{ ente }}"  class="figure-img img-fluid rounded">
-                        <figcaption class="figure-caption x-small text-center">{{ ente }}</figcaption>
+                        <img src="{{ site.baseurl }}/assets/images/loghi/{{ aderente[0].logo }}" alt="Logo {{ ente }}" class="figure-img img-fluid rounded">
+                        <figcaption class="figure-caption x-small text-center">Logo {{ ente }}</figcaption>
                     </figure>
-
+                    {%- endif -%}
+                    {%- if aderente[0].logo-iniziativa != nil -%}
+                    <figure class="figure text-center w-100 figure-progetto">
+                      <img src="{{ site.baseurl }}/assets/images/loghi/{{ aderente[0].logo-iniziativa }}" alt="Logo iniziativa" class="figure-img img-fluid rounded">
+                      <figcaption class="figure-caption x-small text-center">Logo iniziativa</figcaption>
+                    </figure>
                     {%- endif -%}
 
                     {{ iniziativa["Descrizione dell'iniziativa"] | markdownify }}

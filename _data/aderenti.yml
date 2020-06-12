@@ -393,3 +393,17 @@ aderenti_manifesto:
   - name: Coder Kids
     logo: "coder_kids-logo-arancio.png"
     link: "http://www.coderkids.it/"
+  - name: Ente Nazionale per la Trasformazione Digitale
+    logo: "entd-logo.png"
+    logo-iniziativa: "uniopen-logo.png"
+    link: "https://entd.org/"
+  - name: "socialgnock - Women Ignite Relationships"
+    logo: "wir-logo.png"
+    link: "https://www.facebook.com/groups/socialgnock/"
+  - name: IDCERT
+    logo: "idcert-logo.png"
+    link: "https://uat.idcert.io/home"
+  - name: DSchola
+    logo: "dschola-logo.jpg"
+    logo-iniziativa: "programmo-logo.png"
+    link: "https://uat.idcert.io/home"
