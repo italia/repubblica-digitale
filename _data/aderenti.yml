@@ -407,3 +407,7 @@ aderenti_manifesto:
     logo: "dschola-logo.jpg"
     logo-iniziativa: "programmo-logo.png"
     link: "https://uat.idcert.io/home"
+  - name: Oracle
+    logo: "oracle_community.png"
+    logo-iniziativa: "oracle_community.png"
+    link: "https://www.oracle.com/it/communities/"
