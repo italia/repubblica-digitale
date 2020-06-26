@@ -410,3 +410,10 @@ aderenti_manifesto:
   - name: Oracle
     logo: "oracle_community.png"
     link: "https://www.oracle.com/it/communities/"
+  - name: Comunità di Sant’Egidio
+    logo: "santegidio.png"
+    logo-iniziativa: "viva-gli-anziani.png"
+    link: "https://www.santegidio.org/"
+  - name: Consorzio Informatica e Territorio
+    logo: "consorzio-it-logo.png"
+    link: "https://www.consorzioit.net/"
