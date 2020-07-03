@@ -417,3 +417,7 @@ aderenti_manifesto:
   - name: Consorzio Informatica e Territorio
     logo: "consorzio-it-logo.png"
     link: "https://www.consorzioit.net/"
+  - name: CST Consorzio Sannio.it
+    logo: "logo-consorzio-sannio.png"
+    logo-iniziativa: "logo-sutrad.png"
+    link: "https://www.sannio.it/"
