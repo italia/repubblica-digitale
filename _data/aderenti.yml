@@ -421,3 +421,18 @@ aderenti_manifesto:
     logo: "logo-consorzio-sannio.png"
     logo-iniziativa: "logo-sutrad.png"
     link: "https://www.sannio.it/"
+  - name: Comunità di Sant’Egidio
+    logo: "santegidio.png"
+    logo-iniziativa: "viva-gli-anziani.png"
+    link: "https://www.santegidio.org/"
+  - name: Università di Bari
+    logo: "logo_uniba.png"
+    logo-iniziativa: "logo_crhacklab_bari.png"
+    link: "https://www.uniba.it/"
+  - name: UNINFO
+    logo: "uninfo_logo.png"
+    link: "https://uninfo.it/"
+  - name: Puntoradio
+    logo: "punto_radio_logo_trasp.png"
+    logo-iniziativa: "alfabetodigitale.png"
+    link: "http://www.puntoradio.fm/"
