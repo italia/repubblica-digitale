@@ -4,7 +4,7 @@ title: Le azioni
 lang: it
 ref: le-azioni
 description: Il piano, la roadmap e le iniziative
-sidebar: <a class="nav-link" href="#il-piano"><span>Il piano</span></a> <a class="nav-link" href="#la-roadmap"><span>La roadmap</span></a><a class="nav-link" href="#iniziative-mid"><span>Le iniziative promosse dal MID</span></a>
+sidebar: <a class="nav-link" href="#il-piano"><span>Il piano</span></a> <a class="nav-link" href="#la-roadmap"><span>La roadmap</span></a><a class="nav-link" href="#iniziative-mid"><span>Le iniziative promosse dal MID</span></a><a class="nav-link" href="#documenti"><span>Documenti</span></a>
 order: 4
 redirect_from:
   - /le-azioni
@@ -27,8 +27,5 @@ Il piano degli interventi che sarà definito dal comitato guida svilupperà iniz
 
 {% include section/iniziative-mid.html %}
 
-
-{% comment %}
 {% include section/documenti.html %}
-{% endcomment %}
 

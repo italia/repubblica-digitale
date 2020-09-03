@@ -11,9 +11,15 @@ redirect_from:
 ---
 
 ### Il comitato guida
-L’alleanza di soggetti pubblici e privati che fanno parte di Repubblica digitale, aderente come Coalizione Nazionale alla [Digital Skills and Jobs Coalition europea](https://ec.europa.eu/digital-single-market/en/national-local-coalitions), è coordinata da un comitato interministeriale guidato dal Ministro per l’innovazione tecnologica e la digitalizzazione, a cui partecipano più ministeri (beni culturali e turismo, Istruzione, lavoro e welfare, politiche agricole e forestali, politiche giovanili e sport, pubblica amministrazione, sviluppo economico, università e ricerca), oltre a Conferenza delle Regioni, UPI, Anci, Unioncamere, esponenti del mondo dell’università (come il presidente della CRUI, il coordinatore della EU Code Week), della ricerca (come il presidente della ConPER), delle imprese, delle associazioni di cittadini, Rai con il contributo di Istat e degli osservatori che operano su quest’ambito come Osservatorio Competenze Digitali, Osservatorio Università e Impresa, Osservatorio Agenda Digitale e Osservatorio Smart Working del Politecnico di Milano, CINI, GII, GRIN.
+L’alleanza di soggetti pubblici e privati che fanno parte di Repubblica digitale, aderente come Coalizione Nazionale alla [Digital Skills and Jobs Coalition europea](https://ec.europa.eu/digital-single-market/en/national-local-coalitions) e le attività connesse all’iniziativa sono coordinate da un **Comitato Tecnico Guida**.  
 
-La costituzione del comitato tecnico guida è in corso di formalizzazione.
+Il Comitato Tecnico Guida di Repubblica Digitale, coordinato per il MID dal Dipartimento per la Trasformazione Digitale, è composto da rappresentanti di ministeri (Beni Culturali e Turismo, Istruzione, Lavoro e Welfare, Politiche agricole e forestali, Politiche giovanili e sport, Pubblica Amministrazione, Sviluppo economico, Università e Ricerca), Conferenza delle Regioni, UPI, Anci, AgID, Unioncamere, esponenti del mondo dell’università (la CRUI, il coordinatore della EU Code Week), ricerca (la ConPER), Rai, Confindustria Digitale, associazioni di cittadini della Coalizione Nazionale.  
+I suoi compiti sono:  
+* elaborazione della strategia nazionale per le competenze digitali e del suo piano di attuazione;  
+* monitoraggio delle azioni individuate nel piano di attuazione, verificandone i risultati e gli impatti e provvedendo, se necessario, al conseguente allineamento della strategia e del piano;  
+* definizione e attuazione del piano di comunicazione finalizzato a divulgare l’importanza delle competenze e della cultura digitali nel Paese.  
+
+Per queste attività il Comitato Tecnico Guida si avvale del contributo di esperti e di Osservatori costituiti dalle università e dalle imprese, delle organizzazioni aderenti alla Coalizione Nazionale e di organizzazioni e singoli cittadini che possono contribuire attraverso attività e strumenti di partecipazione.  
 
 {% include section/partner.html %}
 

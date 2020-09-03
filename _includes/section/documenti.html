@@ -1,7 +1,5 @@
 {% assign posts = site.categories.documento | where: "lang", page.lang %}
 
-
-
   <div class="container">
     <div class="row">
       <div class="col-12">
@@ -9,12 +7,15 @@
       </div>
     </div>
     <div class="row">
-      {% for post in posts %}
       <div class="col-12 col-lg-6">
         <div class="card-wrapper card-space">
-        {% include card/post.html %}
+          <a href="{{ site.baseurl }}/assets/docs/DTD-1277-A-ALL1.pdf" class="btn btn-icon btn-primary" download>
+            Scarica il decreto della Strategia Nazionale
+            <svg class="icon icon-sm icon-white ml-2">
+              <use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-download"></use>
+            </svg>
+          </a>
         </div>
       </div>
-      {% endfor %}
     </div>
   </div>
