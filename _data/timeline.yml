@@ -24,6 +24,7 @@ timeline:
   - date: "luglio 2020"
     title: "Prima versione della strategia nazionale"
     description: "Viene formalizzata la prima strategia nazionale per le competenze digitali, sui quattro assi individuati, con l’avvio di nuove iniziative a immediato impatto e il consolidamento integrato di iniziative governative già avviate sul fronte della scuola e dell’università, della pubblica amministrazione, delle imprese, dei cittadini;"
+    evidence: true
   - date: "ottobre 2020"
     title: "Prima versione del piano operativo"
     description: "Viene consolidato il piano operativo correlato alla strategia nazionale e vengono avviate attività strutturate per favorire sinergie e collaborazioni nella Coalizione (ad esempio, l’apertura di un forum, l’avvio di gruppi di co-progettazione e condivisione e di alcune iniziative specifiche);"
