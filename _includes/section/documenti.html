@@ -1,7 +1,5 @@
 {% assign posts = site.categories.documento | where: "lang", page.lang %}
 
-
-
   <div class="container">
     <div class="row">
       <div class="col-12">
@@ -9,12 +7,18 @@
       </div>
     </div>
     <div class="row">
+      <div class="col-12 col-lg-6">
+        <div class="card-wrapper card-space">
+          <a href="{{ site.baseurl }}/assets/docs/DTD-1277-A-ALL1.pdf" target="_blank">Decreto della Strategia Nazionale</a>
+        </div>
+      </div>
+<!-- 
       {% for post in posts %}
       <div class="col-12 col-lg-6">
         <div class="card-wrapper card-space">
         {% include card/post.html %}
         </div>
       </div>
-      {% endfor %}
+      {% endfor %} -->
     </div>
   </div>
