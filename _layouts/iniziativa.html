@@ -9,6 +9,7 @@ type: iniziativa
 {% assign destinatari = iniziativa["L_Destinatari"] | strip %}
 {% assign scala = iniziativa["L_Tipologia_Scala"] | strip %}
 {% assign aderenti = site.data.aderenti.aderenti_manifesto %}
+{% assign siteUrl = iniziativa.URL | strip %}
 
 <div class="container my-2">
     <div class="row">
@@ -39,8 +40,10 @@ type: iniziativa
                       <figcaption class="figure-caption x-small text-center">Logo iniziativa</figcaption>
                     </figure>
                     {%- endif -%}
-
                     {{ iniziativa["Descrizione dell'iniziativa"] | markdownify }}
+                    {%- if siteUrl != empty -%}
+                    Per approfondire <a href="{{siteUrl}}" target="_blank">vai al sito</a> del progetto
+                    {%- endif -%}
                     <h3 class="mt-4" id="destinatari">Destinatari</h3>
                     {{ iniziativa["Destinatari, fruitori dell'iniziativa"] | markdownify }}
                     <h3 class="mt-4" id="tempistiche">Tempistiche</h3>
