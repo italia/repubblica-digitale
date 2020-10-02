@@ -41,7 +41,7 @@ type: iniziativa
                     </figure>
                     {%- endif -%}
                     {{ iniziativa["Descrizione dell'iniziativa"] | markdownify }}
-                    {%- if siteUrl != empty -%}
+                    {%- if siteUrl contains "http" -%}
                     Per approfondire <a href="{{siteUrl}}" target="_blank">vai al sito</a> del progetto
                     {%- endif -%}
                     <h3 class="mt-4" id="destinatari">Destinatari</h3>
