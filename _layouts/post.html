@@ -48,12 +48,11 @@ layout: default
               {%- endif -%}
               <div class="my-3">
                 {{ content }}
-
                 {%- if page.orig_url -%}
                 {%- if page.orig_url.first -%}
-                {% for site in page.orig_url %}
-                <a class="read-more position-relative mt-5" href="{{ page.orig_url[forloop.index0] }}" target="_blank">
-                  <span class="text">{{page.orig_text}} <i>{{ page.orig_src[forloop.index0] }}</i></span>
+                {% for extSiteData in page.orig_url %}
+                <a class="read-more position-relative mt-5" href="{{ extSiteData.url }}" target="_blank">
+                  <span class="text">{{extSiteData.text}} <i>{{ extSiteData.src }}</i></span>
                   <svg class="icon">
                     <use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right"></use>
                   </svg>

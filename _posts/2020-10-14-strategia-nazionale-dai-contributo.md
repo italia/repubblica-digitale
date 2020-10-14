@@ -5,10 +5,18 @@ ref: dai-contributo-attuazione-strategia-nazionale-per-le-competenze-digitali
 lang: it
 excerpt_separator: <!-- MORE -->
 asset: <img class="w-100" src="/assets/images/posts/2020-10-14-strat-nazionale-contributo.jpg" alt="Dai il tuo contributo all’attuazione della Strategia nazionale per le competenze digitali"/>
-orig_text: "Partecipa alla discussione su"
-orig_src: ["Facebook", "Twitter"]
-orig_url: ["https://www.facebook.com/hashtag/RepubblicaDigitale/", "https://twitter.com/search?q=%23RepubblicaDigitale&src=typed_query"]
-pinned:
+
+orig_url: [
+  {
+    text: "Seguimi su",
+    src: "Facebook",
+    url: "https://www.facebook.com/hashtag/RepubblicaDigitale/"
+  },
+  {
+    text: "E Seguimi anche su",
+    src: "Twitter",
+    url: "https://twitter.com/search?q=%23RepubblicaDigitale&src=typed_query"
+  }]
 categories:
   - Cultura Digitale
 ---
