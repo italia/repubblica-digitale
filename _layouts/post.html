@@ -50,12 +50,23 @@ layout: default
                 {{ content }}
 
                 {%- if page.orig_url -%}
+                {%- if page.orig_url.first -%}
+                {% for site in page.orig_url %}
+                <a class="read-more position-relative mt-5" href="{{ page.orig_url[forloop.index0] }}" target="_blank">
+                  <span class="text">{{page.orig_text}} <i>{{ page.orig_src[forloop.index0] }}</i></span>
+                  <svg class="icon">
+                    <use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right"></use>
+                  </svg>
+                </a>
+                {% endfor %}
+                {%- else -%}
                 <a class="read-more position-relative mt-5" href="{{ page.orig_url }}" target="_blank">
                   <span class="text">Continua su <i>{{ page.orig_src }}</i></span>
                   <svg class="icon">
                     <use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right"></use>
                   </svg>
                 </a>
+                {%- endif -%}
                 {%- endif -%}
               </div>
             </div>

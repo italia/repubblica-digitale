@@ -5,7 +5,6 @@ ref: europe-code-week-coding-semplice-e-divertente
 lang: it
 excerpt_separator: <!-- MORE -->
 asset: <img class="w-100" src="/assets/images/posts/2020-10-08-codeweek.png" alt="Europe Code Week, il coding semplice e divertente"/>
-social_image: /assets/images/posts/2020-10-08-codeweek-countdown.svg
 categories:
   - Cultura Digitale
   - Innovazione Digitale
