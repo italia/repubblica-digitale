@@ -472,3 +472,6 @@ aderenti_manifesto:
     logo: "telefonoAzzurro_logo.jpg"
     logo-iniziativa: "digi_edu_logo.png"
     link: "http://cittadinodigitale.azzurro.it/"
+  - name: Italiaonline
+    logo: "italiaonline.png"
+    link: "https://www.italiaonline.it/corporate/"
