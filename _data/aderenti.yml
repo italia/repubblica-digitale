@@ -475,3 +475,14 @@ aderenti_manifesto:
   - name: Italiaonline
     logo: "italiaonline.png"
     link: "https://www.italiaonline.it/corporate/"
+  - name: Elis
+    logo: "elis-logo.png"
+    link: "http://www.elis.org/"
+  - name: Comune di Firenze
+    logo: "firenze-giglio-a_1.png"
+    logo-iniziativa: "firenzedigitale.png"
+    link: "https://www.comune.fi.it/"
+  - name: Image Line
+    logo: "agricolus_logo_official_rgb.png"
+    logo-iniziativa: "agro-innovation-EDU.png"
+    link: "https://www.imagelinenetwork.com/"
