@@ -375,8 +375,9 @@ aderenti_manifesto:
   - name: Great Innova
     logo: "great-innova-logo.png"
     link: "http://www.greatinnova.com/"
-  - name: Azione
-    logo: "inedu-logo.png"
+  - name: FORMA.Azione
+    logo: "inedu.jpg"
+    logo-iniziativa: "FormaAzione.jpg"
     link: "https://www.azione.com/in-edu-inclusive-communities-through-media-literacy-critical-thinking-education/"
   - name: Giove IN Formatica
     logo: "gemma-umbria-logo.png"
@@ -483,6 +484,6 @@ aderenti_manifesto:
     logo-iniziativa: "firenzedigitale.png"
     link: "https://www.comune.fi.it/"
   - name: Image Line
-    logo: "agricolus_logo_official_rgb.png"
+    logo: "imageline-logo-icona-payoff.png"
     logo-iniziativa: "agro-innovation-EDU.png"
     link: "https://www.imagelinenetwork.com/"

@@ -85,7 +85,7 @@ Nella homepage vengono mostrati:
 
 La _sorgente dati_ delle iniziative di Repubblica Digitale è il file CSV `_data/iniziative.csv`, che viene generato da un foglio Google scaricabile [qui](https://docs.google.com/spreadsheets/d/e/2PACX-1vQmjiBTJvDnYGCUVDp_Y5fTYIvslfWTTR5NhlK8jMfu74qDL25Ay9yG1UFRzaKdIBXwOqrU2jPV6NvK/pub?gid=1894080245&single=true&output=csv).
 
-I loghi vengono invece inseriti [qui](https://drive.google.com/drive/u/1/folders/1MSkCvSb2P60_RXwOjgVo-QBL_85Nbun7): ogni logo va adattato e ridimensionato se necessario, incluso nella cartella `assets/images/loghi`, e aggiunto alla lista presente nel file `aderenti.yml`
+I loghi vengono invece inseriti [qui](https://drive.google.com/drive/u/3/folders/1wIOZmcDisQXAyY0Cs6BRPSGO7tE2NowM)(link aggiornato al nuovo GDrive 09/11/2020): ogni logo va adattato e ridimensionato se necessario, incluso nella cartella `assets/images/loghi`, e aggiunto alla lista presente nel file `aderenti.yml`
 
 Per aggiornare il file è quindi sufficiente:
 
