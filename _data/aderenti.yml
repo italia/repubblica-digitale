@@ -487,3 +487,7 @@ aderenti_manifesto:
     logo: "imageline-logo-icona-payoff.png"
     logo-iniziativa: "agro-innovation-EDU.png"
     link: "https://www.imagelinenetwork.com/"
+  - name: Impianti & Computer
+    logo: "iec_logo.png"
+    logo-iniziativa: "undigital_academy.png"
+    link: "https://www.impiantiecomputer.com/"
