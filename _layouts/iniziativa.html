@@ -28,18 +28,31 @@ type: iniziativa
                 <div class="mx-md-3">
                     <h1 class="text-primary mb-5" id="descrizione">{{ page["Titolo dell'iniziativa"] }}</h1>
                     {% assign aderente = aderenti | where: "name", ente %}
+                    {% assign iniziativa_data = aderente[0].iniziative | where: "ini_name", page["Titolo dell'iniziativa"] %}
                     {%- if aderente[0].logo != nil -%}
                     <figure class="figure text-center w-100 figure-progetto">
                         <img src="{{ site.baseurl }}/assets/images/loghi/{{ aderente[0].logo }}" alt="Logo {{ ente }}" class="figure-img img-fluid rounded">
-                        <figcaption class="figure-caption x-small text-center">Logo {{ ente }}</figcaption>
+                        <figcaption class="figure-caption x-small text-center">{{ ente }}</figcaption>
                     </figure>
                     {%- endif -%}
-                    {%- if aderente[0].logo-iniziativa != nil -%}
+
+                    {% if iniziativa_data[0].ini_logo != nil %}
                     <figure class="figure text-center w-100 figure-progetto">
-                      <img src="{{ site.baseurl }}/assets/images/loghi/{{ aderente[0].logo-iniziativa }}" alt="Logo iniziativa" class="figure-img img-fluid rounded">
-                      <figcaption class="figure-caption x-small text-center">Logo iniziativa</figcaption>
+                        <img src="{{ site.baseurl }}/assets/images/loghi/{{ iniziativa_data[0].ini_logo }}" alt="Logo iniziativa"
+                            class="figure-img img-fluid rounded">
+                        <figcaption class="figure-caption x-small text-center">{{ iniziativa_data[0].ini_name }}</figcaption>
                     </figure>
-                    {%- endif -%}
+                    {% else %}
+                        {% if aderente[0].logo-iniziativa != nil %}
+                        <figure class="figure text-center w-100 figure-progetto">
+                            <img src="{{ site.baseurl }}/assets/images/loghi/{{ aderente[0].logo-iniziativa }}" alt="Logo iniziativa"
+                                class="figure-img img-fluid rounded">
+                            <figcaption class="figure-caption x-small text-center">&nbsp;</figcaption>
+                        </figure>
+                        {% endif %}
+                    {% endif %}
+
+
                     {{ iniziativa["Descrizione dell'iniziativa"] | markdownify }}
                     {%- if siteUrl contains "http" -%}
                     Per approfondire <a href="{{siteUrl}}" target="_blank">vai al sito</a> del progetto
