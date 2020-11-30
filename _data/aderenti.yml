@@ -61,10 +61,13 @@ aderenti_manifesto:
     logo: "acca-logo.png"
     link: "https://www.acca.it/"
   - name: CINI - Consorzio Interuniversitario Nazionale per l'Informatica; GII - Gruppo di Ingegneria Informatica; GRIN - Gruppo di Informatica
-    logo: "cini-gii-grin-logo.png"
+    logo: "logo-Programma-il-Futuro-per-Repubblica-Digitale.png"
     link: "http://www.consorzio-cini.it"
   - name: Fondazione Mondo Digitale
     logo: "fondazione-mondo-digitale-logo.png"
+    iniziative:
+      - ini_name: Social Hosting Hub
+        ini_logo: ssh_logo_colore.png
     link: "https://mondodigitale.org/it"
   - name: Gruppo di Ingegneria Informatica
     logo: "gii-logo.png"
@@ -500,3 +503,15 @@ aderenti_manifesto:
   - name: CREVIT
     logo: "crevit-logo.png"
     link: "https://www.crevit.net/competenze-digitali-nei-trasporti-2025/"
+  - name: AIB - Associazione italiana Biblioteche
+    logo: "logo_AIB.jpg"
+    link: "https://www.aib.it/"
+  - name: Dataninja
+    logo: "logo_dataninja.png"
+    iniziative:
+      - ini_name: Open the box
+        ini_logo: logo_open_thebox.png
+    link: "https://www.dataninja.it/it/"
+  - name: Associazione Io Riparto
+    logo: "io_riparto.png"
+    link: "https://www.ioriparto.it"
