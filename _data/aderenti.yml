@@ -257,6 +257,9 @@ aderenti_manifesto:
     link: "https://www.girlstech.it/"
   - name: Unioncamere - Unione italiana delle Camere di commercio, industria, artigianato e agricoltura
     logo: "unioncamere-logo.png"
+    iniziative:
+      - ini_name: Eccellenze in Digitale
+        ini_logo: Eccellenze-in-Digitale.png
     link: "http://www.unioncamere.gov.it/"
   - name: AICA - Associazione Italiana per l'Informatica ed il Calcolo Automatico
     logo: "aica-icdl-logo.png"
@@ -515,3 +518,26 @@ aderenti_manifesto:
   - name: Associazione Io Riparto
     logo: "io_riparto.png"
     link: "https://www.ioriparto.it"
+  - name: Gruppo Atlantide
+    logo: "GruppoAtlantide_logo-01.jpg"
+    iniziative:
+      - ini_name: Scuole e Blog
+        ini_logo: ScuoleBlog_Logo_Color.jpg
+    link: "http://www.gruppoatlantide.it/"
+  - name: "Dipartimento di Scienze Economiche e Aziendali “Marco Fanno” – Università di Padova"
+    logo: "Logo_dSEA_Unipd.png"
+    iniziative:
+      - ini_name: Business Digitalization
+        ini_logo: T4L-hp.png
+    link: "https://www.economia.unipd.it/"
+  - name: "CITTA' DI TORINO"
+    logo: "Logo-citta-di-Torino.jpg"
+    iniziative:
+      - ini_name: WWW
+        ini_logo: Logo_TCL.jpg
+      - ini_name: Torino City Love
+        ini_logo: TCLove_colori.jpg
+    link: "https://www.torinocitylab.it/"
+  - name: "Uer Academy"
+    logo: "Logo-UER-Academy.jpg"
+    link: "https://www.universitaeuropeadiroma.it/"
