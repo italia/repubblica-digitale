@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Impariamo a leggere il linguaggio del presente e del futuro. Uno primo sguardo sul Piano della Strategia nazionale per le competenze digitali"
+title: "Impariamo a leggere il linguaggio del presente e del futuro. Un primo sguardo sul Piano della Strategia nazionale per le competenze digitali"
 ref: leggere-il-linguaggio-del-presente-e-del-futuro
 lang: it
 excerpt_separator: <!-- MORE -->
-asset: <img class="w-100" src="/assets/images/posts/leggere-il-linguaggio-del-presente-e-del-futuro.jpg" alt="Impariamo a leggere il linguaggio del presente e del futuro. Uno primo sguardo sul Piano della Strategia nazionale per le competenze digitali"/>
+asset: <img class="w-100" src="/assets/images/posts/leggere-il-linguaggio-del-presente-e-del-futuro.jpg" alt="Impariamo a leggere il linguaggio del presente e del futuro. Un primo sguardo sul Piano della Strategia nazionale per le competenze digitali"/>
 orig_url: [
   {
     src: "Partecipa al sondaggio",
