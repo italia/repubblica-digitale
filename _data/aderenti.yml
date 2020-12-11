@@ -541,3 +541,12 @@ aderenti_manifesto:
   - name: "Uer Academy"
     logo: "Logo-UER-Academy.jpg"
     link: "https://www.universitaeuropeadiroma.it/"
+  - name: "Camera di Commercio di Cosenza"
+    logo: "cosenza-marchio-colore.png"
+    link: "http://www.cs.camcom.gov.it/"
+  - name: "AIPSI"
+    logo: "logo-AIPSI.png"
+    iniziative:
+      - ini_name: OAD Extended
+        ini_logo: logo-OAD.png
+    link: "https://www.oadweb.it/"
