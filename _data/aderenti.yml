@@ -550,3 +550,15 @@ aderenti_manifesto:
       - ini_name: OAD Extended
         ini_logo: logo-OAD.png
     link: "https://www.oadweb.it/"
+  - name: "Fidia formazione e consulenza"
+    logo: "02_logo_FIDIA.jpg"
+    link: "https://www.agenzialavoro.tn.it/Schede-informative/5.1.2B-Corsi-per-il-potenziamento-delle-competenze-chiave-per-disoccupati"
+  - name: "Moige"
+    logo: "moige_logo_progetto.jpg"
+    link: "https://www.moige.it/"
+  - name: "Gruppo Maggioli"
+    logo: "gruppo_maggioli_logo.jpg"
+    iniziative:
+      - ini_name: 3° Raduno dei Responsabili per la Transizione al Digitale – L’importanza di fare rete per affrontare la sfida degli switch off
+        ini_logo: gruppo_maggioli_radunoRTD.png
+    link: "https://www.lapadigitale.it/"
