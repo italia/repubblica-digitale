@@ -51,7 +51,14 @@ layout: default
                 {%- if page.orig_url -%}
                 {%- if page.orig_url.first -%}
                 {% for extSiteData in page.orig_url %}
+                {%- if extSiteData.title -%}
+                <p>{{ extSiteData.title }}</p>
+                {%- else -%}
+                {%- if extSiteData.noSpaceOnTop != true -%}
                 <a class="read-more position-relative mt-5" href="{{ extSiteData.url }}" target="_blank">
+                {%- else -%}
+                <a class="read-more position-relative mt-2" href="{{ extSiteData.url }}" target="_blank">
+                {%- endif -%}
                   {%- if extSiteData.text -%}
                   <span class="text">{{extSiteData.text}} <i>{{ extSiteData.src }}</i></span>
                   {%- else -%}
@@ -61,6 +68,7 @@ layout: default
                     <use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right"></use>
                   </svg>
                 </a>
+                {%- endif -%}
                 {% endfor %}
                 {%- else -%}
                 <a class="read-more position-relative mt-5" href="{{ page.orig_url }}" target="_blank">
@@ -73,6 +81,13 @@ layout: default
                 {%- endif -%}
               </div>
             </div>
+            {%- if page.credits-%}
+            <p class="x-small text-right">
+              <em>Foto di <a href="{{ page.credits.ownerUrl }}" target="_blank" rel="noopener noreferrer">{{ page.credits.owner }}</a> su <a
+                  href="{{ page.credits.imgUrl }}" target="_blank" rel="noopener noreferrer">{{ page.credits.imgSrc }}</a>
+              </em>
+            </p>
+            {%- endif -%}
           </div>
         </div>
       </div>
