@@ -62,14 +62,14 @@ Anticipazioni del Piano sono state fornite nel corso di un evento internazionale
 
 Si tratta di  un documento ambizioso, che punta a colmare il gap digitale del nostro Paese entro il 2025. Elaborato in un’ottica corale, con la regia del Comitato Tecnico Guida di Repubblica Digitale, coordinato dal MID tramite il Dipartimento per la trasformazione digitale, mettendo sullo stesso tavolo, Ministeri, Regioni, Province, Comuni, Università, istituti di ricerca, imprese, professionisti, Rai. Il processo ha  coinvolto anche associazioni e varie articolazioni del settore pubblico oltre che le organizzazioni aderenti alla Coalizione Nazionale e ha tenuto conto dei primi contributi raccolti attraverso [parteciPa](https://partecipa.gov.it/processes/strategia-Nazionale-competenze-digitali){:target="_blank" rel="noopener noreferrer"}, la piattaforma del Governo dedicata ai processi di consultazione e partecipazione pubblica.  
 
-
-**Gli obiettivi del Piano**  
-Tra gli obiettivi del Piano Operativo da conseguire **entro il 2025** ne segnaliamo alcuni il cui conseguimento mira ad avere un impatto rilevante per la crescita del nostro Paese:  
+<p>&nbsp;</p>  
+###### Gli obiettivi del Piano
+Tra gli obiettivi del Piano Operativo da realizzare **entro il 2025** ne segnaliamo alcuni il cui conseguimento mira ad avere un impatto rilevante per la crescita del nostro Paese:  
 - Raggiungere il **70% di popolazione con competenze digitali almeno di base**, con un incremento di oltre 13 milioni di cittadini dal 2019 e **azzerare il divario di genere**;  
 - **duplicare la popolazione in possesso di competenze digitali avanzate** (con il 78% di giovani con formazione superiore dimezzando il divario di genere, il 40% dei lavoratori nel settore privato e il 50% di dipendenti pubblici);  
 - **triplicare il numero dei laureati in ICT e quadruplicare quelli di sesso femminile, duplicare la quota di imprese che utilizza i big data**;  
 - incrementare del 50% la quota di **PMI che utilizzano specialisti ICT**;  
-- aumentare di cinque volte la **quota di popolazione che utilizza servizi digitali pubblici, portandola al 64%**. e portare ai livelli dei Paesi europei più avanzati, l’utilizzo di Internet anche nelle fasce meno giovani della popolazione (l’84% nella fascia 65-74 anni).  
+- aumentare di cinque volte la **quota di popolazione che utilizza servizi digitali pubblici, portandola al 64%** e portare ai livelli dei Paesi europei più avanzati, l’utilizzo di Internet anche nelle fasce meno giovani della popolazione (l’84% nella fascia 65-74 anni).  
 
 **Le linee di intervento**  
 Il Piano indica le azioni di sistema per l’attuazione delle linee di intervento della [Strategia Nazionale](https://innovazione.gov.it/strategia-nazionale-per-le-competenze-digitali/){:target="_blank" rel="noopener noreferrer"} e delinea gli obiettivi, misurabili, per ciascuna azione nell’ambito dei quattro assi individuati:  
@@ -78,7 +78,7 @@ Il Piano indica le azioni di sistema per l’attuazione delle linee di intervent
 3. **Competenze specialistiche ICT** - per potenziare la capacità del Paese di sviluppare competenze per mercati emergenti e nuove possibilità di occupazione, in gran parte legate alle tecnologie innovative e al possesso delle competenze indispensabili per i lavori del futuro, con il coordinamento del Ministero dell’Università e Ricerca e del Ministero dello Sviluppo Economico;  
 4. **Cittadini** - per sviluppare le competenze digitali necessarie a esercitare i diritti di cittadinanza e la partecipazione consapevole alla vita democratica, con il coordinamento del Ministro per l’innovazione tecnologica e la digitalizzazione).  
 
-L’architettura del piano si articola in **4 assi strategici** nell’ambito di ciascuno dei quali **sono individuate le azioni** di breve, medio e lungo termine che attuano le priorità e le linee di intervento definite nella Strategia. Il modello che consente il monitoraggio di tali azioni include un cruscotto di indicatori di impatto generale, suddivisi per ciascun asse, tra fattori abilitanti e risultati da ottenere, nonché indicatori di risultato specifici per ciascuna azione.  
+L’architettura del piano si articola in **4 assi strategici** nell’ambito di ciascuno dei quali **sono individuate le azioni** di breve, medio e lungo termine che attuano le priorità e le linee di intervento definite nella Strategia. Il modello che consente il monitoraggio di tali azioni include un cruscotto di indicatori di impatto generale, suddivisi per ciascun asse, tra fattori abilitanti e risultati da ottenere, nonché indicatori specifici per ciascuna azione.  
 
 Tra le oltre 100 azioni descritte nel Piano, relative a ciascun asse di intervento, se ne evidenziano solo alcune, rimandando il quadro dettagliato ad una [lettura completa del Piano]({{ site.url}}/assets/docs/Piano-Operativo-Strategia-Nazionale-per-le-competenze-digitali.pdf){:target="_blank" rel="noopener noreferrer"}:  
 
@@ -104,7 +104,8 @@ Tra le oltre 100 azioni descritte nel Piano, relative a ciascun asse di interven
 - Sviluppo di ACCEDI, un **ambiente digitale di autovalutazione e apprendimento** per il potenziamento delle competenze digitali;  
 - Attivazione di un **Servizio Civile Digitale** per favorire l’inclusione sociale fornendo supporto all’utilizzo dei servizi digitali e potenziando le reti di facilitazione sul territorio.  
 
-#### Le azioni sinergiche per il cambiamento  
+<p>&nbsp;</p>  
+###### Le azioni sinergiche per il cambiamento  
 
 Gli obiettivi prefissati intendono portare ad un **rapido e significativo recupero nazionale** sulle principali aree di sviluppo delle competenze digitali e di utilizzo di Internet, attuando una crescita economica e sociale che passi anche attraverso l’inclusione digitale e il superamento del divario di genere. Perché si possa giungere a questi traguardi sono necessarie azioni sinergiche e  **cambiamenti profondi, di natura culturale e tecnologica**, che le azioni di sistema indicate nel Piano ben dettagliano, e che necessitano di una costante attività di evoluzione e arricchimento.  
 
