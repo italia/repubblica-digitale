@@ -71,7 +71,7 @@ Tra gli obiettivi del Piano Operativo da realizzare **entro il 2025** ne segnali
 - incrementare del 50% la quota di **PMI che utilizzano specialisti ICT**;  
 - aumentare di cinque volte la **quota di popolazione che utilizza servizi digitali pubblici, portandola al 64%** e portare ai livelli dei Paesi europei più avanzati, l’utilizzo di Internet anche nelle fasce meno giovani della popolazione (l’84% nella fascia 65-74 anni).  
 
-**Le linee di intervento**  
+###### Le linee di intervento
 Il Piano indica le azioni di sistema per l’attuazione delle linee di intervento della [Strategia Nazionale](https://innovazione.gov.it/strategia-nazionale-per-le-competenze-digitali/){:target="_blank" rel="noopener noreferrer"} e delinea gli obiettivi, misurabili, per ciascuna azione nell’ambito dei quattro assi individuati:  
 1. **Istruzione e Formazione Superiore** - per lo sviluppo delle competenze digitali all’interno dei cicli d’istruzione, con il coordinamento del Ministero dell’Istruzione e del Ministero dell’Università e della Ricerca;  
 2. **Forza lavoro** - per garantire competenze digitali adeguate sia nel settore privato che nel settore pubblico, incluse le competenze per l’e-leadership, con il coordinamento del Ministero dello Sviluppo Economico e del Ministro per la Pubblica Amministrazione;  
