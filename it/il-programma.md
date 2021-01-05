@@ -33,6 +33,7 @@ La Coalizione Nazionale per le competenze digitali aderisce alla [**Digital Skil
 <img class="img-fluid" alt="Repubblica Digitale Logo" height="300" width="300" src="{{ site.baseurl }}/assets/images/repubblica-digitale-logo-squared-2x.png">
 <a href="https://ec.europa.eu/digital-single-market/en/national-local-coalitions" title="Digital Skills and Jobs Coalition"><img class="img-fluid" alt="Digital Skills and Jobs Coalition Logo" height="400" width="400" src="{{ site.baseurl }}/assets/images/digital-skills-and-jobs-coalition.png"></a>
 
+<div id="perche"></div>
 ### Perché
 
 Secondo gli ultimi dati, relativi al 2019, il 58% della popolazione italiana tra i 16 e i 74 anni (26 milioni di cittadini) non ha le competenze digitali di base - rispetto al 42% della media dell’Unione Europea - e di questi 11 milioni non sono utenti di Internet. La carenza di competenze digitali nei diversi ambiti sociali ed economici, per cui l’Italia risulta tra i Paesi europei più in difficoltà, dimostra di essere uno dei maggiori freni allo sviluppo del Paese.  
