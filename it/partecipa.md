@@ -12,15 +12,16 @@ redirect_from:
 
 ### Per i cittadini
 
-Anche i cittadini possono partecipare all’iniziativa con una “buona azione” di inclusione e solidarietà finalizzata ad accompagnare una o più persone al corretto utilizzo degli strumenti di cittadinanza digitale e, in generale, a vivere in maniera consapevole, sicura e sostenibile l’ecosistema digitale.
+**I cittadini possono partecipare in diversi modi al programma Repubblica Digitale:**
+- **fruendo dei servizi offerti dai progetti delle organizzazioni aderenti alla Coalizione Nazionale per le competenze digitali**. Basta aprire la scheda descrittiva del progetto di interesse e accedere al sito web come indicato nella descrizione;
+- **contribuendo con proprie proposte, suggerimenti e idee** alle consultazioni periodicamente aperte sul sito [Partecipa.gov.it](https://partecipa.gov.it/processes/strategia-Nazionale-competenze-digitali){:target="_blank" rel="noopener noreferrer"} nell’ambito del programma e alle discussioni che si sviluppano su [Forum.italia.it](https://forum.italia.it/c/RD/78){:target="_blank" rel="noopener noreferrer"} nella categoria Repubblica Digitale;
+- **effettuando** una "buona azione" di inclusione finalizzata ad accompagnare una o più persone al corretto utilizzo degli strumenti di cittadinanza digitale e, in generale, vivere in maniera consapevole, sicura e sostenibile l’ecosistema digitale dando, semplicemente, il proprio contributo a rendere migliore il nostro Paese.
 
-Ad esempio, si potrà raccontare a qualcuno in fila in un ufficio pubblico che gli stessi adempimenti possono essere fatti attraverso lo smartphone, aiutare qualcuno a richiedere un’identità digitale o precompilare online la dichiarazione dei redditi o, ancora, a fare un pagamento attraverso pagoPA. Sono centinaia le **buone azioni di inclusione digitale** che ciascuno di noi può fare nel proprio quotidiano e non è neppure detto che debba trattarsi sempre e comunque di utilizzare un servizio pubblico digitale.
+Ad esempio, si potrà raccontare a qualcuno in fila in un ufficio pubblico che gli stessi adempimenti possono essere fatti attraverso lo smartphone, aiutare qualcuno a richiedere un’identità digitale, pre-compilare online la dichiarazione dei redditi o, ancora, a fare un pagamento attraverso pagoPA. Sono centinaia le buone azioni di inclusione digitale che ciascuno di noi può fare nel proprio quotidiano.  
 
-Raccontare ai più giovani - che con un’espressione decettiva chiamiamo “nativi digitali” - cosa c’è dietro all’app che utilizzano tutti i giorni o come funziona, per davvero, internet o che i contenuti che pubblicano online sono destinati a restarci per sempre, sono, egualmente, buone azioni che valgono a promuovere l’uso più consapevole del digitale nel nostro Paese.
+Raccontare ai più giovani cosa c’è dietro all’app che utilizzano tutti i giorni o come funziona, per davvero, internet o che i contenuti che pubblicano online sono destinati a restarci per sempre, sono, egualmente, buone azioni che valgono a promuovere l’uso più consapevole del digitale nel nostro Paese.  
 
-Nessun obbligo, nessun dovere, nessuna formalità: perché la solidarietà digitale rappresenta semplicemente il contributo di ciascuno a rendere migliore il nostro Paese.
-
-Per condividere la propria iniziativa di “Repubblica digitale”, chi vorrà potrà raccontare attraverso i propri canali social la sua azione di solidarietà digitale aggiungendo l’hashtag #RepubblicaDigitale e inserendo un link a questa pagina. Un modo semplice per far parte di questa alleanza e invitare altre persone a fare lo stesso.
+Un modo semplice di partecipare a Repubblica Digitale è quindi anche di condividere la propria azione e raccontarla attraverso i propri canali social aggiungendo l’hashtag #RepubblicaDigitale e inserendo un link a questo sito, e invitare altre persone a fare lo stesso.
 
 ### Come si aderisce
 
