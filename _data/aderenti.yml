@@ -562,3 +562,19 @@ aderenti_manifesto:
       - ini_name: 3° Raduno dei Responsabili per la Transizione al Digitale – L’importanza di fare rete per affrontare la sfida degli switch off
         ini_logo: gruppo_maggioli_radunoRTD.png
     link: "https://www.lapadigitale.it/"
+  - name: "She Tech"
+    logo: "SheTech_logo.png"
+    link: "http://www.shetechitaly.org/"
+  - name: "CIO Club Italia"
+    logo: "Logo_cio_contorno.png"
+    link: "http://www.cioclubitalia.it/"
+  - name: "PA Social"
+    logo: "pa_social-logo.png"
+    link: "https://www.pasocial.info/"
+  - name: "Dipartimento di Informatica dell’Università degli Studi di Torino"
+    logo: "uniTO_logo.png"
+    # CRT_Logo_sito.png logo "contributor" to add
+    iniziative:
+      - ini_name: Social4School
+        ini_logo: logo_s4s_blu_ombra.png
+    link: "https://www.social4school.net/"
