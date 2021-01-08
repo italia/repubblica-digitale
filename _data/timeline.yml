@@ -20,18 +20,19 @@ timeline:
     evidence: true
   - date: "aprile 2020"
     title: "Lancio della Coalizione Nazionale e centesima iniziativa aderente al Manifesto"
-    description: "l’alleanza multistakeholder costituita nell’ambito di Repubblica Digitale entra tra le coalizioni nazionali dell’iniziativa europea per le competenze e le professioni digitali (Digital Skills and Jobs Coalition) e raggiunge le 100 iniziative aderenti; "
+    description: "l’Alleanza multistakeholder costituita nell’ambito di Repubblica Digitale entra tra le coalizioni nazionali dell’iniziativa europea per le competenze e le professioni digitali (Digital Skills and Jobs Coalition) e raggiunge le 100 iniziative aderenti; "
     link-external: "innovazione.gov.it"
     link: "https://innovazione.gov.it/l-italia-entra-nella-coalizione-europea-per-le-competenze-digitali/"
     evidence: true
   - date: "luglio 2020"
     title: "Prima versione della Strategia Nazionale"
-    description: "Viene formalizzata la prima Strategia Nazionale per le competenze digitali, sui quattro assi individuati, con l’avvio di nuove iniziative a immediato impatto. Contestualmente si consolidano le iniziative governative già avviate sul fronte della scuola e dell’università, della pubblica amministrazione, delle imprese, dei cittadini;"
+    description: "Viene formalizzata la prima Strategia Nazionale per le competenze digitali, sui quattro assi individuati, con l’avvio di nuove iniziative a immediato impatto. Contestualmente si consolidano le iniziative governative già avviate sul fronte della scuola e dell’università, della Pubblica Amministrazione, delle imprese, dei cittadini;"
     link: "https://repubblicadigitale.innovazione.gov.it/italia-ha-sua-strategia-nazionale-competenze-digitali/"
     evidence: true
   - date: "dicembre 2020"
     title: "Prima versione del Piano Operativo"
     description: "Viene consolidato il Piano Operativo della Strategia Nazionale e vengono avviate attività strutturate per favorire sinergie e collaborazioni nella Coalizione (ad esempio, l’apertura di uno spazio dedicato su <a href=\"https://forum.italia.it/c/RD/78\" target=\"_blank\">ForumItalia</a>);"
+    link: "https://repubblicadigitale.innovazione.gov.it/pubblicato-piano-operativo-strategia-nazionale-competenze-digitali/"
     evidence: true
   - date: "dicembre 2020"
     title: "Messo on-line Elements of AI"
