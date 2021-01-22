@@ -557,7 +557,7 @@ aderenti_manifesto:
     logo: "moige_logo.png"
     iniziative:
       - ini_name: Giovani ambasciatori per la cittadinanza digitale
-        ini_logo: moige_logo_progetto.jpg
+        ini_logo: logo_ progetto_Moige.jpg
     link: "https://www.moige.it/"
   - name: "Gruppo Maggioli"
     logo: "gruppo_maggioli_logo.jpg"
