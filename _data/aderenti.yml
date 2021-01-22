@@ -554,7 +554,10 @@ aderenti_manifesto:
     logo: "02_logo_FIDIA.jpg"
     link: "https://www.agenzialavoro.tn.it/Schede-informative/5.1.2B-Corsi-per-il-potenziamento-delle-competenze-chiave-per-disoccupati"
   - name: "Moige"
-    logo: "moige_logo_progetto.jpg"
+    logo: "moige_logo.png"
+    iniziative:
+      - ini_name: Giovani ambasciatori per la cittadinanza digitale
+        ini_logo: moige_logo_progetto.jpg
     link: "https://www.moige.it/"
   - name: "Gruppo Maggioli"
     logo: "gruppo_maggioli_logo.jpg"
@@ -562,7 +565,7 @@ aderenti_manifesto:
       - ini_name: 3° Raduno dei Responsabili per la Transizione al Digitale – L’importanza di fare rete per affrontare la sfida degli switch off
         ini_logo: gruppo_maggioli_radunoRTD.png
     link: "https://www.lapadigitale.it/"
-  - name: "She Tech"
+  - name: "SheTech"
     logo: "SheTech_logo.png"
     link: "http://www.shetechitaly.org/"
   - name: "CIO Club Italia"
@@ -573,8 +576,26 @@ aderenti_manifesto:
     link: "https://www.pasocial.info/"
   - name: "Dipartimento di Informatica dell’Università degli Studi di Torino"
     logo: "uniTO_logo.png"
-    # CRT_Logo_sito.png logo "contributor" to add
     iniziative:
       - ini_name: Social4School
         ini_logo: logo_s4s_blu_ombra.png
+# FOR ADD A PARTNER FOLLOW THE SCHEMA BELOW
+    partner:
+      - name: Fondazione CRT
+        logo: CRT_Logo_sito.png
     link: "https://www.social4school.net/"
+  - name: "Fab Lab Western Sicily"
+    logo: "Fab_Lab_Western_Sicily.png"
+    iniziative:
+      - ini_name: Teens4Kids
+        ini_logo: Teens4Kids_logo.jpg
+    link: "https://www.facebook.com/FabLabWS"
+  - name: "Regione del Veneto"
+    logo: "regione_veneto.png"
+    link: "https://myextranet.regione.veneto.it/"
+  - name: "Confcommercio Bari BAT"
+    logo: "confcommercio_bari.png"
+    link: "https://www.confcommerciobari.it/"
+  - name: "Associazione Nazionale Giovani Innovatori"
+    logo: "angi_logo.png"
+    link: "https://www.angi.tech/"

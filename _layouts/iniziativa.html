@@ -29,6 +29,7 @@ type: iniziativa
                     <h1 class="text-primary mb-5" id="descrizione">{{ page["Titolo dell'iniziativa"] }}</h1>
                     {% assign aderente = aderenti | where: "name", ente %}
                     {% assign iniziativa_data = aderente[0].iniziative | where: "ini_name", page["Titolo dell'iniziativa"] %}
+                    {% assign partner_data = aderente[0].partner %}
                     {%- if aderente[0].logo != nil -%}
                     <figure class="figure text-center w-100 figure-progetto">
                         <img src="{{ site.baseurl }}/assets/images/loghi/{{ aderente[0].logo }}" alt="Logo {{ ente }}" class="figure-img img-fluid rounded">
@@ -51,6 +52,14 @@ type: iniziativa
                         </figure>
                         {% endif %}
                     {% endif %}
+                    {% if partner_data[0].name != nil %}
+                        <figure class="figure text-center w-100 figure-progetto">
+                            <img src="{{ site.baseurl }}/assets/images/loghi/{{ partner_data[0].logo }}" alt="Logo Partner"
+                                class="figure-img img-fluid rounded">
+                            <figcaption class="figure-caption x-small text-center"><i>Partner: {{ partner_data[0].name }}</i></figcaption>
+                        </figure>
+                    {% endif %}
+
 
 
                     {{ iniziativa["Descrizione dell'iniziativa"] | markdownify }}
