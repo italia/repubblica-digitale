@@ -226,7 +226,7 @@ aderenti_manifesto:
     logo: "kilometrorosso-logo.png"
     link: "http://www.kilometrorosso.com/"
   - name: SIGM - Associazione Italiana Giovani Medici
-    logo: "sigm-logo.png"
+    logo: "sigm-logo-new.png"
     link: "http://www.giovanemedico.it/"
   - name: Web Marketing Festival
     logo: "wmf-logo.png"
@@ -579,7 +579,7 @@ aderenti_manifesto:
     iniziative:
       - ini_name: Social4School
         ini_logo: logo_s4s_blu_ombra.png
-# FOR ADD A PARTNER FOLLOW THE SCHEMA BELOW
+    # FOR ADD A PARTNER FOLLOW THE SCHEMA BELOW
     partner:
       - name: Fondazione CRT
         logo: CRT_Logo_sito.png
@@ -599,3 +599,12 @@ aderenti_manifesto:
   - name: "Associazione Nazionale Giovani Innovatori"
     logo: "angi_logo.png"
     link: "https://www.angi.tech/"
+  - name: "OpenTLC"
+    logo: "opentlc-logo-1128x191px.jpg"
+    link: "http://www.opentlc.it/"
+  - name: "Open Group"
+    logo: "open-group.jpg"
+    iniziative:
+      - ini_name: Sono tech sono eco
+        ini_logo: sono_tech_sono_eco.png
+    link: ""
