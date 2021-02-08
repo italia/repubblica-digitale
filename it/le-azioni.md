@@ -11,6 +11,7 @@ redirect_from:
 ---
 
 ### Il piano
+
 Il piano generale di Repubblica Digitale si sviluppa su quattro principali **linee di azione**:
 
 1.  **coordinare** l’iniziativa, **definire** la **strategia** e il **piano di interventi**, **monitorare** l’evoluzione del fenomeno e l’efficacia delle politiche di intervento;
@@ -22,10 +23,8 @@ Il piano degli interventi che sarà definito dal comitato guida svilupperà iniz
 
 ### La roadmap
 
-
 {% include timeline.html %}
 
 {% include section/iniziative-mid.html %}
 
 {% include section/documenti.html %}
-
