@@ -13,8 +13,8 @@ social-card: /assets/images/favicons/social-card-repubblica-digitale.png
 
 ## Logo Alt
 icon-mid-alt:
-  en: "Logo del Ministro per l’Innovazione tecnologica e la digitalizzazione"
-  it: "Logo del Ministro per l’Innovazione tecnologica e la digitalizzazione"
+  en: "Logo del Ministro per l'innovazione tecnologica e la transizione digitale"
+  it: "Logo del Ministro per l'innovazione tecnologica e la transizione digitale"
 
 icon-repubblica-alt:
   en: "Stemma della Repubblica Italiana"
@@ -36,8 +36,8 @@ description:
 
 ## Site author
 author:
-  en: "Ministro per l’Innovazione tecnologica e la digitalizzazione"
-  it: "Ministro per l’Innovazione tecnologica e la digitalizzazione"
+  en: "Ministro per l'innovazione tecnologica e la transizione digitale"
+  it: "Ministro per l'innovazione tecnologica e la transizione digitale"
 partner:
   en: "Digital Skills and Jobs Coalition"
   it: "Digital Skills and Jobs Coalition"
@@ -81,5 +81,3 @@ footer-links:
     privacy-policy:
       name: "Informativa privacy"
       url: "/it/informativa-privacy"
-
-
