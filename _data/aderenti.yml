@@ -183,9 +183,6 @@ aderenti_manifesto:
   - name: Edupuntozero S.r.l.
     logo: "edu-logo.png"
     link: "https://edupuntozero.it/"
-  - name: ISF - Informatici Senza Frontiere
-    logo: "isf-logo.png"
-    link: "https://www.informaticisenzafrontiere.org/"
   - name: Registro .it dell'Istituto di Informatica e telematica del Cnr
     logo: "ludoteca-logo.png"
     link: "https://www.nic.it/it"
@@ -225,7 +222,7 @@ aderenti_manifesto:
   - name: Kilometro rosso
     logo: "kilometrorosso-logo.png"
     link: "http://www.kilometrorosso.com/"
-  - name: SIGM - Associazione Italiana Giovani Medici
+  - name: Il gruppo VALIDATE
     logo: "sigm-logo-new.png"
     link: "http://www.giovanemedico.it/"
   - name: Web Marketing Festival
@@ -300,7 +297,7 @@ aderenti_manifesto:
   - name: Wikimedia Italia
     logo: "wikimedia-italia-logo.jpg"
     link: "https://www.wikimedia.it/"
-  - name: Informatici senza frontiere
+  - name: Informatici Senza Frontiere
     logo: "isf-festival-logo.png"
     link: "https://www.informaticisenzafrontiere.org/"
   - name: Italia4Blockchain
@@ -514,6 +511,8 @@ aderenti_manifesto:
     iniziative:
       - ini_name: Open the box
         ini_logo: logo_open_thebox.png
+      - ini_name: Dataninja School
+        ini_logo: dns-school.png
     link: "https://www.dataninja.it/it/"
   - name: Associazione Io Riparto
     logo: "io_riparto.png"
@@ -608,3 +607,43 @@ aderenti_manifesto:
       - ini_name: Sono tech sono eco
         ini_logo: sono_tech_sono_eco.png
     link: ""
+  - name: "Power.coders Italia"
+    logo: "logo_FGS.png"
+    iniziative:
+      - ini_name: Power.coders
+        ini_logo: logo_powercoders.png
+    link: "https://powercoders.org/country/italy/"
+  - name: "Comune di Gussago"
+    logo: "comune_gussago.png"
+    iniziative:
+      - ini_name: Smart Polis per i dipendenti comunali
+        ini_logo: LOGO_SMARTPOLIS_LOGHI.png
+      - ini_name: Smart Polis per le attività commerciali
+        ini_logo: LOGO_SMARTPOLIS_LOGHI.png
+      - ini_name: Smart Polis per l'inclusione digitale
+        ini_logo: LOGO_SMARTPOLIS_LOGHI.png
+    link: "https://www.comune.gussago.bs.it/"
+  - name: "Pro Loco Villa San Pietro"
+    logo: "proloco_v_sanpietro.png"
+    iniziative:
+      - ini_name: Punto Digitale
+        ini_logo: PUNTODIGITALE.png
+    link: "http://www.prolocovillasanpietro.it/"
+  - name: "AEIT"
+    logo: "LOGO_AEIT_AICT.jpg"
+    link: "http://www.aeit.it/"
+  - name: "SIMTUR"
+    logo: "SIMTUR_logo2021Q.png"
+    iniziative:
+      - ini_name: Piccole Patrie
+        ini_logo: simtur_piccole-patrie.png
+    link: "https://www.piccolepatrie.it/"
+  - name: "Consorzio Comunità Brianza"
+    logo: "logo_CCB.jpg"
+    iniziative:
+      - ini_name: DIGITOL - Digital Inclusion for Older People
+        ini_logo: DIGITOL_Logo_pink_RGB.jpg
+    link: "https://comunitamonzabrianza.it/"
+  - name: "The Communities Bay"
+    logo: "the_communities_bay.png"
+    link: "https://www.thecmmbay.com/"
