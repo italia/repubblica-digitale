@@ -299,6 +299,15 @@ aderenti_manifesto:
     link: "https://www.wikimedia.it/"
   - name: Informatici Senza Frontiere
     logo: "isf-festival-logo.png"
+    iniziative:
+      - ini_name: Odiare non è uno Sport
+        ini_logo: odiare-non-è-sport.png
+    # FOR ADD A PARTNER FOLLOW THE SCHEMA BELOW
+    partner:
+      - name: Associazioni
+        ref: Odiare non è uno Sport
+        logo: odiare-non-è-sport-partner.png
+
     link: "https://www.informaticisenzafrontiere.org/"
   - name: Italia4Blockchain
     logo: "italia4blockchain-logo.png"
@@ -581,6 +590,7 @@ aderenti_manifesto:
     # FOR ADD A PARTNER FOLLOW THE SCHEMA BELOW
     partner:
       - name: Fondazione CRT
+        ref: Social4School
         logo: CRT_Logo_sito.png
     link: "https://www.social4school.net/"
   - name: "Fab Lab Western Sicily"
