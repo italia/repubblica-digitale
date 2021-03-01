@@ -52,8 +52,8 @@ type: iniziativa
                         </figure>
                         {% endif %}
                     {% endif %}
-                    {% if partner_data[0].name != nil %}
-                        <figure class="figure text-center w-100 figure-progetto">
+                    {% if partner_data[0].name != nil and partner_data[0].ref == iniziativa_data[0].ini_name %}
+                        <figure class="figure text-center w-100">
                             <img src="{{ site.baseurl }}/assets/images/loghi/{{ partner_data[0].logo }}" alt="Logo Partner"
                                 class="figure-img img-fluid rounded">
                             <figcaption class="figure-caption x-small text-center"><i>Partner: {{ partner_data[0].name }}</i></figcaption>
@@ -78,7 +78,7 @@ type: iniziativa
                     {{ partner | markdownify }}
                     {% endif%}
 
-
+ 
                 </div>
             </div>
             <div class="col-12 col-lg-4">
