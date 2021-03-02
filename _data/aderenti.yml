@@ -617,10 +617,10 @@ aderenti_manifesto:
       - ini_name: Sono tech sono eco
         ini_logo: sono_tech_sono_eco.png
     link: ""
-  - name: "Power.coders Italia"
+  - name: "Powercoders Italia"
     logo: "logo_FGS.png"
     iniziative:
-      - ini_name: Power.coders
+      - ini_name: Powercoders
         ini_logo: logo_powercoders.png
     link: "https://powercoders.org/country/italy/"
   - name: "Comune di Gussago"
