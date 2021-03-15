@@ -7,7 +7,7 @@ excerpt_separator: <!-- MORE -->
 asset: <img class="w-100" src="/assets/images/posts/2020-12-29-nasce-il-servizio-civile-digitale.jpg" alt="Nasce il Servizio civile digitale"/>
 orig_url: [
   {
-    src: "Link al sito MID",
+    src: "Link al sito MITD",
     url: "https://innovazione.gov.it/Nasce-Servizio-civile-digitale-Firmato-Protocollo-intesa/"
   }
 ]
