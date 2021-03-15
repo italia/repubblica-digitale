@@ -12,7 +12,7 @@ redirect_from:
 
 ### Il comitato guida
 
-Il Comitato Tecnico Guida di Repubblica Digitale, coordinato per il MID dal Dipartimento per la trasformazione digitale, è composto da rappresentanti di ministeri (Beni Culturali e Turismo, Istruzione, Lavoro e Welfare, Politiche agricole e forestali, Politiche giovanili e sport, Pubblica Amministrazione, Sviluppo economico, Università e Ricerca), Conferenza delle Regioni, UPI, Anci, AgID, Unioncamere, esponenti del mondo dell’università (la CRUI, il coordinatore della EU Code Week), ricerca (la ConPER), Rai, Confindustria Digitale, associazioni di cittadini della Coalizione Nazionale per le competenze digitali.  
+Il Comitato Tecnico Guida di Repubblica Digitale, coordinato per il MITD dal Dipartimento per la trasformazione digitale, è composto da rappresentanti di ministeri (Beni Culturali e Turismo, Istruzione, Lavoro e Welfare, Politiche agricole e forestali, Politiche giovanili e sport, Pubblica Amministrazione, Sviluppo economico, Università e Ricerca), Conferenza delle Regioni, UPI, Anci, AgID, Unioncamere, esponenti del mondo dell’università (la CRUI, il coordinatore della EU Code Week), ricerca (la ConPER), Rai, Confindustria Digitale, associazioni di cittadini della Coalizione Nazionale per le competenze digitali.  
 Ha il compito di:
 - elaborare la strategia nazionale per le competenze digitali e il suo piano di attuazione;
 - monitorare le azioni individuate nel piano di attuazione, verificandone i risultati e gli impatti e provvedendo, se necessario, al conseguente allineamento della strategia e del piano;

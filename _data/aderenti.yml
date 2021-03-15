@@ -205,8 +205,8 @@ aderenti_manifesto:
     logo: "dites-logo.png"
     link: "https://dites.unilink.it/"
   - name: Fastweb
-    logo: "fastweb-logo.png"
-    link: "https://www.fastweb.it/"
+    logo: "logofwda.png"
+    link: "http://www.fastweb.it/company/"
   - name: FonARCom
     logo: "fonarcom-logo.png"
     link: "https://www.fonarcom.it/"
@@ -657,3 +657,26 @@ aderenti_manifesto:
   - name: "The Communities Bay"
     logo: "the_communities_bay.png"
     link: "https://www.thecmmbay.com/"
+  - name: "IIDEA"
+    logo: "Logo-IIDEAnew.png"
+    iniziative:
+      - ini_name: Tutto sui videogiochi
+        ini_logo: tsv_logopng.png
+  - name: Smart Bananas
+    logo: "logo_SmartBananas.jpeg"
+    iniziative:
+      - ini_name: MEDICI
+        ini_logo: MEDICI_Logo.png
+    # FOR ADD A PARTNER FOLLOW THE SCHEMA BELOW
+    partner:
+      - name: Associazioni
+        ref: MEDICI
+        logo: logo_ce-en-rvb-hr.jpeg
+  - name: "Benessere Digitale Scuole"
+    logo: "benessere-digitale-scuole.png"
+    link: "http://www.benesseredigitalescuole.it/"
+  - name: "Sabanet"
+    logo: "Sabanet_logo.png"
+    iniziative:
+      - ini_name: Sabacademy
+        ini_logo: sabacademy-logo.png
