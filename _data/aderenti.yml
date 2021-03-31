@@ -662,7 +662,7 @@ aderenti_manifesto:
     iniziative:
       - ini_name: Tutto sui videogiochi
         ini_logo: tsv_logopng.png
-  - name: Smart Bananas
+  - name: Smart Bananas s.c.r.l.
     logo: "logo_SmartBananas.jpeg"
     iniziative:
       - ini_name: MEDICI
@@ -677,6 +677,25 @@ aderenti_manifesto:
     link: "http://www.benesseredigitalescuole.it/"
   - name: "Sabanet"
     logo: "Sabanet_logo.png"
+    link: ""
     iniziative:
       - ini_name: Sabacademy
         ini_logo: sabacademy-logo.png
+  - name: "REGIONE LIGURIA - Progetto Scuola Digitale Liguria"
+    logo: "logo-liguria-FSE.png"
+    link: ""
+    iniziative:
+      - ini_name: Una formula innovativa per la Scuola Ligure
+        ini_logo: progetto-scuola.png
+  - name: "AGIA - Associazione Giovani Imprenditori Agricoli"
+    logo: "logo-AGIA-new.png"
+    link: ""
+  - name: "CERTIPASS SRL"
+    logo: "logo-cittadino-digitale.png"
+    link: ""
+  - name: "Amazon Services Europe"
+    logo: "Amazon-Services-Logo.png"
+    link: ""
+    iniziative:
+      - ini_name: Accelera con Amazon
+        ini_logo: Accelera-con-Amazon-Logo.png
