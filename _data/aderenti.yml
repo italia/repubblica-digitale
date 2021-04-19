@@ -302,6 +302,8 @@ aderenti_manifesto:
     iniziative:
       - ini_name: Odiare non è uno Sport
         ini_logo: odiare-non-è-sport.png
+      - ini_name: Coding nelle scuole
+        ini_logo: isf_coding_scuole_logo.jpeg
     # FOR ADD A PARTNER FOLLOW THE SCHEMA BELOW
     partner:
       - name: Associazioni
@@ -682,11 +684,8 @@ aderenti_manifesto:
       - ini_name: Sabacademy
         ini_logo: sabacademy-logo.png
   - name: "REGIONE LIGURIA - Progetto Scuola Digitale Liguria"
-    logo: "logo-liguria-FSE.png"
+    logo: "progetto_scuola_liguria.png"
     link: ""
-    iniziative:
-      - ini_name: Una formula innovativa per la Scuola Ligure
-        ini_logo: progetto-scuola.png
   - name: "AGIA - Associazione Giovani Imprenditori Agricoli"
     logo: "logo-AGIA-new.png"
     link: ""
@@ -699,3 +698,24 @@ aderenti_manifesto:
     iniziative:
       - ini_name: Accelera con Amazon
         ini_logo: Accelera-con-Amazon-Logo.png
+  - name: "Accenture"
+    logo: "accenture_logo.png"
+    link: ""
+    iniziative:
+      - ini_name: Palestre Digitali
+        ini_logo: logobig.png
+  - name: "KANTEA S.r.l."
+    logo: "Kantea_2020.png"
+    link: ""
+    iniziative:
+      - ini_name: Office Automation Avanzato - K4C
+        ini_logo: FSE_investiamo_nel_vostro_futuro.jpeg
+  - name: "Associazione Future Is Now"
+    logo: "future_press.png"
+    link: ""
+    iniziative:
+      - ini_name: Bullo 2.0
+        ini_logo: logo_bullo.png
+  - name: "IBM"
+    logo: "IBM_logo.jpeg"
+    link: ""
