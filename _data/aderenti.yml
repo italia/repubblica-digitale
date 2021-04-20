@@ -686,6 +686,9 @@ aderenti_manifesto:
   - name: "REGIONE LIGURIA - Progetto Scuola Digitale Liguria"
     logo: "progetto_scuola_liguria.png"
     link: ""
+    iniziative:
+      - ini_name: Una formula innovativa per la Scuola Ligure
+        ini_logo: logo-liguria-FSE.png
   - name: "AGIA - Associazione Giovani Imprenditori Agricoli"
     logo: "logo-AGIA-new.png"
     link: ""
