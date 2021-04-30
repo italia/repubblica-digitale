@@ -719,6 +719,20 @@ aderenti_manifesto:
     iniziative:
       - ini_name: Bullo 2.0
         ini_logo: logo_bullo.png
+      - ini_name: Scuola Trasparente
+        ini_logo: logo-scuola-trasparente.png
   - name: "IBM"
     logo: "IBM_logo.jpeg"
     link: ""
+  - name: Fondazione Vodafone
+    logo: "vodafone-logo.png"
+    link: "https://www.vodafone.it/"
+  - name: Fondazione Leonardo
+    logo: "logo-fondazione-colori.png"
+    iniziative:
+      - ini_name: Formazione anziani all’uso del digitale - Diventare Cittadino Digitale
+        ini_logo: logo_leonardo_full.jpeg
+    partner:
+      - name: Leonardo SpA e Arma dei Carabinieri
+        ref: Formazione anziani all’uso del digitale - Diventare Cittadino Digitale
+        logo: logo-araldico-arma-carabinieri.png
