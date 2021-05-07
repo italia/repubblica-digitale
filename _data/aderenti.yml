@@ -736,3 +736,6 @@ aderenti_manifesto:
       - name: Leonardo SpA e Arma dei Carabinieri
         ref: Formazione anziani all’uso del digitale - Diventare Cittadino Digitale
         logo: logo-araldico-arma-carabinieri.png
+  - name: CoDe RTD
+    logo: "code-rtd.png"
+    link: "https://www.codertd.com/awareness?lang=it"
