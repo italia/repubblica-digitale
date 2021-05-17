@@ -725,8 +725,8 @@ aderenti_manifesto:
     logo: "IBM_logo.jpeg"
     link: ""
   - name: Fondazione Vodafone
-    logo: "vodafone-logo.png"
-    link: "https://www.vodafone.it/"
+    logo: "logo-combinato-LV8-vodafone.png"
+    link: "http://www.lv8.eu/"
   - name: Fondazione Leonardo
     logo: "logo-fondazione-colori.png"
     iniziative:
