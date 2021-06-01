@@ -55,7 +55,7 @@ aderenti_manifesto:
     logo: "clubti-logo.png"
     link: "http://www.clubtimilano.net/"
   - name: TIM S.p.A.
-    logo: "tim-logo.png"
+    logo: "tim_risorgimento_digitale.jpeg"
     link: "https://www.tim.it/"
   - name: ACCA software S.p.A.
     logo: "acca-logo.png"
@@ -203,6 +203,23 @@ aderenti_manifesto:
     link: "https://www.diculther.it/"
   - name: Centro di ricerca universitario DITES - Link Campus University
     logo: "dites-logo.png"
+    iniziative:
+      - ini_name: DIG4LIFE
+        ini_logo: DIG4LIFE.png
+      - ini_name: RE-EDUCO
+        ini_logo: RE-EDUCO.png
+      - ini_name: ECOLHE
+        ini_logo: ECOLHE.png
+    partner:
+      - name: Consorzio
+        ref: DIG4LIFE
+        logo: dites-partner.png
+      - name: Consorzio
+        ref: RE-EDUCO
+        logo: dites-partner.png
+      - name: Consorzio
+        ref: ECOLHE
+        logo: dites-partner.png
     link: "https://dites.unilink.it/"
   - name: Fastweb
     logo: "logofwda.png"
@@ -693,7 +710,14 @@ aderenti_manifesto:
     logo: "logo-AGIA-new.png"
     link: ""
   - name: "CERTIPASS SRL"
-    logo: "logo-cittadino-digitale.png"
+    logo: "certipass.png"
+    iniziative:
+      - ini_name: Cittadino digitale by EIPASS
+        ini_logo: logo-cittadino-digitale.png
+    partner:
+      - name: Eipass
+        ref: Cittadino digitale by EIPASS
+        logo: eipass.png
     link: ""
   - name: "Amazon Services Europe"
     logo: "Amazon-Services-Logo.png"
@@ -739,3 +763,11 @@ aderenti_manifesto:
   - name: CoDe RTD
     logo: "code-rtd.png"
     link: "https://www.codertd.com/awareness?lang=it"
+  - name: MigliorAttivaMente
+    logo: "MigliorAttivaMente.jpeg"
+    link: "https://www.raiseacademy.it"
+  - name: Comune di Modena
+    logo: "logoComuneModena.png"
+    iniziative:
+      - ini_name: Sicurezza Digitale
+        ini_logo: internetSicuro.png
