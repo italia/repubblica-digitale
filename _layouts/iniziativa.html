@@ -52,15 +52,15 @@ type: iniziativa
                         </figure>
                         {% endif %}
                     {% endif %}
-                    {% if partner_data[0].name != nil and partner_data[0].ref == iniziativa_data[0].ini_name %}
-                        <figure class="figure text-center w-100">
-                            <img src="{{ site.baseurl }}/assets/images/loghi/{{ partner_data[0].logo }}" alt="Logo Partner"
+                    {%- for partner in partner_data -%}
+                        {% if partner.name != nil and partner.ref == iniziativa_data[0].ini_name %}
+                            <figure class="figure text-center w-100">
+                            <img src="{{ site.baseurl }}/assets/images/loghi/{{ partner.logo }}" alt="Logo Partner"
                                 class="figure-img img-fluid rounded">
-                            <figcaption class="figure-caption x-small text-center"><i>Partner: {{ partner_data[0].name }}</i></figcaption>
+                            <figcaption class="figure-caption x-small text-center"><i>Partner: {{ partner.name }}</i></figcaption>
                         </figure>
-                    {% endif %}
-
-
+                        {% endif %}
+                    {%- endfor -%}
 
                     {{ iniziativa["Descrizione dell'iniziativa"] | markdownify }}
                     {%- if siteUrl contains "http" -%}
