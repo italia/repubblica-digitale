@@ -769,5 +769,5 @@ aderenti_manifesto:
   - name: Comune di Modena
     logo: "logoComuneModena.png"
     iniziative:
-      - ini_name: Internet sicuro
+      - ini_name: Sicurezza Digitale
         ini_logo: internetSicuro.png
