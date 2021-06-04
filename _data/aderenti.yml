@@ -216,10 +216,10 @@ aderenti_manifesto:
         logo: dites-partner.png
       - name: Consorzio
         ref: RE-EDUCO
-        logo: dites-partner.png
+        logo: re-educo-partner.png
       - name: Consorzio
         ref: ECOLHE
-        logo: dites-partner.png
+        logo: ECOLHE-partner.png
     link: "https://dites.unilink.it/"
   - name: Fastweb
     logo: "logofwda.png"
@@ -770,4 +770,6 @@ aderenti_manifesto:
     logo: "logoComuneModena.png"
     iniziative:
       - ini_name: Sicurezza Digitale
+        ini_logo: internetSicuro.png
+      - ini_name: Internet sicuro
         ini_logo: internetSicuro.png
