@@ -283,6 +283,9 @@ aderenti_manifesto:
     link: "https://www.aicanet.it/"
   - name: SORINT.lab S.p.A.
     logo: "sorint-logo.jpg"
+    iniziative:
+      - ini_name: Hackersgen
+        ini_logo: hackersgen.com_logo.png
     link: "https://www.sorint.it/it/italian-next-generation-system-integrator/"
   - name: Consorzio Informatica e Territorio
     logo: "consorzio-it-logo.png"
@@ -773,3 +776,9 @@ aderenti_manifesto:
         ini_logo: internetSicuro.png
       - ini_name: Internet sicuro
         ini_logo: internetSicuro.png
+  - name: UNIMORE  Università degli Studi di Modena e Reggio Emilia
+    logo: "logoUnimore.png"
+    iniziative:
+      - ini_name: Ragazze Digitali
+        ini_logo: ragazze-digitali.png
+
