@@ -140,6 +140,9 @@ aderenti_manifesto:
     link: "https://www.domanipress.it/"
   - name: Maker Camp S.r.l.s.
     logo: "maker-camp-logo.png"
+    iniziative:
+      - ini_name: Educazione Civica in Minecraft
+        ini_logo: Educazione_CIVICA_LOGO.png
     link: "https://www.makercamp.it/wp/"
   - name: FamigliAttiva ODV
     logo: "famigliattiva-logo.jpg"
@@ -432,8 +435,11 @@ aderenti_manifesto:
   - name: "socialgnock - Women Ignite Relationships"
     logo: "wir-logo.png"
     link: "https://www.facebook.com/groups/socialgnock/"
-  - name: IDCERT
-    logo: "idcert-logo.png"
+  - name: "IDCERT"
+    logo: "IDCERT_logo.png"
+    iniziative:
+      - ini_name: Io cittadino digitale
+        ini_logo: IDCERT_io_cittadino_digitale.png
     link: "https://uat.idcert.io/home"
   - name: DSchola
     logo: "dschola-logo.jpg"
@@ -781,4 +787,7 @@ aderenti_manifesto:
     iniziative:
       - ini_name: Ragazze Digitali
         ini_logo: ragazze-digitali.png
+  - name: Talent Garden
+    logo: "talent_garden-logo.png"
+
 
