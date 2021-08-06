@@ -154,7 +154,7 @@ aderenti_manifesto:
     logo: "assopam-logo.png"
     link: "https://www.assopam.it/"
   - name: Studio consulenza del lavoro Casiglia e Ronzoni
-    logo: "casiglia-ronzoni.png"
+    logo: "casiglia-ronzoni-black.jpeg"
     link: "http://www.casigliaronzoni.it/"
   - name: Download Innovation
     logo: "download-innovation-logo.png"
@@ -789,5 +789,18 @@ aderenti_manifesto:
         ini_logo: ragazze-digitali.png
   - name: Talent Garden
     logo: "talent_garden-logo.png"
-
-
+  - name: Istituto Istruzione Superiore 'DA VINCI - NITTI' - Cosenza
+    logo: logo_dvn.png
+    iniziative:
+      - ini_name: La scuola in cloud
+        ini_logo: logo_iniziativa_scuola_in_cloud.png
+  - name: Fondazione Ampioraggio
+    logo: logo_ampioraggio.png
+    iniziative:
+      - ini_name: Jazz’Inn
+        ini_logo: logo-jazzInn_chiaro.png
+  - name: Associazione Great Innova s.s.l.
+    logo: logo_great_innova.png
+    iniziative:
+      - ini_name: CITTADINANZA DIGITALE PER S.T.E.A.M
+        ini_logo: great_innova_cittadinanza_digitale.png
