@@ -52,6 +52,7 @@ plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
   - jekyll-redirect-from # Handles redirects
+  - jekyll-regex-replace
 
 # Exclude these files from your production _site
 exclude:
@@ -68,4 +69,5 @@ page_gen:
   - data: 'iniziative'
     template: 'iniziativa'
     name: "Titolo dell'iniziativa"
+    name_expr: record["Ente"] + '_' + record["Titolo dell'iniziativa"]
     dir: 'iniziativa'

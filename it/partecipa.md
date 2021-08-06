@@ -21,7 +21,18 @@ Ad esempio, si potrà raccontare a qualcuno in fila in un ufficio pubblico che g
 
 Raccontare ai più giovani cosa c’è dietro all’app che utilizzano tutti i giorni o come funziona per davvero internet, spiegare loro che i contenuti che pubblicano online sono destinati a restarci per sempre, sono egualmente buone azioni che valgono a promuovere l’uso più consapevole del digitale nel nostro Paese.  
 
-Un modo semplice di partecipare a Repubblica Digitale è quindi anche di condividere la propria azione e raccontarla attraverso i propri canali social aggiungendo l’hashtag #RepubblicaDigitale e inserendo un link a questo sito, e invitare altre persone a fare lo stesso.
+Un modo semplice di partecipare a Repubblica Digitale è quindi anche di condividere la propria azione e raccontarla attraverso i propri canali social aggiungendo l’hashtag #RepubblicaDigitale e inserendo un link a questo sito, e invitare altre persone a fare lo stesso.  
+
+Ti chiediamo di partecipare anche collaborando a un corretto uso del logo Repubblica Digitale.  
+Il logo Repubblica Digitale contraddistingue i servizi GRATUITI che ogni organizzazione, amministrazione o impresa propone in adesione al [Manifesto](https://repubblicadigitale.innovazione.gov.it/it/il-manifesto/){:target="_blank" rel="noopener noreferrer"} e che sono elencati nella pagina [Progetti](https://repubblicadigitale.innovazione.gov.it/it/i-progetti/){:target="_blank" rel="noopener noreferrer"}.  
+Questa pagina è aggiornata esclusivamente sulla base delle indicazioni degli aderenti alla Coalizione Nazionale, che ne sono responsabili. Pertanto, il Dipartimento non si assume nessun obbligo giuridico né onere economico, né responsabilità nei confronti dei soggetti aderenti la Coalizione Nazionale e di eventuali terzi in relazione all’adesione al servizio offerto dell’iniziativa.  
+
+L'utilizzo del logo Repubblica Digitale deve sempre risultare compatibile con lo spirito e le finalità del Manifesto e, comunque, non deve pregiudicare l’immagine o la reputazione del programma Repubblica Digitale o comprometterne il successo.  
+In particolare:
+- Il logo deve essere utilizzato per distinguere il servizio offerto dall’iniziativa approvata dalla segreteria organizzativa in adesione al Manifesto;
+- Il logo non deve essere utilizzato in contesti non direttamente attinenti al servizio offerto dall’iniziativa approvata dalla segreteria organizzativa in adesione al Manifesto.  
+
+Segnala all’indirizzo [repubblicadigitale@teamdigitale.gioverno.it](mailto:repubblicadigitale@teamdigitale.gioverno.it){:target="_blank" rel="noopener noreferrer"} l’utilizzo del logo non conforme.
 
 ### Come si aderisce
 

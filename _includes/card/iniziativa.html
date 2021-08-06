@@ -1,4 +1,5 @@
 {% assign ente = iniziativa.Ente | strip %}
+{% assign enteForUrl = iniziativa.Ente %}
 {% assign proponente = iniziativa["L_Proponenti"] | strip %}
 {% assign destinatari = iniziativa["L_Destinatari"] | strip %}
 {% assign scala = iniziativa["L_Tipologia_Scala"] | strip %}
@@ -30,7 +31,7 @@
                 </div>
                 <div>
                     <h5 class="card-title mt-2 mb-5">{{ iniziativa["Titolo dell'iniziativa"] }}</h5>
-                    <a class="read-more" style="right: 10px;" href="{{ site.baseurl }}/{{  iniziativa["Titolo dell'iniziativa"] | datapage_url: 'iniziativa' }}" >
+                    <a class="read-more" style="right: 10px;" href="{{ site.baseurl }}/iniziativa/{{ enteForUrl | downcase | regex_replace: "( & )", "--" | regex_replace: "[à]", "a" | replace:" ", "-" | replace:"'", "" | replace:",", "" }}_{{ iniziativa["Titolo dell'iniziativa"] | downcase | rstrip | regex_replace: "[à]", "a" | regex_replace: "[è]", "e" | regex_replace: "( – )", "--" | regex_replace: "( - )", "---" | regex_replace: "[()]", "" | regex_replace: "[#]", "" | regex_replace: "( & )", "--" | regex_replace: "[@]", "" | regex_replace: "[’]", "" | regex_replace: "[']", "" | regex_replace: "[!]", "" | regex_replace: "[,]", "" | regex_replace: "[ì]", "i" | regex_replace: "[^0-9a-zA-Z.,-]+", "-" }}" >
                     <span class="text">Leggi di più</span>
                     <svg class="icon">
                         <use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right"></use>
