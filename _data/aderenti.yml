@@ -804,3 +804,12 @@ aderenti_manifesto:
     iniziative:
       - ini_name: CITTADINANZA DIGITALE PER S.T.E.A.M
         ini_logo: great_innova_cittadinanza_digitale.png
+  - name: Associazione M.E.C. Media Educazione Comunità
+    logo: logo-MEC.png
+    iniziative:
+      - ini_name: "Civix: cittadinanza digitale a scuola"
+        ini_logo: logo_civix_orizzontale-240.png
+      - ini_name: Patentino per lo Smartphone
+        ini_logo: patentino-mec.png
+  - name: 012Factory
+    logo: 012-factory.png
