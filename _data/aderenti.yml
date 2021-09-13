@@ -813,3 +813,13 @@ aderenti_manifesto:
         ini_logo: patentino-mec.png
   - name: 012Factory
     logo: 012-factory.png
+  - name: Biblioteca civica multimediale Archimede di Settimo Torinese
+    logo: logo_archimede.png
+    iniziative:
+      - ini_name: Sapere digitale. Educazione civica digitale in biblioteca
+        ini_logo: saperedigitale-21x21.png
+  - name: Bridge The Gaps
+    logo: BTG_logo_2A.jpeg
+    iniziative:
+      - ini_name: hackher_
+        ini_logo: hackher_logo.jpeg
