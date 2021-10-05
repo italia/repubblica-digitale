@@ -823,3 +823,8 @@ aderenti_manifesto:
     iniziative:
       - ini_name: hackher_
         ini_logo: hackher_logo.jpeg
+  - name: Corecom Toscana
+    logo: corecom-toscana.jpeg
+    iniziative:
+      - ini_name: Patentino Digitale
+        ini_logo: patentino_digitale.jpeg
