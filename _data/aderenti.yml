@@ -828,3 +828,13 @@ aderenti_manifesto:
     iniziative:
       - ini_name: Patentino Digitale
         ini_logo: patentino_digitale.jpeg
+  - name: Comune di Prato
+    iniziative:
+      - ini_name: Prato Digitale
+        ini_logo: prato-digitale.png
+  - name: Treccani Scuola
+    logo: treccani-Scuola_contratto.png
+  - name: Regione Toscana
+    iniziative:
+      - ini_name: TRIO
+        ini_logo: TRIO_pay.png
