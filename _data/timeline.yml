@@ -1,31 +1,33 @@
 ---
 timeline:
   - date: "maggio 2019"
-    title: "Lancio di Repubblica Digitale"
-    description: "Durante la manifestazione ForumPa19 viene avviata una chiamata all'azione per stakeholder pubblici e privati a favore di iniziative sulle competenze digitali. Nasce il <a href=\"https://repubblicadigitale.innovazione.gov.it/it/il-manifesto/\" target=\"_blank\">Manifesto di Repubblica Digitale</a>: chi vi aderisce si impegna a realizzare iniziative di inclusione digitale concrete e misurabili, nei risultati;"
+    title: "Lancio di Repubblica Digitale."
+    description: "Durante la manifestazione ForumPa19
+viene avviata una chiamata all&#39;azione per stakeholder pubblici e privati a favore di iniziative sulle competenze digitali. Nasce il <a href=\"https://repubblicadigitale.innovazione.gov.it/it/il-manifesto/\" target=\"_blank\">Manifesto di Repubblica Digitale</a>: chi vi aderisce si impegna a realizzare iniziative di inclusione digitale concrete e misurabili;"
     link-external: "ForumPA"
     link: "https://www.forumpa.it/pa-digitale/costruiamo-insieme-la-repubblica-digitale/"
     evidence: true
   - date: "dicembre 2019"
-    title: "Iniziativa strategica del MITD"
+    title: "Iniziativa strategica del MITD."
     description: "Repubblica Digitale viene inclusa dal Ministro per l’innovazione tecnologica e la digitalizzazione nel documento 2025 - Strategia per l’innovazione tecnologica e la digitalizzazione del Paese, come l’iniziativa strategica nazionale per lo sviluppo delle competenze digitali;"
     link-external: "innovazione.gov.it"
     link: "https://innovazione.gov.it/presentazione-piano-innovazione/"
     evidence: true
   - date: "febbraio 2020"
-    title: "Nasce il team interministeriale"
+    title: "Nasce il team interministeriale."
     description: "Vengono ampliati obiettivi e ambiti di attività, con una roadmap che punta alla definizione di una strategia complessiva, un piano di interventi e una regia con governo, regioni, associazioni affidata a un comitato guida;"
     link-external: "innovazione.gov.it"
     link: "https://innovazione.gov.it/Repubblica-Digitale-raggiunti-i-50-aderenti-un-primo-bilancio/"
     evidence: true
   - date: "aprile 2020"
-    title: "Lancio della Coalizione Nazionale e centesima iniziativa aderente al Manifesto"
+    title: "Lancio della Coalizione Nazionale e centesima iniziativa aderente al Manifesto."
     description: "l’Alleanza multistakeholder costituita nell’ambito di Repubblica Digitale entra tra le coalizioni nazionali dell’iniziativa europea per le competenze e le professioni digitali (Digital Skills and Jobs Coalition) e raggiunge le 100 iniziative aderenti; "
     link-external: "innovazione.gov.it"
     link: "https://innovazione.gov.it/l-italia-entra-nella-coalizione-europea-per-le-competenze-digitali/"
     evidence: true
+    link: "https://innovazione.gov.it/Repubblica-Digitale-raggiunti-i-50-aderenti-un-primo-bilancio/"
   - date: "luglio 2020"
-    title: "Prima versione della Strategia Nazionale"
+    title: "Prima versione della Strategia Nazionale."
     description: "Viene formalizzata la prima Strategia Nazionale per le competenze digitali, sui quattro assi individuati, con l’avvio di nuove iniziative a immediato impatto. Contestualmente si consolidano le iniziative governative già avviate sul fronte della scuola e dell’università, della Pubblica Amministrazione, delle imprese, dei cittadini;"
     link: "https://repubblicadigitale.innovazione.gov.it/italia-ha-sua-strategia-nazionale-competenze-digitali/"
     evidence: true
@@ -35,8 +37,8 @@ timeline:
     link: "https://repubblicadigitale.innovazione.gov.it/pubblicato-piano-operativo-strategia-nazionale-competenze-digitali/"
     evidence: true
   - date: "dicembre 2020"
-    title: "Messo on-line Elements of AI"
-    description: "In collaborazione con la fondazione Cotec e l'Università degli Studi Roma tre, il MITD rende disponibile a tutti i cittadini la versione italiana del programma formativo realizzato dall’Università di Helsinki e dalla società finlandese Reaktor per consentire loro di conoscere, imparare e approfondire potenzialità e benefici di questa tecnologia altamente innovativa;"
+    title: "Online Elements of AI."
+    description: "In collaborazione con la fondazione Cotec e l&#39;Università degli Studi Roma tre, il MITD rende pubblica la versione italiana del programma formativo realizzato dall’Università di Helsinki e dalla società finlandese Reaktor per conoscere, imparare e approfondire potenzialità e benefici di questa tecnologia altamente innovativa;"
     link-external: "innovazione.gov.it"
     link: "https://innovazione.gov.it/Elements-of-AI-primi-passi-verso-Intelligenza-Artificiale/"
     evidence: true
@@ -46,6 +48,25 @@ timeline:
     link-external: "innovazione.gov.it"
     link: "https://innovazione.gov.it/Nasce-Servizio-civile-digitale-Firmato-Protocollo-intesa/"
     evidence: true
+  - date: "febbraio 2021"
+    title: "La Coalizione per le competenze digitali raggiunge quota 200."
+    description: "L’alleanza multistakeholder costituita nell’ambito di Repubblica Digitale raggiunge le 200 iniziative aderenti;"
+    link: "https://repubblicadigitale.innovazione.gov.it/coalizione-per-competenze-digitali-a-quota-200/"
+    evidence: true
   - date: "maggio 2021"
+    title: "Pubblicato il primo avviso del Servizio Civile Digitale."
+    description: "Viene pubblicato il primo avviso sperimentale che consentirà agli Enti iscritti all’Albo del Servizio Civile Universale di presentare programmi di intervento che permetteranno a migliaia di cittadini di ricevere supporto e formazione nell&#39;utilizzo delle tecnologie, con il coinvolgimento dei giovani operatori volontari;"
+    link-external: "innovazione.gov.it"
+    link: "https://innovazione.gov.it/notizie/comunicati-stampa/servizio-civile-digitale-pubblicato-il-primo-avviso-che-coinvolgera-1-000-giovani/"
+    evidence: true
+  - date: "novembre 2021"
+    title: "Primo report di monitoraggio del Piano Operativo."
+    description: "Viene pubblicato il primo report semestrale per il monitoraggio delle azioni contenute nel Piano Operativo della Strategia Nazionale per le competenze digitali;"
+    evidence: true
+  - date: "novembre 2021"
+    title: "Prima assemblea della Coalizione Nazionale."
+    description: "In programma la prima assemblea della Coalizione Nazionale di Repubblica Digitale che riunisce per la tutte le organizzazioni aderenti al Manifesto;"
+    evidence: true
+  - date: "2022"
     title: "Nasce ACCEDI - Ambiente per una Cittadinanza Consapevole attraverso l’Educazione DIgitale)."
-    description: "Viene messo a disposizione dei cittadini un ambiente di autovalutazione e apprendimento online dove i cittadini possono seguire dei percorsi di sviluppo delle competenze digitali, con una migliore fruizione dei servizi proposti dalla Coalizione Nazionale."
+    description: "Viene messo a disposizione dei cittadini un ambiente di autovalutazione e apprendimento online in cui seguire percorsi di sviluppo delle competenze digitali."
