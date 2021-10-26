@@ -440,6 +440,8 @@ aderenti_manifesto:
     iniziative:
       - ini_name: Io cittadino digitale
         ini_logo: IDCERT_io_cittadino_digitale.png
+      - ini_name: Competence Center
+        ini_logo: logo_iniziativa_competence_center.png
     link: "https://uat.idcert.io/home"
   - name: DSchola
     logo: "dschola-logo.jpg"
