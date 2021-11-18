@@ -842,3 +842,17 @@ aderenti_manifesto:
     iniziative:
       - ini_name: TRIO
         ini_logo: TRIO_pay.png
+  - name: ADICONSUM
+    logo: Logo_ADICONSUM_01.png
+    iniziative:
+      - ini_name: Sostenibile anche per Noi
+        ini_logo: Iniziativa_sostenibile-anche-per-noi_logo1.jpeg
+  - name: Capgemini Italia S.p.A.
+    logo: NUOVI_LIDI_logo.png
+  - name: Ex Idea Srl-Soc. Benefit
+    logo: black_logo_Idea.png
+    iniziative:
+      - ini_name: Civiltà Digitale
+        ini_logo: logo_civilta_digitale_pos.png
+  - name: GAMS
+    logo: Sword_gams.png
