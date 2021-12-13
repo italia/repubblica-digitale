@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "L’assemblea di Repubblica Digitale: esperienze a confronto"
+title: "L’Assemblea di Repubblica Digitale: esperienze a confronto"
 ref: assemblea-di-repubblica-digitale-esperienze-a-confronto
 
 lang: it
@@ -19,7 +19,7 @@ categories:
   - Innovazione Digitale
 ---
 
-_la prima Assemblea di Repubblica Digitale, articolata in sei workshop interattivi, ha riunito il Comitato tecnico guida, i partner e le oltre 200 organizzazioni della Coalizione Nazionale per le competenze digitali._
+_La prima Assemblea di Repubblica Digitale, articolata in sei workshop interattivi, ha riunito il Comitato tecnico guida, i partner e le oltre 200 organizzazioni della Coalizione Nazionale per le competenze digitali._
 
 <!-- MORE -->
 
