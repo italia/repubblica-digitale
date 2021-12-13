@@ -19,11 +19,13 @@ categories:
   - Innovazione Digitale
 ---
 
+_la prima Assemblea di Repubblica Digitale, articolata in sei workshop interattivi, ha riunito il Comitato tecnico guida, i partner e le oltre 200 organizzazioni della Coalizione Nazionale per le competenze digitali._
+
 <!-- MORE -->
 
 <ul>
 <li>
-<a href="#ws1">Gli interventi istituzionali: dal Ministro alla Commissione Europea</a>
+<a href="#ws1">Le competenze digitali nei piccoli comuni</a>
 </li>
 <li>
 <a href="#ws2">Incentivi e misure a sostegno delle competenze digitali nel settore privato</a>
@@ -49,7 +51,6 @@ L’iniziativa, articolata in sei workshop dal taglio fortemente interattivo, ha
 
 L’Assemblea è stata anche occasione di lancio del Premio nazionale per le competenze digitali, un’iniziativa promossa dal Dipartimento per la trasformazione digitale della Presidenza del Consiglio dei Ministri e realizzata con il supporto di Formez PA, con la finalità di valorizzare progetti di sviluppo delle competenze digitali. Il premio è aperto alla partecipazione da parte di pubbliche amministrazioni, terzo settore e imprese. Verranno premiate azioni innovative che proporranno un approccio al digitale semplice e che si distingueranno per l’originalità, l’efficacia e la possibilità di essere replicate in altri contesti. Quattro le categorie in concorso: Digitale per tutti, Digitale inclusivo, Digitale contro il divario di genere, Digitale nell’educazione per le scuole. Tutte le informazioni sul Premio, il regolamento e gli aggiornamenti sugli eventi in programma sono disponibili su [ParteciPA](https://partecipa.gov.it/processes/premiocompetenzedigitali){:target="\_blank" rel="noopener noreferrer"}.
 
-<div id="ws1"></div>
 **Gli interventi istituzionali: dal Ministro alla Commissione Europea**
 
 Durante la sessione di apertura il Ministro per l’innovazione tecnologica e la transizione digitale, Vittorio Colao, ha sottolineato come il PNRR metta in campo importanti progetti sul tema delle competenze digitali e ha ribadito il forte impegno dell’Italia a colmare il gap con gli altri Paesi UE, con il supporto delle iniziative parte della Coalizione Nazionale di Repubblica Digitale.
@@ -62,6 +63,15 @@ Nel corso dell’evento è stato presentato il primo rapporto di monitoraggio de
 Erika Miglietta, Dirigente del Servizio iniziative di sistema per il settore pubblico del Dipartimento per la trasformazione digitale, ha infine descritto la struttura dell’assemblea e ha presentato i 6 workshop protagonisti dell’iniziativa. Gli eventi, pensati come un momento interattivo e di condivisione di esperienze, sono articolati in una prima parte con un panel istituzionale e di esperti e in una seconda dedicata alle organizzazioni della Coalizione interessate ad intervenire. Lo scambio e il racconto delle esperienze, le testimonianze dirette dei successi raggiunti, ma anche delle criticità rilevate, hanno costituito una parte rilevante dell’Assemblea e hanno segnato una prima importante occasione di condivisione e ascolto.
 
 Guarda il video della [sessione plenaria](https://www.youtube.com/watch?v=YEMzrtQSA1U){:target="\_blank" rel="noopener noreferrer"}.
+
+<div id="ws1"></div>
+**Workshop #1: Le competenze digitali nei piccoli comuni**
+
+Il primo workshop, coordinato dal Dipartimento per la funzione pubblica, è stato dedicato al tema delle competenze digitali nei piccoli comuni e ha visto la partecipazione di Sauro Angeletti del Dipartimento della Funzione Pubblica, Michele Lo Squadro di Agid, Luca Rigoni del Dipartimento per la trasformazione digitale, Secondo Amalfitano di Formez PA e Moira Bonelli di ANCI.
+Nella seconda parte sono intervenuti Paola Borz e Nicola Villa della Trentino School of Management anche con il ruolo di offrire una sintesi finale delle esperienze raccontate da Salvatore Marras di Formez PA; Pasquale Marino della Regione Puglia; Andrea Tironi di Consorzio.it; Ilaria Potito di TIM; Gianni Alesina di Microsoft; Cosmano Lombardo di Web Marketing Festival; Francesco Di Costanzo di PA Social.  
+L’incontro è stato moderato da Valentina Albano del Dipartimento della Funzione pubblica.
+
+Guarda il video del workshop: [Le competenze digitali nei piccoli comuni italiani](https://www.youtube.com/watch?v=CsaJEkBDmxI&list=PLLZQsns4g-N7M5cGMlz5AN1J3e-1az4SB&index=1){:target="\_blank" rel="noopener noreferrer"}.
 
 <div id="ws2"></div>
 **Workshop #2: Incentivi e misure a sostegno delle competenze digitali nel settore privato**
