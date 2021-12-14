@@ -1,7 +1,7 @@
-{% assign iniziative = site.data.iniziative | sort: "Data Approvazione" | reverse %}
-{% assign aderenti = site.data.aderenti.aderenti_manifesto %}
+{% assign iniziative = site.data.iniziative | sort: "Data Approvazione" |
+reverse %} {% assign aderenti = site.data.aderenti.aderenti_manifesto %}
 
-<section id="section-iniziative" class="section">
+<section id="section-iniziative" class="section-temp mb-5">
   <div class="container">
     <div class="row">
       <div class="col col-lg-10 small">
@@ -9,10 +9,9 @@
       </div>
       <div class="col-12">
         <div class="row">
-          {%- for iniziativa in iniziative limit:6 -%}
-          {% assign forloop-index=forloop.index0 %}
-          {% include card/iniziativa.html iniziativa=iniziativa forloop-index=forloop-index %}
-          {%- endfor -%}
+          {%- for iniziativa in iniziative limit:6 -%} {% assign
+          forloop-index=forloop.index0 %} {% include card/iniziativa.html
+          iniziativa=iniziativa forloop-index=forloop-index %} {%- endfor -%}
         </div>
 
         <div class="row">
