@@ -153,7 +153,7 @@ aderenti_manifesto:
   - name: Assopam
     logo: "assopam-logo.png"
     link: "https://www.assopam.it/"
-  - name: Studio consulenza del lavoro Casiglia e Ronzoni
+  - name: Ronzoni Group StP Srl
     logo: "casiglia-ronzoni-black.jpeg"
     link: "http://www.casigliaronzoni.it/"
   - name: Download Innovation
@@ -847,7 +847,7 @@ aderenti_manifesto:
     iniziative:
       - ini_name: Sostenibile anche per Noi
         ini_logo: Iniziativa_sostenibile-anche-per-noi_logo1.jpeg
-  - name: Capgemini Italia S.p.A.
+  - name: Capgemini in Italia
     logo: NUOVI_LIDI_logo.png
   - name: Ex Idea Srl-Soc. Benefit
     logo: black_logo_Idea.png
@@ -856,3 +856,32 @@ aderenti_manifesto:
         ini_logo: logo_civilta_digitale_pos.png
   - name: GAMS
     logo: Sword_gams.png
+  - name: Lumen APS
+    logo: logo_lumen.png
+    iniziative:
+      - ini_name: FabLab Junior
+        ini_logo: Logo_FabLab_Junior.png
+    partner:
+      - name: Comune di Fiorano Modanese
+        ref: FabLab Junior
+        logo: logo_fiorano_2.jpeg
+  - name: Calabresi Digitali
+    logo: logo_grande_calabresi_digitali.png
+    iniziative:
+      - ini_name: Digital for students
+        ini_logo: Digital_for_students_calabresi_digitali.png
+  - name: Engineering ingegneria Informatica S.p.A.
+    logo: Engineering_Logo_Compact_Blu.png
+  - name: Centro Europe Direct del comune di Reggio Calabria
+    logo: logo_europe_direct-01.png
+    iniziative:
+      - ini_name: Smart for europe
+        ini_logo: Smart_for_europe-01.png
+    partner:
+      - name: Fondazione Mondo Digitale
+        ref: Smart for europe
+        logo: logo-Fondazione-Mondo-digitale-01.png
+  - name: "CD: 50/50 – Coding Diversity"
+    logo: CD5050-yellow.png
+  - name: Associazione FOCUS ON
+    logo: logo_ass_focus_on.png
