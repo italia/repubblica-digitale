@@ -9,9 +9,9 @@ redirect_from:
   - /it
 ---
 
-{% include section/banner.html %}
-
 {% include section/hero.html %}
+
+{% include section/banner.html %}
 
 {% include section/dati.html %}
 
