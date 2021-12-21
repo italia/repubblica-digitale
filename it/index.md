@@ -11,6 +11,8 @@ redirect_from:
 
 {% include section/hero.html %}
 
+{% include section/banner.html %}
+
 {% include section/dati.html %}
 
 {% include section/iniziative.html %}
