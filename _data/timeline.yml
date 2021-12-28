@@ -60,12 +60,7 @@ viene avviata una chiamata all&#39;azione per stakeholder pubblici e privati a f
     link: "https://innovazione.gov.it/notizie/comunicati-stampa/servizio-civile-digitale-pubblicato-il-primo-avviso-che-coinvolgera-1-000-giovani/"
     evidence: true
   - date: "novembre 2021"
-    title: "Primo rapporto di monitoraggio del Piano Operativo."
-    description: "Viene pubblicato il primo report semestrale per il monitoraggio delle azioni contenute nel Piano Operativo della Strategia Nazionale per le competenze digitali;"
-    evidence: true
-    link: "https://repubblicadigitale.innovazione.gov.it/primo-rapporto-monitoraggio-attuazione-piano-operativo-strategia-nazionale/"
-  - date: "novembre 2021"
-    title: "Lancio della prima edizione del Premio Nazionale per le competenze digitali"
+    title: "Lancio della prima edizione del Premio Nazionale per le competenze digitali."
     description: "L'iniziativa premia le azioni innovative che propongono un approccio al digitale semplice e si distinguono per l’originalità, l’efficacia e la possibilità di essere replicate in altri contesti."
     evidence: true
     link: "https://repubblicadigitale.innovazione.gov.it/aperte-candidature-premio-nazionale-competenze-digitali/"
@@ -73,6 +68,11 @@ viene avviata una chiamata all&#39;azione per stakeholder pubblici e privati a f
     title: "Prima assemblea della Coalizione Nazionale."
     description: "In programma la prima assemblea della Coalizione Nazionale di Repubblica Digitale che riunisce per la tutte le organizzazioni aderenti al Manifesto;"
     evidence: true
+  - date: "dicembre 2021"
+    title: "Primo rapporto di monitoraggio del Piano Operativo."
+    description: "Viene pubblicato il primo report semestrale per il monitoraggio delle azioni contenute nel Piano Operativo della Strategia Nazionale per le competenze digitali;"
+    evidence: true
+    link: "https://repubblicadigitale.innovazione.gov.it/primo-rapporto-monitoraggio-attuazione-piano-operativo-strategia-nazionale/"
   - date: "2022"
     title: "Nasce ACCEDI - Ambiente per una Cittadinanza Consapevole attraverso l’Educazione DIgitale)."
     description: "Viene messo a disposizione dei cittadini un ambiente di autovalutazione e apprendimento online in cui seguire percorsi di sviluppo delle competenze digitali."
