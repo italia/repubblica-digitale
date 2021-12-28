@@ -30,5 +30,3 @@ Obiettivo dell’iniziativa è valorizzare progetti di sviluppo delle competenze
 Le **candidature sono aperte dal 15 novembre al 17 gennaio 2022** e potranno essere inoltrate attraverso il [modulo online](https://partecipa.gov.it/processes/premiocompetenzedigitali/f/58/){:target="\_blank" rel="noopener noreferrer"} disponibile nello spazio dedicato al Premio sulla [piattaforma ParteciPA](https://partecipa.gov.it/processes/premiocompetenzedigitali){:target="\_blank" rel="noopener noreferrer"}. Possono essere presentate iniziative gratuite di formazione o affiancamento sulle competenze digitali rivolte ai cittadini, realizzate in presenza, online o in modalità blended a partire dal 2019, che siano già concluse o in corso. Non sono invece ammesse quelle in fase di progettazione.
 
 Tutte le informazioni sul Premio, il regolamento e gli aggiornamenti sugli eventi in programma sono disponibili su [ParteciPA](https://partecipa.gov.it/processes/premiocompetenzedigitali){:target="\_blank" rel="noopener noreferrer"}.
-
-[](){:target="\_blank" rel="noopener noreferrer"}
