@@ -187,7 +187,10 @@ aderenti_manifesto:
     logo: "edu-logo.png"
     link: "https://edupuntozero.it/"
   - name: Registro .it dell'Istituto di Informatica e telematica del Cnr
-    logo: "ludoteca-logo.png"
+    logo: "registro-it.jpeg"
+    iniziative:
+      - ini_name: Ludoteca
+        ini_logo: ludoteca-logo.png
     link: "https://www.nic.it/it"
   - name: DITEDI S.c.a r.l.
     logo: "ditedi-logo.png"
@@ -767,6 +770,8 @@ aderenti_manifesto:
     iniziative:
       - ini_name: Formazione anziani all’uso del digitale - Diventare Cittadino Digitale
         ini_logo: logo_leonardo_full.jpeg
+      - ini_name: "Fondazione Leonardo e Treccani: i saperi tecnologici a disposizione della scuola"
+        ini_logo: logo-araldico-arma-carabinieri.png
     partner:
       - name: Leonardo SpA e Arma dei Carabinieri
         ref: Formazione anziani all’uso del digitale - Diventare Cittadino Digitale
@@ -885,3 +890,17 @@ aderenti_manifesto:
     logo: CD5050-yellow.png
   - name: Associazione FOCUS ON
     logo: logo_ass_focus_on.png
+  - name: Ninja Academy
+    logo: na.png
+    iniziative:
+      - ini_name: Resilienza digitale
+        ini_logo: resilienza.png
+  - name: ARISK srl
+    logo: ARISK4DT.jpeg
+  - name: MigliorAttivaMente APS
+    logo: LogoA.jpeg
+  - name: Pasubio Tecnologia srl
+    logo: pasubio-logo.jpeg
+    iniziative:
+      - ini_name: Digitale Commedia
+        ini_logo: digitale-commedia-logo.jpeg
