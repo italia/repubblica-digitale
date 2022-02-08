@@ -248,7 +248,7 @@ aderenti_manifesto:
   - name: Il gruppo VALIDATE
     logo: "sigm-logo-new.png"
     link: "http://www.giovanemedico.it/"
-  - name: Web Marketing Festival
+  - name: WMF - We Make Future
     logo: "wmf-logo.png"
     link: "https://www.webmarketingfestival.it/"
   - name: Comune di Cagliari
@@ -903,3 +903,12 @@ aderenti_manifesto:
     iniziative:
       - ini_name: Digitale Commedia
         ini_logo: digitale-commedia-logo.jpeg
+  - name: Develhope
+    logo: develhope_logov1.png
+  - name: SkillsJobs.it
+    logo: SkillsJobs.png
+  - name: Save the Children
+    logo: LogoSTChildren.png
+    iniziative:
+      - ini_name: Connessioni Digitali
+        ini_logo: connessioni-digitali.svg
