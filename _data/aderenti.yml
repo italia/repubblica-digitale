@@ -912,3 +912,18 @@ aderenti_manifesto:
     iniziative:
       - ini_name: Connessioni Digitali
         ini_logo: connessioni-digitali.svg
+  - name: Talent
+    logo: logo-talent.png
+    iniziative:
+      - ini_name: WeTurtle
+        ini_logo: We-turtle-logo.png
+  - name: Comune di Orvieto
+    logo: orvieto_stemma2.png
+    iniziative:
+      - ini_name: DigiPASS Orvieto
+        ini_logo: digipass-orvieto.jpeg
+  - name: Comune di Città di Castello
+    logo: citta_di_castello_stemma.png
+    iniziative:
+      - ini_name: DigiPASS Città di Castello
+        ini_logo: citta_di_castello_digipass.jpeg
