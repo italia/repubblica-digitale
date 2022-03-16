@@ -927,3 +927,10 @@ aderenti_manifesto:
     iniziative:
       - ini_name: DigiPASS Città di Castello
         ini_logo: citta_di_castello_digipass.jpeg
+  - name: Women&Tech - Associazione Donne e Tecnologie
+    logo: women_and_tech.png
+  - name: Cerved Group S.p.A.
+    logo: cerved_logo.png
+    iniziative:
+      - ini_name: Cerved Digital Academy
+        ini_logo: digital.academy-ver@4x.png
