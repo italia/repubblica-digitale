@@ -912,6 +912,8 @@ aderenti_manifesto:
     iniziative:
       - ini_name: Connessioni Digitali
         ini_logo: connessioni-digitali.svg
+  - name: Save the Children Italia
+    logo: STC_Logo_Eng_Horiz_HIGH.jpeg
   - name: Talent
     logo: logo-talent.png
     iniziative:
@@ -934,3 +936,16 @@ aderenti_manifesto:
     iniziative:
       - ini_name: Cerved Digital Academy
         ini_logo: digital.academy-ver@4x.png
+  - name: Comuni di Spoleto, Campello sul Clitunno, Castel Ritaldi e Giano dell'Umbria
+    logo: spoleto_digipass.png
+  - name: Fondazione Generation Italy
+    logo: Fondazione_Generation_Italy.png
+  - name: IFOA (Istituto Formazione Operatori Aziendali)
+    logo: ifoa.png
+    iniziative:
+      - ini_name: Digital Revolution Skills
+        ini_logo: digital-revolution.png
+    partner:
+      - name: Cisco
+        ref: Digital Revolution Skills
+        logo: Ifoa_PartnerLogo.png

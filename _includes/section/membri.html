@@ -1,23 +1,47 @@
-{% assign membri = site.data.aderenti.aderenti_manifesto | sort:"name" %}
-
+{% assign membri = site.data.aderenti.aderenti_manifesto | sort:"name" %} {%
+assign iniziative = site.data.iniziative | sort: "Ente" | to_json %}
 <div class="container mt-5">
-    <div class="row">
-        <div class="col col-lg-10 small mb-5">
-            <h3 class="" id="membri">I membri della Coalizione</h3>
-            <h6>Tutte le organizzazioni, pubbliche e private che hanno aderito al Manifesto con almeno una iniziativa valutata coerente con i suoi principi.</h6>
-        </div>
-        <div class="col-12">
-            <div class="row">
-                {%- for membro in membri -%}
-                <div class="col-4 col-md-2">
-                  <div class="avatar avatar-hover size-xl bg-white border border-100 my-1">
-                    <a title="{{ membro.name }}" href="{{ membro.link }}" target="_blank" rel="noopener noreferrer">
-                      <img class="mw-100 rounded-0 p-2" src="{{ site.baseurl }}/assets/images/loghi/{{ membro.logo }}" alt="{{ membro.name }}">
-                    </a>
-                  </div>
-                </div>
-                {%- endfor -%}
-            </div>
-        </div>
+  <div class="row">
+    <div class="col col-lg-10 small mb-5">
+      <h3 class="" id="membri">I membri della Coalizione</h3>
+      <h6>
+        Tutte le organizzazioni, pubbliche e private che hanno aderito al
+        Manifesto con almeno una iniziativa valutata coerente con i suoi
+        principi.
+      </h6>
     </div>
+    <div class="col-12">
+      <div class="row">
+        {%- for membro in membri -%}
+        <div class="col-4 col-md-2">
+          <div
+            class="avatar avatar-hover size-xl bg-white border border-100 my-1"
+          >
+            {%- assign link = iniziative | where_exp: "item", "item.Ente
+            contains membro.name" | first -%}
+            <a
+              title="{{ membro.name }}"
+              href="{{ link.URL }}"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                class="mw-100 rounded-0 p-2"
+                src="{{ site.baseurl }}/assets/images/loghi/{{ membro.logo }}"
+                alt="{{ membro.name }}"
+              />
+            </a>
+          </div>
+        </div>
+        {%- endfor -%}
+        <!-- <ul>
+          {%- for membro in membri -%} {% if membro.link == nil %} {%- assign
+          link = iniziative | where_exp: "item", "item.Ente contains
+          membro.name" | first -%}
+          <li>{{ membro.name }} ==> {{ link.URL }}</li>
+          {% endif%} {%- endfor -%}
+        </ul> -->
+      </div>
+    </div>
+  </div>
 </div>
