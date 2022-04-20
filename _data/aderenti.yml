@@ -316,6 +316,9 @@ aderenti_manifesto:
     link: "https://www.binario10.it/"
   - name: Cisco
     logo: "cisco-logo.png"
+    iniziative:
+      - ini_name: Odiare non è uno Sport
+        ini_logo: odiare-non-è-sport.png
     link: "https://www.netacad.com/"
   - name: "Istituto Europeo per l'Innovazione e la Sostenibilità"
     logo: "eiis-logo.png"
@@ -949,3 +952,18 @@ aderenti_manifesto:
       - name: Cisco
         ref: Digital Revolution Skills
         logo: Ifoa_PartnerLogo.png
+  - name: Codemotion srl
+    logo: codemotion_2018.png
+    iniziative:
+      - ini_name: Girls TechUp
+        ini_logo: girls_tech_up_solo_titolo.png
+  - name: AcademyRapido srl
+    logo: logo-academyrapido.png
+    iniziative:
+      - ini_name: WorkInTech
+        ini_logo: logo_workintech.png
+  - name: Impact Hub Reggio Emilia
+    logo: RED-Reggio Emilia.png
+    iniziative:
+      - ini_name: Junior Digital School
+        ini_logo: Logo_JDS.png
