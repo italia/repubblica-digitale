@@ -22,7 +22,7 @@ il sito web repubblicadigitale.innovazione.gov.it.
 
 Il Titolare del trattamento è la Presidenza del Consiglio dei Ministri -
 Dipartimento per la trasformazione digitale, con sede in Largo Pietro di Brazzà
-86, 00186 Roma, contattabile ai seguenti recapiti:
+86, 00187 Roma, contattabile ai seguenti recapiti:
 
 * E-mail: [segreteria.trasformazionedigitale@governo.it](mailto:segreteria.trasformazionedigitale@governo.it);
 * PEC: [diptrasformazionedigitale@pec.governo.it](mailto:diptrasformazionedigitale@pec.governo.it).
