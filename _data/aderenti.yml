@@ -248,9 +248,6 @@ aderenti_manifesto:
   - name: Il gruppo VALIDATE
     logo: "sigm-logo-new.png"
     link: "http://www.giovanemedico.it/"
-  - name: WMF - We Make Future
-    logo: "wmf-logo.png"
-    link: "https://www.webmarketingfestival.it/"
   - name: Comune di Cagliari
     logo: "comune-cagliari-logo.jpg"
     link: "https://www.comune.cagliari.it/portale/"
@@ -967,3 +964,31 @@ aderenti_manifesto:
     iniziative:
       - ini_name: Junior Digital School
         ini_logo: Logo_JDS.png
+  - name: CeSVoP
+    logo: cesvop_trasp.png
+  - name: WeSchool
+    logo: WESCHOOL_color.png
+    iniziative:
+      - ini_name: Dirigenti Digitali
+        ini_logo: Dirigenti digitali logo-02.png
+  - name: Junior Achievement Italia
+    logo: Logo_JA_italia.png
+    iniziative:
+      - ini_name: Girls in STEM
+        ini_logo: Girls_in_STEM.png
+  - name: Business integration partners S.p.A.
+    logo: Logo_Bip.png
+    iniziative:
+      - ini_name: Porta Digitale
+        ini_logo: 1_PortaDigitale_Logo_blu.jpeg
+  - name: Officina Futuro Fondazione W-Group
+    logo: OffFuturoFondazione.png
+    iniziative:
+      - ini_name: Girls Code it Better
+        ini_logo: LOGO-GCIB-2.png
+  - name: WMF - We Make Future
+    logo: "wmf-logo.png"
+    iniziative:
+      - ini_name: HUBitat
+        ini_logo: hubitat-logo_colors.png
+    link: "https://www.webmarketingfestival.it/"
