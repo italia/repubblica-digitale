@@ -153,9 +153,9 @@ aderenti_manifesto:
   - name: Assopam
     logo: "assopam-logo.png"
     link: "https://www.assopam.it/"
-  - name: Ronzoni Group StP Srl
-    logo: "casiglia-ronzoni-black.jpeg"
-    link: "http://www.casigliaronzoni.it/"
+  - name: Ronzoni Group
+    logo: "ronzoni_group.jpeg"
+    link: "http://www.casigliaronzoni.it/formazione/"
   - name: Download Innovation
     logo: "download-innovation-logo.png"
     link: "https://download-event.io/it/"
@@ -992,3 +992,27 @@ aderenti_manifesto:
       - ini_name: HUBitat
         ini_logo: hubitat-logo_colors.png
     link: "https://www.webmarketingfestival.it/"
+  - name: Associazione Centro Studi ImparaDigitale
+    logo: "Logo_impara_digitale.png"
+    iniziative:
+      - ini_name: Stati generali della scuola digitale
+        ini_logo: logo-stati-generali-della-scuola-digitale_HD.png
+    link: "https://www.statigeneraliscuoladigitale.it/"
+  - name: CSI Università Degli studi di Napoli Federico II
+    logo: "csi_unina.png"
+    iniziative:
+      - ini_name: SCoPE@Scuola
+        ini_logo: scope_scuola.png
+    link: "http://143.225.20.120:8080/scopescuola"
+  - name: Accenture s.p.a.
+    logo: "logo_accenture2021.png"
+    iniziative:
+      - ini_name: Job Lab
+        ini_logo: job_lab.jpeg
+    link: "https://joblabsmarteducation.idea360.com/app/out/login?ru=%2F"
+  - name: Clementoni s.p.a
+    logo: "Clementoni_Logo.png"
+    iniziative:
+      - ini_name: Crescendo con Clementoni
+        ini_logo: crescendo_con_clementoni.png
+    link: "https://it.clementoni.com/pages/crescendo"
