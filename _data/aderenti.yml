@@ -42,7 +42,7 @@ aderenti_manifesto:
   - name: Grey Panthers
     logo: "grey-panthers-logo.jpg"
     link: "https://www.grey-panthers.it/"
-  - name: Innova Camera Azienda Speciale Camera di Commercio di Roma
+  - name: Innova Camera Azienda Speciale della Camera di Commercio di Roma
     logo: "camera-commercio-roma-logo.png"
     link: "https://www.rm.camcom.it/"
   - name: Maker Faire Rome The European edition
@@ -795,6 +795,9 @@ aderenti_manifesto:
         ini_logo: ragazze-digitali.png
   - name: Talent Garden
     logo: "talent_garden-logo.png"
+    iniziative:
+      - ini_name: 10 borse di studio per i Master di Talent Garden Innovation School
+        ini_logo: logo_IT_TECH_ACADEMY.svg
   - name: Istituto Istruzione Superiore 'DA VINCI - NITTI' - Cosenza
     logo: logo_dvn.png
     iniziative:
@@ -875,7 +878,7 @@ aderenti_manifesto:
       - ini_name: Digital for students
         ini_logo: Digital_for_students_calabresi_digitali.png
   - name: Engineering ingegneria Informatica S.p.A.
-    logo: Engineering_Logo_Compact_Blu.png
+    logo: eng_logo_payoff_2022_compact_dark.png
   - name: Centro Europe Direct del comune di Reggio Calabria
     logo: logo_europe_direct-01.png
     iniziative:
@@ -1016,3 +1019,6 @@ aderenti_manifesto:
       - ini_name: Crescendo con Clementoni
         ini_logo: crescendo_con_clementoni.png
     link: "https://it.clementoni.com/pages/crescendo"
+  - name: (ISC)2 Italy Chapter
+    logo: "ISC2-Italy-Chapter.jpeg"
+    link: "https://www.isc2chapter-italy.it/cybersec-white-papers/"
