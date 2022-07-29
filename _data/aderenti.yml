@@ -1022,3 +1022,9 @@ aderenti_manifesto:
   - name: (ISC)2 Italy Chapter
     logo: "ISC2-Italy-Chapter.jpeg"
     link: "https://www.isc2chapter-italy.it/cybersec-white-papers/"
+  - name: Shopify
+    logo: "Shopify.jpeg"
+    link: "https://experience.shopify.com/community-italia"
+  - name: Informatici Senza Frontiere APS
+    logo: "ISF-arancio.png"
+    link: "https://www.informaticisenzafrontiere.org"
