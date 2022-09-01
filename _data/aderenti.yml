@@ -1028,3 +1028,51 @@ aderenti_manifesto:
   - name: Informatici Senza Frontiere APS
     logo: "ISF-arancio.png"
     link: "https://www.informaticisenzafrontiere.org"
+  - name: Movimento Etico Digitale
+    logo: "Movimento-Etico-Digitale.png"
+    iniziative:
+      - ini_name: "Social Warning "
+        ini_logo: LogoSocialWarning.png
+    link: "https://socialwarning.it/"
+  - name: LTO Mantova – FOR.MA, Azienda Speciale della Provincia di Mantova
+    logo: "LTO-Mantova.png"
+    link: "https://edu.ltomantova.it/"
+  - name: Università degli studi di Genova - Scuola Digitale
+    logo: "logo_verticale_COLORE.png"
+    iniziative:
+      - ini_name: Gruppo di lavoro per la ricerca e l’innovazione sulle competenze digitali nella Scuola
+        ini_logo: logo-GLCD.png
+    link: "https://unige.it/ateneo/gruppo-lavoro-ricerca-e-linnovazione-competenze-digitali-scuolai"
+  - name: NTT DATA Italia
+    logo: "NTTData.png"
+    link: "https://it.nttdata.com/news-and-events/2021/security-ninja"
+  - name: Consortium GARR
+    logo: "LogoGARR.png"
+    iniziative:
+      - ini_name: Centro di Competenza-ICDI
+        ini_logo: icdi-logo-320.png
+    link: "https://www.icdi.it/it/attivita/competence-centre"
+  - name: La Casa del Consumatore APS
+    logo: "logoCasa-Consumatore.jpeg"
+    iniziative:
+      - ini_name: ShoppingVerify
+        ini_logo: logo ShoppingVerify.jpeg
+    link: "https://it.shoppingverify.com/"
+  - name: Laboratorio Nazionale Cybersecurity del CINI
+    logo: "Logo_CybersecNatLab_Classic.png"
+    iniziative:
+      - ini_name: Cybertrials
+        ini_logo: Logo_CyberTrials.png
+    link: "https://www.cybertrials.it/"
+  - name: Cefriel
+    logo: "cefriel.png"
+    iniziative:
+      - ini_name: Cefriel Open Lab
+        ini_logo: col_sfondo_bianco.png
+    link: "https://www.cefriel.com/news/cefriel-open-lab-40-giovani-si-sfidano-per-innovare/"
+  - name: Università degli Studi della Tuscia
+    logo: "unitus_marchio_2020.jpeg"
+    iniziative:
+      - ini_name: VRAILEXIA
+        ini_logo: logo_VRAILEXIA.png
+    link: "https://vrailexia.eu/the-project/io2-be-special-2/?lang=it"
