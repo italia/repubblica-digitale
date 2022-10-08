@@ -143,6 +143,8 @@ aderenti_manifesto:
     iniziative:
       - ini_name: Educazione Civica in Minecraft
         ini_logo: Educazione_CIVICA_LOGO.png
+      - ini_name: Lega Scolastica Esports
+        ini_logo: LOGO_LEGA_SCOLASTICA_ESPORTS.png
     link: "https://www.makercamp.it/wp/"
   - name: FamigliAttiva ODV
     logo: "famigliattiva-logo.jpg"
@@ -1076,3 +1078,24 @@ aderenti_manifesto:
       - ini_name: VRAILEXIA
         ini_logo: logo_VRAILEXIA.png
     link: "https://vrailexia.eu/the-project/io2-be-special-2/?lang=it"
+  - name: Digital & Law Department S.r.l.
+    logo: "DIGEAT_LOGO.png"
+    iniziative:
+      - ini_name: DIGEAT PLUS
+        ini_logo: digeat_ini.png
+    link: "https://www.digeat.it/"
+  - name: Fondazione Italia Digitale
+    logo: "Fond_Italia_Digit_logo.jpeg"
+    iniziative:
+      - ini_name: Festival del Digitale Popolare
+        ini_logo: slide__solo logo_bianco.png
+    link: "https://festivaldigitalepopolare.it/"
+  - name: Italian Digital Media Observatory - IDMO
+    logo: "logo idmo-01.png"
+    link: "https://www.idmo.it/"
+  - name: Confconsumatori APS
+    logo: "Confconsumatori_APS_logo.png"
+    iniziative:
+      - ini_name: Chi ha paura del web?
+        ini_logo: Logo_chihapauradelweb.png
+    link: "https://www.confconsumatori.it/chi-ha-paura-del-web/"
