@@ -957,7 +957,7 @@ aderenti_manifesto:
   - name: Codemotion srl
     logo: codemotion_2018.png
     iniziative:
-      - ini_name: Girls TechUp
+      - ini_name: Girls CodeUp
         ini_logo: girls_tech_up_solo_titolo.png
   - name: AcademyRapido srl
     logo: logo-academyrapido.png
@@ -1023,6 +1023,9 @@ aderenti_manifesto:
     link: "https://it.clementoni.com/pages/crescendo"
   - name: (ISC)2 Italy Chapter
     logo: "ISC2-Italy-Chapter.jpeg"
+    iniziative:
+      - ini_name: "EASY4EASI"
+        ini_logo: easy4easi.png
     link: "https://www.isc2chapter-italy.it/cybersec-white-papers/"
   - name: Shopify
     logo: "shopify_logo_black.png"
@@ -1099,3 +1102,18 @@ aderenti_manifesto:
       - ini_name: Chi ha paura del web?
         ini_logo: Logo_chihapauradelweb.png
     link: "https://www.confconsumatori.it/chi-ha-paura-del-web/"
+  - name: Uscire Insieme ONLUS
+    logo: "Logo UI-AI.JPG"
+    link: "http://www.numeroverdeanziani.it/index.php?id=2152"
+  - name: Codacons
+    logo: "codacons_positivo.jpeg"
+    iniziative:
+      - ini_name: Fidati di chi ne sa
+        ini_logo: logo_fidati_di_chi_ne_sa.jpeg
+    link: "https://codacons.it/progetto-fidati-di-chi-ne-sa"
+  - name: Fondazione della Comunità Bergamasca
+    logo: "logo_FCB_BLU-nosfondo.png"
+    iniziative:
+      - ini_name: DigEducati
+        ini_logo: digieducati_LOGO.png
+    link: "https://www.fondazionebergamo.it/"

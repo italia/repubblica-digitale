@@ -5,16 +5,30 @@
         <div class="row clearfix">
           <div class="col-12 col-md-6">
             <div class="it-brand-wrapper mw-100">
-              <a href="https://innovazione.gov.it/" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://innovazione.gov.it/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <div class="row clearfix">
                   <div class="col-12 col-md-5 text-md-right mb-2 mt-4">
-                    <img class="icon" src="{{ site.baseurl }}{{ site.data.t.icon-repubblica }}" alt="{{ site.data.t.icon-repubblica-alt[page.lang] }}">
-                    <img class="icon" src="{{ site.baseurl }}{{ site.data.t.icon-mid }}" alt="{{ site.data.t.icon-mid-alt[page.lang] }}" style="width:120px">
+                    <img
+                      class="icon"
+                      src="{{ site.baseurl }}{{ site.data.t.icon-repubblica }}"
+                      alt="{{ site.data.t.icon-repubblica-alt[page.lang] }}"
+                    />
+                    <img
+                      class="icon"
+                      src="{{ site.baseurl }}{{ site.data.t.icon-mid }}"
+                      alt="{{ site.data.t.icon-mid-alt[page.lang] }}"
+                    />
                   </div>
                   <div class="col-12 col-md-7 mt-3">
                     <div class="it-brand-text">
                       <h2>{{ site.data.t.author[page.lang] }}</h2>
-                      <h3 class="d-none d-md-block">Presidenza del Consiglio dei Ministri</h3>
+                      <h3 class="d-none d-md-block">
+                        Presidenza del Consiglio dei Ministri
+                      </h3>
                     </div>
                   </div>
                 </div>
@@ -24,12 +38,20 @@
 
           <div class="col-12 col-md-6">
             <div class="it-brand-wrapper mw-100">
-              <a href="https://ec.europa.eu/digital-single-market/en/national-local-coalitions" title="{{ site.data.t.partner[page.lang] }}" target="_blank" rel="noopener noreferrer">
-                <img src="{{ site.baseurl }}/assets/images/digital-skill-jobs-and-coalition-hor.png" alt="{{ site.data.t.icon-dsjc-alt[page.lang] }}" class="mw-100 logo-footer-digitalskill">
+              <a
+                href="https://ec.europa.eu/digital-single-market/en/national-local-coalitions"
+                title="{{ site.data.t.partner[page.lang] }}"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="{{ site.baseurl }}/assets/images/digital-skill-jobs-and-coalition-hor.png"
+                  alt="{{ site.data.t.icon-dsjc-alt[page.lang] }}"
+                  class="mw-100 logo-footer-digitalskill"
+                />
               </a>
             </div>
           </div>
-
         </div>
       </section>
     </div>
@@ -37,9 +59,17 @@
   <div class="it-footer-small-prints clearfix">
     <div class="container">
       <h3 class="sr-only">Sezione Link Utili</h3>
-      <ul class="it-footer-small-prints-list list-inline mb-0 d-flex flex-column flex-md-row">
+      <ul
+        class="it-footer-small-prints-list list-inline mb-0 d-flex flex-column flex-md-row"
+      >
         {% for footer-link in site.data.t.footer-links[page.lang] %}
-        <li class="list-inline-item"><a href="{{ site.baseurl }}{{ footer-link[1].url }}" title="{{ footer-link[1].name }}">{{ footer-link[1].name }}</a></li>
+        <li class="list-inline-item">
+          <a
+            href="{{ site.baseurl }}{{ footer-link[1].url }}"
+            title="{{ footer-link[1].name }}"
+            >{{ footer-link[1].name }}</a
+          >
+        </li>
         {% endfor %}
       </ul>
     </div>
