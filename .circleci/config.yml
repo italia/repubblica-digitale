@@ -70,7 +70,7 @@ references:
           --checks \
           --allow-hash-href \
           --only-4xx \
-          --alt-ignore '/.*/' \
+          --ignore_files '/.*/' \
           --disable_external true
 
   save_to_workspace: &save_to_workspace
