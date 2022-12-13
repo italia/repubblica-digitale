@@ -67,7 +67,7 @@ references:
       name: Test with HTML proofer
       command: |
         bundle exec htmlproofer ./_site \
-          --check-html \
+          --checks \
           --allow-hash-href \
           --only-4xx \
           --alt-ignore '/.*/' \
