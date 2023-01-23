@@ -12,13 +12,13 @@ redirect_from:
 {% include section/hero.html %}
 
 {% include section/banner.html %}
-
+{% comment %}
 {% include section/dati.html %}
 
 {% include section/iniziative.html %}
 
 {% include section/posts.html %}
-
+{% endcomment %}
 {% comment %}
 {% include section/newsletter.html %}
 {% endcomment %}

@@ -1,11 +1,8 @@
-{% comment %}
-Le pagine che vengono incluse in questo menù sono un sottoinsieme di
-tutte le pagine del sito che:
-- hanno la stessa lingua della pagina corrente
-- hanno l'attributo "order" valorizzato
-{% endcomment %}
-
-{% assign current_lang_menu_pages = site.pages | where: "lang", page.lang | where_exp: "page", "page.order != nil" | sort: "order" %}
+{% comment %} Le pagine che vengono incluse in questo menù sono un sottoinsieme
+di tutte le pagine del sito che: - hanno la stessa lingua della pagina corrente
+- hanno l'attributo "order" valorizzato {% endcomment %} {% assign
+current_lang_menu_pages = site.pages | where: "lang", page.lang | where_exp:
+"page", "page.order != nil" | sort: "order" %}
 <div class="it-nav-wrapper">
   <div class="it-header-center-wrapper theme-light">
     <div class="container">
@@ -14,11 +11,21 @@ tutte le pagine del sito che:
           <div class="it-header-center-content-wrapper">
             <div class="it-brand-wrapper">
               <a href="{{ site.baseurl }}/">
-                <img class="icon" src="{{ site.baseurl }}{{ site.data.t.logo }}" alt="{{ site.data.t.name[page.lang] }} logo">
-                <img class="claim" src="{{ site.baseurl }}{{ site.data.t.claim }}" alt="{{ site.data.t.name[page.lang] }} logo testuale">
+                <img
+                  class="icon"
+                  src="{{ site.baseurl }}{{ site.data.t.logo }}"
+                  alt="{{ site.data.t.name[page.lang] }} logo"
+                />
+                <img
+                  class="claim"
+                  src="{{ site.baseurl }}{{ site.data.t.claim }}"
+                  alt="{{ site.data.t.name[page.lang] }} logo testuale"
+                />
                 <div class="it-brand-text d-none">
                   <h2 class="no_toc">{{ site.data.t.name[page.lang] }}</h2>
-                  <h3 class="no_toc">{{ site.data.t.description[page.lang] }}</h3>
+                  <h3 class="no_toc">
+                    {{ site.data.t.description[page.lang] }}
+                  </h3>
                 </div>
               </a>
             </div>
@@ -32,29 +39,31 @@ tutte le pagine del sito che:
       <div class="row">
         <div class="col-12">
           <nav class="navbar navbar-expand-lg has-megamenu">
-            <button class="custom-navbar-toggler" type="button" aria-controls="nav10" aria-expanded="false" aria-label="Toggle navigation" data-target="#nav10">
+            <button
+              class="custom-navbar-toggler"
+              type="button"
+              aria-controls="nav10"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+              data-target="#nav10"
+            >
               <svg class="icon icon-primary">
-                <use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-burger"></use>
+                <use
+                  xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-burger"
+                ></use>
               </svg>
             </button>
             <div class="navbar-collapsable" id="nav10">
               <div class="overlay"></div>
               <div class="close-div sr-only">
-                <button class="btn close-menu" type="button"><span class="it-close"></span>close</button>
+                <button class="btn close-menu" type="button">
+                  <span class="it-close"></span>close
+                </button>
               </div>
               <div class="menu-wrapper">
-
                 <ul class="navbar-nav">
                   {% for menu_page in current_lang_menu_pages %}
-                  <li class="nav-item">
-                    <a class="nav-link {% if menu_page.title == page.title %} active {% else %}
-                     {% if menu_page.title == "I Progetti" %}
-                        {% if page.type == "iniziativa" %}
-                    active
-                        {% endif %}
-                      {% endif %}
-                     {% endif %}" href="{{ site.baseurl }}{{menu_page.url}}"><span>{{menu_page.title}}</span></a>
-                  </li>
+                  <li class="nav-item">&nbsp;</li>
                   {% endfor %}
                 </ul>
               </div>
