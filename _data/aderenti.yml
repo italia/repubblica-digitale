@@ -1160,3 +1160,13 @@ aderenti_manifesto:
   - name: IGF Italia
     logo: IGF_Italia.png
     link: "https://www.igf-italia.org/"
+  - name: Comune di Voghera
+    logo: Voghera-Stemma.png
+    iniziative:
+      - ini_name: ABC Digitale per tutti e Digitale Inclusivo
+        ini_logo: voghera-digital.png
+      - ini_name: Digital Business Model Canvas – Nuove competenze
+        ini_logo: voghera-digital.png
+      - ini_name: "“Digital Social Lab” – Laboratori per le scuole"
+        ini_logo: voghera-digital.png
+    link: "https://www.vogheradigital.com/eventi-hub/"

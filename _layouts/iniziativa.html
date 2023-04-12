@@ -44,6 +44,7 @@ type: iniziativa
                         <figcaption class="figure-caption x-small text-center">{{ iniziativa_data[0].ini_name }}</figcaption>
                     </figure>
                     {% else %}
+                    {{aderente[0]}}
                         {% if aderente[0].logo-iniziativa != nil %}
                         <figure class="figure text-center w-100 figure-progetto">
                             <img src="{{ site.baseurl }}/assets/images/loghi/{{ aderente[0].logo-iniziativa }}" alt="Logo iniziativa"
