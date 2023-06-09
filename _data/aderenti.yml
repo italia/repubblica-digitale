@@ -1173,3 +1173,9 @@ aderenti_manifesto:
   - name: SKY ITALIA S.R.L.
     logo: Sky_Master_small.png
     link: "https://www.skyup.sky/digital-hubs"
+  - name: Asstel - Assotelecomunicazioni
+    logo: ASSTELlogo.jpeg
+    link: "https://www.asstel.it/"
+  - name: IBM Italia
+    logo: IBM_logo_blue60_CMYK.jpg
+    link: "https://ibm.biz/skillsbuildsummercamp"
