@@ -841,8 +841,8 @@ aderenti_manifesto:
     iniziative:
       - ini_name: Prato Digitale
         ini_logo: prato-digitale.png
-  - name: Treccani Scuola
-    logo: treccani-Scuola_contratto.png
+  - name: edulia Treccani Scuola
+    logo: Edulia ML-7.png
   - name: Regione Toscana
     logo: regione-toscana.png
     iniziative:
@@ -1179,3 +1179,9 @@ aderenti_manifesto:
   - name: IBM Italia
     logo: IBM_logo_blue60_CMYK.jpg
     link: "https://ibm.biz/skillsbuildsummercamp"
+  - name: Fondazione Piemonte Innova
+    logo: Piemonte-Innova_LOGO_RGB.png
+    iniziative:
+      - ini_name: I3S – Innovazione digitale per il terzo settore
+        ini_logo: I3S_Logo_testo_arancione.png
+    link: "https://piemonteinnova.it/portfolio-articoli/i3s/"
