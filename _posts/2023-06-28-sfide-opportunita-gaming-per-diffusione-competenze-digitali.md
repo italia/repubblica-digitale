@@ -43,5 +43,5 @@ La prima tappa del percorso del gruppo ha visto l’elaborazione di un documento
 - **Messaggi chiave** - esempi di messaggi chiave elaborati dal gruppo di lavoro, rivolti ai giovani giocatori, sia pre-adolescenti che adolescenti, e ai loro genitori.  
 - **Glossario** - data la specificità del linguaggio utilizzato nel settore, il documento offre un glossario contenente il significato della terminologia tecnica utilizzata.  
 
-[Consulta il position paper (pdf, 25.4 MB)](/assets/docs/sfide-e-opportunita-del-gaming-per-la-diffusione-delle-competenze-digitali-position-paper.pdf){:target="\_blank" rel="noopener noreferrer"}  
+[Consulta il position paper (pdf, 25.4 MB)](/assets/docs/sfide-e-opportunita-del-gaming-diffusione-competenze-digitali-position-paper.pdf){:target="\_blank" rel="noopener noreferrer"}  
 
