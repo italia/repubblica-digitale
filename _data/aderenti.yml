@@ -1185,3 +1185,16 @@ aderenti_manifesto:
       - ini_name: I3S – Innovazione digitale per il terzo settore
         ini_logo: I3S_Logo_testo_arancione.png
     link: "https://piemonteinnova.it/portfolio-articoli/i3s/"
+  - name: WINDTRE Telecomunicazioni S.p.a.
+    logo: W3_RGB_White.png
+    iniziative:
+      - ini_name: Borghi connessi
+        ini_logo: BORGHI_CONNESSI.png
+      - ini_name: Smart city
+        ini_logo: SMART_CITY.png
+      - ini_name: NeoConnessi
+        ini_logo: NEO_CONNESSI.png
+    link: "https://www.windtregroup.it/"
+  - name: Associazione Cittadinanza Digitale OdV
+    logo: ACD-Logo.png
+    link: "https://www.associazionecittadinanzadigitale.org/manifesto-repubblica-digitale/"
