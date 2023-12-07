@@ -780,9 +780,6 @@ aderenti_manifesto:
   - name: CoDe RTD
     logo: "code-rtd.png"
     link: "https://www.codertd.com/awareness?lang=it"
-  - name: MigliorAttivaMente
-    logo: "MigliorAttivaMente.jpeg"
-    link: "https://www.raiseacademy.it"
   - name: Comune di Modena
     logo: "logoComuneModena.png"
     iniziative:
@@ -844,8 +841,8 @@ aderenti_manifesto:
     iniziative:
       - ini_name: Prato Digitale
         ini_logo: prato-digitale.png
-  - name: Treccani Scuola
-    logo: treccani-Scuola_contratto.png
+  - name: edulia Treccani Scuola
+    logo: Edulia ML-7.png
   - name: Regione Toscana
     logo: regione-toscana.png
     iniziative:
@@ -901,8 +898,6 @@ aderenti_manifesto:
         ini_logo: resilienza.png
   - name: ARISK srl
     logo: ARISK4DT.jpeg
-  - name: MigliorAttivaMente APS
-    logo: LogoA.jpeg
   - name: Pasubio Tecnologia srl
     logo: pasubio-logo.jpeg
     iniziative:
@@ -976,6 +971,11 @@ aderenti_manifesto:
     iniziative:
       - ini_name: Dirigenti Digitali
         ini_logo: Dirigenti digitali logo-02.png
+      - ini_name: "Green League - Missione Sostenibilità"
+        ini_logo: CoverConou_2.jpg
+      - ini_name: STEMCity
+        ini_logo: logo_stemcity.png
+    link: "https://www.weschool.com/"
   - name: Junior Achievement Italia
     logo: Logo_JA_italia.png
     iniziative:
@@ -1117,3 +1117,84 @@ aderenti_manifesto:
       - ini_name: DigEducati
         ini_logo: digieducati_LOGO.png
     link: "https://www.fondazionebergamo.it/"
+  - name: Node Digital Innovation Hub
+    logo: "dih.png"
+    link: "https://dih.node.coop/Proposte/Percorsi-formativi"
+  - name: TESI Automazione S.r.l.
+    logo: "tesi_automazione.jpg"
+    link: "https://www.tesiautomazione.it/it_it/corso_proctor"
+  - name: MigliorAttivaMente APS
+    logo: LogoA.jpeg
+    iniziative:
+      - ini_name: DigitalSherpa
+        ini_logo: digitalSherpa.jpg
+    link: "https://www.migliorattivamente.org/"
+  - name: CINI
+    logo: logo CINI.jpeg
+    iniziative:
+      - ini_name: Portale @GICT Atlas of Gender Initiatives in ICT
+        ini_logo: CINI_ProfiloSocial.jpeg
+    link: "https://www.gict.it/"
+  - name: "Associazione Internazionale #DiCultHer"
+    logo: diCultHer_logo.jpeg
+    link: "https://www.diculther.it/"
+  - name: Valore D
+    logo: Valore_ D_logo.png
+    iniziative:
+      - ini_name: #ValoreD4STEM
+        ini_logo: Logo_Valored4STEM.png
+      - ini_name: Wanter. Tutti i lavori del futuro
+        ini_logo: Logo_Wanter.png
+      - ini_name: Inspiring Education
+        ini_logo: Logo_Inspiring Education.png
+    link: "https://www.inspiring-girls.it/homepage/inspiring-education/"
+  - name: "Ludoteca del Registro .it"
+    logo: ludoteca_del_registro.png
+    link: "https://www.ludotecaregistro.it/"
+  - name: Sapienza Università di Roma
+    logo: Uniroma1.png
+    iniziative:
+      - ini_name: "G4GRETA - Girls for Green technology Applications"
+        ini_logo: logoG4GRETA.jpg
+    link: "https://g4greta.di.uniroma1.it/"
+  - name: IGF Italia
+    logo: IGF_Italia.png
+    link: "https://www.igf-italia.org/"
+  - name: Comune di Voghera
+    logo: Voghera-Stemma.png
+    iniziative:
+      - ini_name: ABC Digitale per tutti e Digitale Inclusivo
+        ini_logo: voghera-digital.png
+      - ini_name: Digital Business Model Canvas – Nuove competenze
+        ini_logo: voghera-digital.png
+      - ini_name: "“Digital Social Lab” – Laboratori per le scuole"
+        ini_logo: voghera-digital.png
+    link: "https://www.vogheradigital.com/eventi-hub/"
+  - name: SKY ITALIA S.R.L.
+    logo: Sky_Master_small.png
+    link: "https://www.skyup.sky/digital-hubs"
+  - name: Asstel - Assotelecomunicazioni
+    logo: ASSTELlogo.jpeg
+    link: "https://www.asstel.it/"
+  - name: IBM Italia
+    logo: IBM_logo_blue60_CMYK.jpg
+    link: "https://ibm.biz/skillsbuildsummercamp"
+  - name: Fondazione Piemonte Innova
+    logo: Piemonte-Innova_LOGO_RGB.png
+    iniziative:
+      - ini_name: I3S – Innovazione digitale per il terzo settore
+        ini_logo: I3S_Logo_testo_arancione.png
+    link: "https://piemonteinnova.it/portfolio-articoli/i3s/"
+  - name: WINDTRE Telecomunicazioni S.p.a.
+    logo: W3_RGB_White.png
+    iniziative:
+      - ini_name: Borghi connessi
+        ini_logo: BORGHI_CONNESSI.png
+      - ini_name: Smart city
+        ini_logo: SMART_CITY.png
+      - ini_name: NeoConnessi
+        ini_logo: NEO_CONNESSI.png
+    link: "https://www.windtregroup.it/"
+  - name: Associazione Cittadinanza Digitale OdV
+    logo: ACD-Logo.png
+    link: "https://www.associazionecittadinanzadigitale.org/manifesto-repubblica-digitale/"
